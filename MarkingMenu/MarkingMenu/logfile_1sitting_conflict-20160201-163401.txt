@@ -1,0 +1,6 @@
+UserID: 1
+Expected gesture: spiral
+Input recognized: null
+correct gesture: No
+9.0  21.0  0.0
+

@@ -1,0 +1,54 @@
+\documentclass[10pt,a4paper,twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\begin{document}
+\section*{\textbf{2D pinstripe to access circular menus of multiple levels using simple stroke gestures}}
+
+\section*{Context}
+Smart textile is a current topic in human computer interaction. A lot of research with different approaches had been done over the last years. Each technique like capacitive and resistive touch input has its own advantages and flaws when it comes to wearable eyes free interaction. Stretching, rapid wear of the electronic parts, material thickness and creasing are some factors to be considered. Since this experiment aims to study the usability of the resistive approach, some factors are neglected. We focus on the performance in different movement scenarios and at different location on the human body. We study the performance of our prototype, its abilities for eyes free interaction of marking menus and provide visual feedback.
+
+\section*{Aim}
+To determine the applicability and usability of 2D pinstripe as input device for eyes free interaction in daily situations and examine the optimal level of items. 
+
+\section*{Hypotheses}
+H1: The number of errors is significant higher when using marking menus with eight items per level than only four items.
+\\
+H2: Movement condition (sitting, standing, walking) has no significant influence in error rate.
+\\
+H3: The errorrate on when using the prototype on the thigh and upper arm is significantly less accurate than on the hand.
+
+\section*{Independent Variables}
+\begin{enumerate}
+\item \textbf{Device Position:} The device is either placed on the thigh, approximately at the position of the pocket, at the middle of the upper non-dominant arm and in the non-dominant hand. 
+\\
+\item \textbf{Movement Condition:} (Sitting?), standing, walking (approximately 5 km/h).
+\end{enumerate}
+
+\section*{Dependent Variables}
+\begin{enumerate}
+\item \textbf{Gesture Recognition Accuracy:} This variable measures if the gesture recognized is the gesture to be performed. This only takes successful gestures in general into account. That means that input is discarded in this calculation if it is no mark-based gesture.
+\item \textbf{Input Error:} This variable takes every input into account and calculates the ratio of successfully recognized gestures divided by the overall inputs.
+\end{enumerate}
+
+\section*{Task}
+The users are required to perform two-dimensional mark-based gestures on the outside of their non-dominant hand, on their upper non-dominant arm and on their dominant thigh. Displayed is a  combination of cardinal directions indicating which gesture is to be performed. After an input is made, a sound is played indicating if the correct gesture was recognized or either a wrong gesture or no gesture at all. In the walking condition the instructor tells the user the next combination. 
+
+\section*{Experimental Procedure}
+\begin{enumerate}
+\item Get to know the hardware and perform some gestures to get familiar with the feeling of prototype.
+\item Use latin square to balance the combination of movement condition and device position.
+\item Request participants to read and sign the consent form.
+\item Explain the task to the participant and make sure the participant is right handed and free from any physical limitation.
+\item Introduce the participant to the software and let him make some trials with the test application.
+\item Let the participant start with the first combination of conditions. A break is provided after every condition. 
+\item Let the participant fill in the questionnaire.
+\item Inform the participant about the aim of the study and if the participant has any further questions or comments.
+\end{enumerate}
+
+\section*{Logfile}
+The logfile contains the ID of the user. For each input the combination of cardinal directions to be performed and the actual direction recognized is logged and if it is the corrct gesture. Furthermore it contains a list of x and y  coordinates for the filtered touch points and the corresponding time-stamps in milliseconds such that the first input always starts at 0 milliseconds. 
+\end{document}

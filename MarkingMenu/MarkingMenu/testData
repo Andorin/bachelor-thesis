@@ -1,0 +1,414 @@
+GRT_LABELLED_TIME_SERIES_CLASSIFICATION_DATA_FILE_V1.0
+DatasetName: NOT_SET
+InfoText: 
+NumDimensions: 2
+TotalNumTrainingExamples: 80
+NumberOfClasses: 4
+ClassIDsAndCounters: 
+1	20
+2	23
+3	20
+4	17
+UseExternalRanges: 0
+LabelledTimeSeriesTrainingData:
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+5	2
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+5.5	1
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	2
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+4	2
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+3	3.5
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	2
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+5	2
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+3.5	3
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+7.5	1
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+3	0
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+5.5	3
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+6.5	2
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+8.5	1
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+3	2
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+4	3
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	2
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+3.5	2
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+5	4
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	4
+************TIME_SERIES************
+ClassID: 1
+TimeSeriesLength: 1
+TimeSeriesData: 
+9	3
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+9	6
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	5
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+9	4.5
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	2
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+9	5
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+9	6
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+7.5	6
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	4
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	3
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	1.5
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	3
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	4
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	0.5
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+6.5	3.5
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+8.5	4
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+9	5
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	2
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+7.5	2
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	5
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	5
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	4.5
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	3
+************TIME_SERIES************
+ClassID: 2
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	2
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+7.5	3
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	2
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+6.5	3
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+6	2
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+6	2
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	3.5
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	1
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	3
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+6.5	2
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	1.5
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+6	3
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	3
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+6.5	2
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+6.5	1
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+6	3
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+6.5	4
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	3
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	2
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+6.5	3.5
+************TIME_SERIES************
+ClassID: 3
+TimeSeriesLength: 1
+TimeSeriesData: 
+6.5	2
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+9	4
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	3.5
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	3
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	3
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 2
+TimeSeriesData: 
+9	5
+9	4
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+9	4
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+7.5	3
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	3
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	2
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+7	3
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	3
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	1
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+8	3
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+7.5	3
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+8.5	3
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+8.5	1
+************TIME_SERIES************
+ClassID: 4
+TimeSeriesLength: 1
+TimeSeriesData: 
+8.5	3
