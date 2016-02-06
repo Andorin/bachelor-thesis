@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.31)  6 FEB 2016 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  6 FEB 2016 22:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -706,7 +706,7 @@ Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \openout2 = `indexAddOn.aux'.
 
-(./indexAddOn.tex) <images/titlepage.pdf, id=84, 597.50731pt x 845.0471pt>
+(./indexAddOn.tex) <images/titlepage.pdf, id=80, 597.50731pt x 845.0471pt>
 File: images/titlepage.pdf Graphic file (type pdf)
 
 <use images/titlepage.pdf>
@@ -734,7 +734,7 @@ entifier (name{page.i}) has been already used, duplicate ignored
                    \relax 
 l.13 \end{titlepage}
                     
-<images/oathstatement.pdf, id=126, 597.23125pt x 845.1575pt>
+<images/oathstatement.pdf, id=122, 597.23125pt x 845.1575pt>
 File: images/oathstatement.pdf Graphic file (type pdf)
 
 <use images/oathstatement.pdf>
@@ -896,34 +896,46 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 
 
 
-])
-Underfull \hbox (badness 2435) in paragraph at lines 29--107
+]
+Underfull \hbox (badness 2435) in paragraph at lines 28--31
 [] \OT1/ppl/b/n/10.95 TODO: ex-act spec-i-fi-ca-tion of pin-stripe and micro-
  []
 
-[6]
+
+Underfull \hbox (badness 1881) in paragraph at lines 28--31
+\OT1/ppl/b/n/10.95 controller!! \OT1/ppl/m/n/10.95 All pro-to-types pre-sented 
+here are us-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
+
+ []
+
+[6]) [7] [8
+
+
+
+]
 \openout2 = `evaluation.aux'.
 
  (./evaluation.tex
 Chapter 4.
-[7
+[9
 
 
-
-
-
-]) [8]
+]) [10]
 \openout2 = `summaryandfuturework.aux'.
 
  (./summaryandfuturework.tex
 Chapter 5.
-[9
+[11
 
 
 
 
 
-] [10]) [11] [12
+] [12]) [13] [14
 
 
 
@@ -932,35 +944,35 @@ Chapter 5.
 
  (./appendix_01.tex
 Appendix A.
-) [13
+) [15
 
 
-] [14]
+] [16]
 \openout2 = `appendix_02.aux'.
 
  (./appendix_02.tex
 Appendix B.
-) [15
-
-
-
-
-
-] [16] (./main.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
-
 ) [17
 
 
 
 
 
+] [18] (./main.bbl
 
-] [18
+Package natbib Warning: Empty `thebibliography' environment on input line 8.
+
+) [19
 
 
-] (./main.ind) [19] [20]
+
+
+
+
+] [20
+
+
+] (./main.ind) [21] [22]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
  (./main.aux (./indexAddOn.aux)
@@ -971,15 +983,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6A8D12FABCB34411182DFB9964183EDC;1161.
+(rerunfilecheck)             Checksum: 34180CAF08B3B88DFF33F32C7C16F478;1093.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 148.
  ) 
 Here is how much of TeX's memory you used:
- 8960 strings out of 493089
- 130752 string characters out of 6134842
- 240875 words of memory out of 5000000
- 12105 multiletter control sequences out of 15000+600000
- 33715 words of font info for 88 fonts, out of 8000000 for 9000
+ 8966 strings out of 493089
+ 130793 string characters out of 6134841
+ 240887 words of memory out of 5000000
+ 12107 multiletter control sequences out of 15000+600000
+ 34390 words of font info for 89 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  40i,11n,48p,1826b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -990,10 +1002,10 @@ t/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/pal
 atino/uplri8a.pfb>
-Output written on main.pdf (38 pages, 418934 bytes).
+Output written on main.pdf (40 pages, 422969 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 291 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 376 PDF objects out of 1000 (max. 8388607)
+ 301 compressed objects within 4 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
