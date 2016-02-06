@@ -5,10 +5,26 @@
 % The current version of this template can be obtained at
 % <http://www.media.informatik.rwth-aachen.de/karrer.html>.
 
-\chapter{Own work}
-\label{ownwork} 
-
+\chapter{Hardware Prototype and Software Development}
+\label{Hardware Prototype and Software Development} 
+In this chapter we first describe the basic differences between the two most popular touch input technologies and which is best suited for wearable scenarios. Then we proceed with showing several iterations of the hardware prototypes using pinstripe and the corresponding software. Furthermore we describe the disadvantages and improvements of each iteration. The results of two user studies are discussed afterwards. 
 \section{Resistive vs. Capacitive Touch}
-\mnote{Advantages and Disadvantages of resistive and capacitive touch technique}
+\mnote{Advantages and Disadvantages of Resistive and Capacitive Touch Technology}
+The two most popular touch input technologies are resistive and capacitive. Both serve the same purpose but the underlying principle differs making them more or less suited for wearable computing. 
+\subsection{Capacitive Touch}
+\mnote{Characteristics of Capacitive Touch}
+\textbf{TODO: find simple explanation of capacitive touch.}
 
+The advantages of capacitive touch is the easy support for multi-touch input and the almost no need to press down the area of the sensor. The main disadvantage is the human body itself, since  it generates its own capacitive field which makes it hard to detect the intentional touch. This flaw is intensified by the movement of the textile due to body movement. \textbf{TODO: source!}
 
+\subsection{Resistive Touch}
+\mnote{Characteristics of Resistive Touch}
+Resistive touch technology uses two separated layers of striped electrodes such that it is arranged to a matrix. The spacing material in ordinary resistive touch screens is either an air filled chamber or a non-conductive material which separates both layers while no external force is applied. Therefore one can operate it with a stylus or with gloves since no conductivity is required. On the one hand this solves the main disadvantage of the capacitive method regarding wearable computing, on the other hand it is still prone to deformation and thus to unintentional contacts.
+
+\subsection{Final Decision}
+\mnote{Going for Resistive Touch}
+After taking all characteristics into account we decided to go for the resistive touch technology, because we can drop all considerations of capacitive noise of the human body. 
+
+\section{System Design}
+\mnote{MSP430 for first prototype}
+All prototypes presented here are using pinstripe, a conductive fabric. For the micro-controller we 
