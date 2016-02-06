@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  6 FEB 2016 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.31)  6 FEB 2016 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -896,7 +896,12 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 
 
 
-]) [6]
+])
+Underfull \hbox (badness 2435) in paragraph at lines 29--107
+[] \OT1/ppl/b/n/10.95 TODO: ex-act spec-i-fi-ca-tion of pin-stripe and micro-
+ []
+
+[6]
 \openout2 = `evaluation.aux'.
 
  (./evaluation.tex
@@ -971,7 +976,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 148.
  ) 
 Here is how much of TeX's memory you used:
  8960 strings out of 493089
- 130752 string characters out of 6134841
+ 130752 string characters out of 6134842
  240875 words of memory out of 5000000
  12105 multiletter control sequences out of 15000+600000
  33715 words of font info for 88 fonts, out of 8000000 for 9000
@@ -985,7 +990,7 @@ t/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/pal
 atino/uplri8a.pfb>
-Output written on main.pdf (38 pages, 417569 bytes).
+Output written on main.pdf (38 pages, 418934 bytes).
 PDF statistics:
  363 PDF objects out of 1000 (max. 8388607)
  291 compressed objects within 3 object streams
