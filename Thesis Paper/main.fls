@@ -113,6 +113,12 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/rotating/rotating.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/rotating/rotating.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/alltt.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/alltt.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
 INPUT main.aux
 INPUT main.aux
 INPUT indexAddOn.aux
@@ -295,10 +301,18 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsppl.fd
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsppl.fd
 OUTPUT evaluation.aux
 INPUT evaluation.tex
 INPUT evaluation.tex
@@ -315,7 +329,6 @@ INPUT main.bbl
 INPUT main.bbl
 INPUT main.ind
 INPUT main.ind
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplri7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
@@ -349,6 +362,7 @@ INPUT appendix_02.aux
 INPUT ./main.out
 INPUT ./main.out
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb
