@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  7 FEB 2016 19:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  8 FEB 2016 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -733,7 +733,7 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count138
 \openout2 = `indexAddOn.aux'.
 
-(./indexAddOn.tex) <images/titlepage.pdf, id=84, 597.50731pt x 845.0471pt>
+(./indexAddOn.tex) <images/titlepage.pdf, id=88, 597.50731pt x 845.0471pt>
 File: images/titlepage.pdf Graphic file (type pdf)
 
 <use images/titlepage.pdf>
@@ -761,7 +761,7 @@ entifier (name{page.i}) has been already used, duplicate ignored
                    \relax 
 l.13 \end{titlepage}
                     
-<images/oathstatement.pdf, id=126, 597.23125pt x 845.1575pt>
+<images/oathstatement.pdf, id=130, 597.23125pt x 845.1575pt>
 File: images/oathstatement.pdf Graphic file (type pdf)
 
 <use images/oathstatement.pdf>
@@ -1029,14 +1029,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 150.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 150.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 150.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0509328EA8381AE67C8649BB28D9ABBF;1153.
+(rerunfilecheck)             Checksum: 2242E789B5366CFCB8D5243AE28C4B4A;1232.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 150.
  ) 
 Here is how much of TeX's memory you used:
- 10697 strings out of 493089
- 153559 string characters out of 6134841
- 278954 words of memory out of 5000000
- 13804 multiletter control sequences out of 15000+600000
+ 10700 strings out of 493089
+ 153589 string characters out of 6134841
+ 278962 words of memory out of 5000000
+ 13806 multiletter control sequences out of 15000+600000
  34905 words of font info for 91 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  40i,11n,48p,1826b,1173s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1049,10 +1049,10 @@ f-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2015/texmf-dist
 type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on main.pdf (40 pages, 441758 bytes).
+Output written on main.pdf (40 pages, 442584 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 323 compressed objects within 4 object streams
- 79 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 404 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 179 words of extra memory for PDF output out of 10000 (max. 10000000)
 
