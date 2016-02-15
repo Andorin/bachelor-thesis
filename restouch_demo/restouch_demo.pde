@@ -1,6 +1,6 @@
 import processing.serial.*;
 
-final int sensorArraySize = 40;
+final int sensorArraySize = 28;
 final int screensize = 1200;
 
 Serial myPort;
@@ -10,8 +10,8 @@ int serialDataIndex = 0;
 int squarsize = screensize/ (sensorData.length/2);
 
 void setup() {
-  //myPort = new Serial(this, "/dev/tty.usbmodem0F0009F1", 28800);
-  myPort = new Serial(this, "/dev/tty.usbmodem0F003961", 28800);
+  myPort = new Serial(this, "/dev/tty.usbmodem0F0009F1", 28800);
+  //myPort = new Serial(this, "/dev/tty.usbmodem0F003961", 28800);
   size(1200, 1200);
 }
 

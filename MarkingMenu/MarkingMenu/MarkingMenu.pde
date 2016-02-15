@@ -5,7 +5,7 @@ OneDollar one;
 String name;
 
 Serial myPort;
-final int sensorArraySize = 40;
+final int sensorArraySize = 28;
 
 final int xCoord = 500;
 final int yCoord = 500;
@@ -33,7 +33,7 @@ long menuTimer = 0;
 int menuThreshhold = 3000;
 long strokeTimer = 0;
 TEvent touchEvent = new TEvent(noOfMenuItems);
-PrintWriter logfile;
+PrintWriter logfile_filtered, logfile_raw;
 int logCounter = -1;
 float startTime = 0;
 float errorrate = 0;
@@ -42,13 +42,17 @@ int gesturenIndex = 0;
 
 void setup(){
 //iMAC
-   myPort = new Serial(this, "/dev/tty.usbmodem0F003961", 28800);
+   //myPort = new Serial(this, "/dev/tty.usbmodem0F003961", 28800);
    //myPort = new Serial(this, "/dev/tty.usbmodem0F0009F1", 28800);
+   //BLUETOOTH
+   myPort = new Serial(this, "/dev/cu.HC-06-DevB", 9600);
 //Windows
   //myPort = new Serial(this, "COM3", 9600);
   size(1000, 1000);
-  logfile = createWriter("logfile_" + userID + studyCondition + ".txt");
-  logfile.println("UserID: " + userID);
+  logfile_filtered = createWriter("logfile_" + userID + studyCondition + "filtered.txt");
+  logfile_filtered.println("UserID: " + userID);
+  logfile_raw = createWriter("logfile_" + userID + studyCondition + "raw.txt");
+  logfile_raw.println("UserID: " + userID);
   background(255);
   fill(0);
   textSize(24);
@@ -145,34 +149,41 @@ void handleGesture(){
 
 void writeLogFile(){
   if(logCounter == maxTrials){
-    logfile.close();
+    logfile_filtered.close();
   }
   
     startTime = lowPass.markingBuffer.get(0)[2];
     if(gestureType == "markBased"){
-      logfile.println("Expected input: " + directionString[gesturenIndex]);
-      logfile.println("Input recognised: " + touchEvent.direction1 + touchEvent.direction2);
+      //input expected
+      logfile_filtered.println(directionString[gesturenIndex]+";");
+      //input recognised
+      logfile_filtered.println(touchEvent.direction1 + touchEvent.direction2+";");
     }else if( gestureType == "freeForm"){
-      logfile.println("Expected gesture: " + freeFormString[gesturenIndex]);
-      logfile.println("Input recognized: " + name);
+      //input expected
+      logfile_filtered.println(freeFormString[gesturenIndex]+";");
+      //input recognised
+      logfile_filtered.println(name+";");
     }
     if(directionString[gesturenIndex].equals(touchEvent.direction1 + touchEvent.direction2) && gestureType == "markBased"){
-      logfile.println("correct gesture: Yes");
+      //correct gesture
+      logfile_filtered.println("yes;");
     }else if(freeFormString[gesturenIndex].equals(name) && gestureType == "freeForm"){
-      logfile.println("correct gesture: Yes");
+      //correct gesture
+      logfile_filtered.println("yes;");
     }else{
-      logfile.println("correct gesture: No");
+      //wrong gesture
+      logfile_filtered.println("no;");
       errorCount++;
     }
     
     float temp = lowPass.markingBuffer.get(0)[2];
     for(int i = 0; i < lowPass.markingBuffer.size(); i++){
       float modTime = lowPass.markingBuffer.get(i)[2] - temp;
-      logfile.println(lowPass.markingBuffer.get(i)[0] + "  " + lowPass.markingBuffer.get(i)[1] + "  " + modTime);
+      logfile_filtered.println(lowPass.markingBuffer.get(i)[0] + ";" + lowPass.markingBuffer.get(i)[1] + ";" + modTime+";");
     }
-    
-    logfile.println();
-    logfile.flush();
+    //print ;; at the end of a gesture
+    logfile_filtered.println(";");
+    logfile_filtered.flush();
   
   logCounter++;
 }
@@ -181,7 +192,7 @@ void sendToDollar(){
   for(int i = 0; i < lowPass.markingBuffer.size(); i++){
     one.track(lowPass.markingBuffer.get(i)[0] - lowPass.initX, lowPass.markingBuffer.get(i)[1] - lowPass.initY);
   }
-  println("Detected gesture: "+name);
+  println("Detected gesture: " + name);
 }
 
 void getSerialData() {
@@ -190,6 +201,10 @@ void getSerialData() {
 
     if (readChar == '\n') {
       lowPass.filter();
+      if(currentTouch){
+        logfile_raw.println(";"+millis());
+      }
+      logfile_raw.flush();
 
       //new touch. set start coordinates for menu
       if (lowPass.buffer.contains(1.0) && !currentTouch && !lowPass.buffer.contains(null) && !lowPass.markingBuffer.isEmpty()){
@@ -208,6 +223,7 @@ void getSerialData() {
         lowPass.plot(strokeTimer);
         menuShown = false;
         handleGesture();
+        logfile_raw.println(";");
         writeLogFile();
         gesturenIndex = int(random(gestureString.length));
         lowPass.markingBuffer.clear();
@@ -220,12 +236,17 @@ void getSerialData() {
       sensorData[serialDataIndex] = 0.0;
       lowPass.buffer.add(0.0);
       serialDataIndex++;
+      if(currentTouch){
+        logfile_raw.print(0);
+      }
 
     } else  if (readChar == '1') {
       sensorData[serialDataIndex] = 1.0;
       lowPass.buffer.add(1.0);
       serialDataIndex++;
-
+      if(currentTouch){
+        logfile_raw.print(1);
+      }
     }
     if (serialDataIndex>(sensorArraySize-1)) serialDataIndex = 0;
   }
