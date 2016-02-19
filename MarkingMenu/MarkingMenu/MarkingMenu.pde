@@ -5,7 +5,7 @@ OneDollar one;
 String name;
 
 Serial myPort;
-final int sensorArraySize = 28;
+final int sensorArraySize = 40;
 
 final int xCoord = 500;
 final int yCoord = 500;
@@ -42,10 +42,10 @@ int gesturenIndex = 0;
 
 void setup(){
 //iMAC
-   //myPort = new Serial(this, "/dev/tty.usbmodem0F003961", 28800);
-   //myPort = new Serial(this, "/dev/tty.usbmodem0F0009F1", 28800);
+   myPort = new Serial(this, "/dev/tty.usbmodem0F003961", 28800);
+   //myPort = new Serial(this, "/dev/tty.usbmodem0F0009F1", 9600);
    //BLUETOOTH
-   myPort = new Serial(this, "/dev/cu.HC-06-DevB", 9600);
+   //myPort = new Serial(this, "/dev/cu.HC-06-DevB", 9600);
 //Windows
   //myPort = new Serial(this, "COM3", 9600);
   size(1000, 1000);
