@@ -5,14 +5,14 @@ OneDollar one;
 String name;
 
 Serial myPort;
-final int sensorArraySize = 40;
+final int sensorArraySize = 28;
 
 final int xCoord = 500;
 final int yCoord = 500;
 final int scale = 200;
 final int userID = 1;
 final int maxTrials = 25;
-final String studyCondition = "sitting";
+final String studyCondition = "table_brownMat_greyFoam";
                               
 final String[] gestureString = {"up", "up right", "up left", "up down", "right", "right up", "right down", "right left", "down", "down left", "down right", "down up", "left", "left up", "left down", "left right"};
 final String[] directionString = {"N", "NE", "NW", "NS", "E", "EN", "ES", "EW", "S", "SW", "SE", "SN", "W", "WN", "WS", "WE"};
@@ -42,10 +42,10 @@ int gesturenIndex = 0;
 
 void setup(){
 //iMAC
-   myPort = new Serial(this, "/dev/tty.usbmodem0F003961", 28800);
+   //myPort = new Serial(this, "/dev/tty.usbmodem0F003961", 28800);
    //myPort = new Serial(this, "/dev/tty.usbmodem0F0009F1", 9600);
    //BLUETOOTH
-   //myPort = new Serial(this, "/dev/cu.HC-06-DevB", 9600);
+   myPort = new Serial(this, "/dev/cu.HC-06-DevB", 9600);
 //Windows
   //myPort = new Serial(this, "COM3", 9600);
   size(1000, 1000);
@@ -83,7 +83,7 @@ void setup(){
     one.learn("spiral",      new int[] {0,0 , 1,-1 , 2,-1, 3,0 , 4,1, 4,2, 4,3, 3,4, 2,4 , 1,3 , 1,2, 2,2});
     one.learn("c",           new int[] {0,0 , 1,-1 , 2,-1, 3,0 , 4,1, 4,2, 4,3, 3,4, 2,4 , 1,3});
     one.learn("slope",       new int[] {0,0 , 1,1 , 2,2 , 3,3 , 3,4 , 2,5 , 1,5 , 0,4 , 1,3 , 2,2 , 3,1 , 4,0});
-    one.learn("dart",        new int[] {0,0 , 1,0 , 2,0 , 3,1 , 4,1 , 5,1 , 4,1 , 3,1 , 2,2 , 1,2 , 0,2});
+    //one.learn("dart",        new int[] {0,0 , 1,0 , 2,0 , 3,1 , 4,1 , 5,1 , 4,1 , 3,1 , 2,2 , 1,2 , 0,2});
     one.learn("doubleSlope", new int[] {0,0 , 1,-1 , 2,-2 , 2,-3 , 1,-4 , 0,-3 , 0,-2 , 1,-1 , 1,0 , 2,1 , 2,2 , 2,3 , 1,4 , 0,3 , 1,2 , 2,1 , 3,0});
     one.learn("tab",         new int[] {0,0});
     
