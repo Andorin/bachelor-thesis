@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  18 FEB 2016 17:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.31)  22 FEB 2016 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -336,18 +336,18 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (./UserStudyProtocolStudy1.aux) ) 
 Here is how much of TeX's memory you used:
  1297 strings out of 493089
- 14236 string characters out of 6134841
- 70323 words of memory out of 5000000
+ 14236 string characters out of 6134842
+ 71323 words of memory out of 5000000
  4823 multiletter control sequences out of 15000+600000
  4553 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,4n,24p,240b,145s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,4n,24p,244b,175s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb>
-Output written on UserStudyProtocolStudy1.pdf (2 pages, 51326 bytes).
+Output written on UserStudyProtocolStudy1.pdf (2 pages, 51669 bytes).
 PDF statistics:
  27 PDF objects out of 1000 (max. 8388607)
  18 compressed objects within 1 object stream
