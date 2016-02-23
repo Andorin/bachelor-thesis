@@ -12,7 +12,7 @@ final int yCoord = 500;
 final int scale = 200;
 final int userID = 1;
 final int maxTrials = 25;
-final String studyCondition = "table_brownMat_greyFoam";
+final String studyCondition = "table_jeans_yellow";
                               
 final String[] gestureString = {"up", "up right", "up left", "up down", "right", "right up", "right down", "right left", "down", "down left", "down right", "down up", "left", "left up", "left down", "left right"};
 final String[] directionString = {"N", "NE", "NW", "NS", "E", "EN", "ES", "EW", "S", "SW", "SE", "SN", "W", "WN", "WS", "WE"};
@@ -73,19 +73,19 @@ void setup(){
     //one.learn("swipe",       new int[] {0,0 , 1,0 , 2,0, 3,0 , 4,0 , 5,0, 6,0});
     //one.learn("rightAngle",  new int[] {0,0 , 1,0 , 2,0, 3,0 , 3,0 , 4,0 , 5,0 , 5,1 , 5,2 , 5,3 , 5,4 , 5,5});
     //one.learn("leftAngle",  new int[] {0,0 , 1,0 , 2,0, 3,0 , 3,0 , 4,0 , 5,0 , 5,-1 , 5,-2 , 5,-3 , 5,-4 , 5,-5});
-    one.learn("x",           new int[] {0,0 , 1,1 , 2,2, 3,3 , 3,2 , 3,1 , 3,0, 2,1, 1,2, 0,3});
+    //one.learn("x",           new int[] {0,0 , 1,1 , 2,2, 3,3 , 3,2 , 3,1 , 3,0, 2,1, 1,2, 0,3});
     one.learn("z",           new int[] {0,0 , 1,0, 2,0, 1,1 , 0,2 , 1,2 , 2,2});
     one.learn("w",           new int[] {0,0, 0,1, 1,2, 1,3, 2,3, 3,2 , 3,1 , 3,2 , 4,3 , 5,3 , 6,2 , 6,1, 7,0});
     one.learn("hat",         new int[] {0,0 , 1,-1 , 2,-2 , 3,-3 , 4,-4 , 5,-3 , 6,-2 , 7,-1 , 8,0});
     one.learn("bowl",        new int[] {0,0 , 1,1 , 2,2 , 3,3 , 4,4 , 5,3 , 6,2 , 7,1 , 8,0});
     one.learn("pigtail",     new int[] {0,0 , 1,-1 , 2,-2 , 2,-3 , 1,-4 , 0,-3 , 0,-2 , 1,-1 , 2,-1 , 3,-2 , 4,-2});
-    one.learn("zigzag",      new int[] {0,0 , 1,1 , 2,2 , 3,1 , 4,0 , 5,-1 , 6,-2 , 7,-1 , 8,0});
+    //one.learn("zigzag",      new int[] {0,0 , 1,1 , 2,2 , 3,1 , 4,0 , 5,-1 , 6,-2 , 7,-1 , 8,0});
     one.learn("spiral",      new int[] {0,0 , 1,-1 , 2,-1, 3,0 , 4,1, 4,2, 4,3, 3,4, 2,4 , 1,3 , 1,2, 2,2});
-    one.learn("c",           new int[] {0,0 , 1,-1 , 2,-1, 3,0 , 4,1, 4,2, 4,3, 3,4, 2,4 , 1,3});
+    //one.learn("c",           new int[] {0,0 , 1,-1 , 2,-1, 3,0 , 4,1, 4,2, 4,3, 3,4, 2,4 , 1,3});
     one.learn("slope",       new int[] {0,0 , 1,1 , 2,2 , 3,3 , 3,4 , 2,5 , 1,5 , 0,4 , 1,3 , 2,2 , 3,1 , 4,0});
     //one.learn("dart",        new int[] {0,0 , 1,0 , 2,0 , 3,1 , 4,1 , 5,1 , 4,1 , 3,1 , 2,2 , 1,2 , 0,2});
     one.learn("doubleSlope", new int[] {0,0 , 1,-1 , 2,-2 , 2,-3 , 1,-4 , 0,-3 , 0,-2 , 1,-1 , 1,0 , 2,1 , 2,2 , 2,3 , 1,4 , 0,3 , 1,2 , 2,1 , 3,0});
-    one.learn("tab",         new int[] {0,0});
+    //one.learn("tab",         new int[] {0,0});
     
     //bind templates to methods
     one.bind("swipe x z w hat bowl pigtail zigzag spiral c slope dart doubleSlope rightAngle leftAngle", "detected"); 
