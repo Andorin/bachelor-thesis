@@ -10,13 +10,15 @@ final int sensorArraySize = 28;
 final int xCoord = 500;
 final int yCoord = 500;
 final int scale = 200;
-final int userID = 1;
+final int userID = 2;
 final int maxTrials = 25;
-final String studyCondition = "table_jeans_yellow";
+final String studyCondition = "table_cotton_grey";
+//final String studyCondition = "TESTING";
                               
 final String[] gestureString = {"up", "up right", "up left", "up down", "right", "right up", "right down", "right left", "down", "down left", "down right", "down up", "left", "left up", "left down", "left right"};
 final String[] directionString = {"N", "NE", "NW", "NS", "E", "EN", "ES", "EW", "S", "SW", "SE", "SN", "W", "WN", "WS", "WE"};
 final String[] freeFormString = {"swipe", "x", "z", "w", "hat", "bowl", "pigtail", "zigzag", "spiral", "c", "slope", "dart", "doubleSlope", "rightAngle", "leftAngle", "tab"};
+final String[] studySet = {"hat", "bowl", "slope", "spiral", "z", "pigtail", "w", "doubleSlope"};
 
 //only 4 or 8 are working atm
 final int noOfMenuItems = 4;
@@ -37,6 +39,7 @@ PrintWriter logfile_filtered, logfile_raw;
 int logCounter = -1;
 float startTime = 0;
 float errorrate = 0;
+float rawTime =0;
 int errorCount = 0;
 int gesturenIndex = 0;
 
@@ -57,7 +60,7 @@ void setup(){
   fill(0);
   textSize(24);
   gesturenIndex = int(random(gestureString.length));
-  text("next gesture: " + gestureString[gesturenIndex],100,100);
+  //text("next gesture: " + gestureString[gesturenIndex],100,100);
   
   //initialize OneDollar and create instance
   one = new OneDollar(this);
@@ -71,13 +74,13 @@ void setup(){
   if(gestureType == "freeForm"){
     //add gesture templates for freeform gestures Bragdon et al.
     //one.learn("swipe",       new int[] {0,0 , 1,0 , 2,0, 3,0 , 4,0 , 5,0, 6,0});
-    //one.learn("rightAngle",  new int[] {0,0 , 1,0 , 2,0, 3,0 , 3,0 , 4,0 , 5,0 , 5,1 , 5,2 , 5,3 , 5,4 , 5,5});
-    //one.learn("leftAngle",  new int[] {0,0 , 1,0 , 2,0, 3,0 , 3,0 , 4,0 , 5,0 , 5,-1 , 5,-2 , 5,-3 , 5,-4 , 5,-5});
+    one.learn("rightAngle",  new int[] {0,0 , 1,0 , 2,0, 3,0 , 3,0 , 4,0 , 5,0 , 5,1 , 5,2 , 5,3 , 5,4 , 5,5});
+    one.learn("leftAngle",  new int[] {0,0 , 1,0 , 2,0, 3,0 , 3,0 , 4,0 , 5,0 , 5,-1 , 5,-2 , 5,-3 , 5,-4 , 5,-5});
     //one.learn("x",           new int[] {0,0 , 1,1 , 2,2, 3,3 , 3,2 , 3,1 , 3,0, 2,1, 1,2, 0,3});
     one.learn("z",           new int[] {0,0 , 1,0, 2,0, 1,1 , 0,2 , 1,2 , 2,2});
     one.learn("w",           new int[] {0,0, 0,1, 1,2, 1,3, 2,3, 3,2 , 3,1 , 3,2 , 4,3 , 5,3 , 6,2 , 6,1, 7,0});
-    one.learn("hat",         new int[] {0,0 , 1,-1 , 2,-2 , 3,-3 , 4,-4 , 5,-3 , 6,-2 , 7,-1 , 8,0});
-    one.learn("bowl",        new int[] {0,0 , 1,1 , 2,2 , 3,3 , 4,4 , 5,3 , 6,2 , 7,1 , 8,0});
+    //one.learn("hat",         new int[] {0,0 , 1,-1 , 2,-2 , 3,-3 , 4,-4 , 5,-3 , 6,-2 , 7,-1 , 8,0});
+    //one.learn("bowl",        new int[] {0,0 , 1,1 , 2,2 , 3,3 , 4,4 , 5,3 , 6,2 , 7,1 , 8,0});
     one.learn("pigtail",     new int[] {0,0 , 1,-1 , 2,-2 , 2,-3 , 1,-4 , 0,-3 , 0,-2 , 1,-1 , 2,-1 , 3,-2 , 4,-2});
     //one.learn("zigzag",      new int[] {0,0 , 1,1 , 2,2 , 3,1 , 4,0 , 5,-1 , 6,-2 , 7,-1 , 8,0});
     one.learn("spiral",      new int[] {0,0 , 1,-1 , 2,-1, 3,0 , 4,1, 4,2, 4,3, 3,4, 2,4 , 1,3 , 1,2, 2,2});
@@ -89,12 +92,7 @@ void setup(){
     
     //bind templates to methods
     one.bind("swipe x z w hat bowl pigtail zigzag spiral c slope dart doubleSlope rightAngle leftAngle", "detected"); 
-  }
-  
-  if(gestureType == "letter"){
-    one.learn("a", new int[] {0,0 , -1,-1 , -2,-1 , -3,-1 , -4,0 , -4,});
-  }
-  
+  } 
 } //<>//
 
 //implement callbacks
@@ -160,7 +158,7 @@ void writeLogFile(){
       logfile_filtered.println(touchEvent.direction1 + touchEvent.direction2+";");
     }else if( gestureType == "freeForm"){
       //input expected
-      logfile_filtered.println(freeFormString[gesturenIndex]+";");
+      //logfile_filtered.println(freeFormString[gesturenIndex]+";");
       //input recognised
       logfile_filtered.println(name+";");
     }
@@ -202,7 +200,7 @@ void getSerialData() {
     if (readChar == '\n') {
       lowPass.filter();
       if(currentTouch){
-        logfile_raw.println(";"+millis());
+        logfile_raw.println(";"+(millis()- rawTime));
       }
       logfile_raw.flush();
 
@@ -212,6 +210,7 @@ void getSerialData() {
       	lowPass.initY = lowPass.markingBuffer.get(0)[1];
       	strokeTimer = millis();
       	menuTimer = millis();
+          rawTime = millis();
           background(255);
       	currentTouch = true;
       }
