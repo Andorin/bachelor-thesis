@@ -10,12 +10,12 @@
 \contentsline {subsection}{\numberline {3.1.2}Resistive Touch}{6}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}System Design}{6}{section.3.2}
 \contentsline {section}{\numberline {3.3}Early Testing}{8}{section.3.3}
-\contentsline {section}{\numberline {3.4}First Iteration of the Prototype}{8}{section.3.4}
-\contentsline {chapter}{\numberline {4}Evaluation}{9}{chapter.4}
-\contentsline {chapter}{\numberline {5}Summary and future work}{11}{chapter.5}
-\contentsline {section}{\numberline {5.1}Summary and contributions}{11}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future work}{12}{section.5.2}
-\contentsline {chapter}{\numberline {A}TITLE OF THE FIRST APPENDIX}{15}{appendix.A}
-\contentsline {chapter}{\numberline {B}TITLE OF THE SECOND APPENDIX}{17}{appendix.B}
-\contentsline {chapter}{\numberline {}Bibliography}{19}{section*.8}
-\contentsline {chapter}{\numberline {}Index}{21}{section*.10}
+\contentsline {section}{\numberline {3.4}First Iteration of the Prototype}{9}{section.3.4}
+\contentsline {chapter}{\numberline {4}Evaluation}{11}{chapter.4}
+\contentsline {chapter}{\numberline {5}Summary and future work}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Summary and contributions}{13}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future work}{14}{section.5.2}
+\contentsline {chapter}{\numberline {A}TITLE OF THE FIRST APPENDIX}{17}{appendix.A}
+\contentsline {chapter}{\numberline {B}TITLE OF THE SECOND APPENDIX}{19}{appendix.B}
+\contentsline {chapter}{\numberline {}Bibliography}{21}{section*.8}
+\contentsline {chapter}{\numberline {}Index}{23}{section*.10}
