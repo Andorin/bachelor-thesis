@@ -38,16 +38,16 @@ int array[] = {
 };*/
 
 //for newest prototype 14x14
-int array[] = {
+/*int array[] = {
   51, 52, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 59, 58,
   11, 12, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 18, 19
-};
+};*/
 
 //prototype 20x20
-/*int array[] = {
+int array[] = {
   2, 3, 4, 5, 6, 7, 8, 9, 10, 30, 40, 39, 18, 37, 36, 34, 33, 32, 31, 11,
   71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 42, 43, 44, 45, 46, 47, 48, 49, 50, 70  
-};*/
+};
 
 // for msp430
 /*int array[] = {
@@ -58,9 +58,9 @@ int array[] = {
 char state;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(28800);
   
-  for(int i=0; i<28; i++){
+  for(int i=0; i<40; i++){
     pinMode(array[i], OUTPUT);
     digitalWrite(array[i], LOW);
   }
@@ -68,7 +68,7 @@ void setup() {
 
 void loop() {
   // for each pad test if connection to another pad exists
-  for (int i=0; i<28; i++) {
+  for (int i=0; i<40; i++) {
     pinMode(array[i], INPUT_PULLUP);
     delay(2);
     state = digitalRead(array[i]) ? '0' : '1';
