@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {3.1.2}Resistive Touch}{8}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}System Design}{8}{section.3.2}
 \contentsline {section}{\numberline {3.3}Early Testing}{10}{section.3.3}
-\contentsline {section}{\numberline {3.4}First Iteration of the Prototype}{11}{section.3.4}
+\contentsline {section}{\numberline {3.4}The Prototype}{11}{section.3.4}
 \contentsline {chapter}{\numberline {4}Evaluation}{13}{chapter.4}
 \contentsline {section}{\numberline {4.1}Physical Limitation Study}{13}{section.4.1}
 \contentsline {section}{\numberline {4.2}Study Design}{14}{section.4.2}
