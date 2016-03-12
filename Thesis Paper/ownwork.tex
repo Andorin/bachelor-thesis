@@ -4,7 +4,6 @@
 % Media Computing Group at RWTH Aachen University.
 % The current version of this template can be obtained at
 % <http://www.media.informatik.rwth-aachen.de/karrer.html>.
-
 \chapter{Hardware Prototype and Software Development}
 \label{Hardware Prototype and Software Development} 
 In this chapter we first describe the basic differences between the two most popular touch input technologies and which is best suited for wearable scenarios. Then we proceed with showing several iterations of the hardware prototypes using pinstripe and the corresponding software. Furthermore we describe the disadvantages and improvements of each iteration. The results of two user studies are discussed afterwards. 
@@ -78,17 +77,29 @@ After deciding to go for the resistive approach, the essential challenge is to f
 \end{itemize}
 We start by trying some leftovers from recent research projects. 
 \todo{Find names of the fabrics and materials} 
-Then we place the materials between the pinstripe fabric to examine different behaviors. We glued both layers of the pinstripe fabric to sheets of paper to eliminate stretching and curling of the fabric. Some of the the materials are cut with a laser-cutter. We cut equidistant circular holes to provide space for the pinstripe layers to connect. We attached 4 by 4 pinstripes to the MSP430 micro-controller. For displaying where a touch is present, we created a simple program with Processing.
+Then we place the materials between the pinstripe fabric to examine different behaviors. We glued both layers of the pinstripe fabric to sheets of paper to eliminate stretching and curling of the fabric. Some of the the materials are cut with a laser cutter. We cut equidistant circular holes to provide space for the pinstripe layers to connect. We attached 4 by 4 pinstripes to the MSP430 micro-controller. For displaying where a touch is present, we created a simple program with Processing.
 \todo{insert picture here}
 \mnote{Combine materials to improve results}Almost all available materials are not well suited for our purpose, since they are either too thick, thin or stiff. When combining up to two materials, which are leading to permanent contacts on their own, the results are improving. Nonetheless it is still susceptible to the slightest bend and therefore not well suited. Therefore we are using foam for the latest prototype. 
 
 \section{The Prototype}
+In this section we will first talk about the materials and fabrics we use for our prototype and then describe how it is built.
 
+\subsection{Material}
 \mnote{3 mm foam as spacing material}
 After numerous trials we gathered some knowledge about the key elements needed for this technique to work properly. The first and crucial aspect is the spacing material. The prototype uses a 3 mm thick layer of foam which is coated with thin layer of cotton. Foam has the properties we need to separate the pinstripe layer while no force is applied and yield rather easily when the user presses on it. Another positive feature is the increased resistance to unintended pressure caused by bending or accidental contact with the sensor. When evaluating the prototype we will take a closer look to which extend we can bend the prototype and how it performs in marginal conditions.
+\\
+We use a \todo{model of lasercutter?} laser cutter to cut equidistant holes out of the foam to allow the pinstripe layers to connect. This procedure leaves enough foam between the holes to retain the properties we need. 
 \\ \\
 
+\mnote{Issues with flexibility and translatory movement}
+ Another problem we have to address is the stretchability and the translatory movement of the fabrics. Each time the user performs a gesture the upper layer moves in the respective direction due to the friction between the operating finger and the surface. This causes the the pinstripe fabric to shift such that the conductive stripes are not aligned to the holes properly, resulting in the prototype to stop working.  When we started testing we used needles, clips, and nails to fix the materials to each other. Not only that these methods are not well suited for wearablity, also fixing the materials exclusively at the edges is not sufficient. Nonetheless the flexibility of the pinstripe fabric can cause the shift we want to eliminate. 
+\\ \\
+ \mnote{Vliesofix for fixating the components of the prototype}
+ To deal with the issues described above we use Vliesofix. \todo{find exact product description} Vliesofix is an adhesive on paper which can be ironed on textile. The paper can be removed afterwards and another fabric can be ironed to the corresponding textile. This results in an extensive adhesive area between two fabrics. The application of Vliesofix not only resolves the translatory movement but also the curling of the pinstripe fabric.
 
+\subsection{Construction}
+
+ 
 \section{The Software}
 
 \chapter{Evaluation}
