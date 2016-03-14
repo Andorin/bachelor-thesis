@@ -81,7 +81,10 @@ We proceed with attaching the pinstripe layers to the foam. The stripes of each 
 After that we iron a corresponding piece of polyester on the upper side of the sensor to reduce the friction between the finger and treated pinstripe layer. The last step is to connect the sensor to the micro controller. Furthermore we connect a \todo{bluetooth module?}  Bluetooth module for wireless data stream. The power source can either be a computer or an battery pack which are connected by a micro USB cable.
  
 \section{The Software}
-The software is divided into two parts, the code running on the micro controller and the application running on the computer. The code for the micro controller is straight forward. We define an one dimensional array for each prototype in which the pin numbers are stored such that the first half of the array denote the horizontal x-axis starting from left to right and the second half the vertical y-axis starting from top to bottom. 
+
+The software is divided into two parts, the code running on the micro controller and the application running on the computer. The code for the micro controller is straight forward. We define an one dimensional array for each prototype in which the pin numbers are stored such that the first half of the array denote the horizontal x-axis starting from left to right and the second half the vertical y-axis starting from top to bottom. Now we can check each pin of the array respectively if it is connected to ground. This means that the conductive stripe connected to that pin has a connection to another stripe and a \emph{1} is sent via the serial communication and a \emph{0} otherwise. \mnote{Code for TI EK-TM4C1294XL}The line break after the \emph{for} loop lets us determine if a complete input set is received.
+
+
 \lstset{frame=tb,
   language=Java,
   aboveskip=3mm,
@@ -112,6 +115,25 @@ void loop() {
   delay(3);
 }
 \end{lstlisting}
+\mnote{Receiving the data via serial communication in Processing}
+In Processing we read the data from the serial communication and store it in a buffer including the time stamp.  If at least one \emph{1} per data set is read, we consider it to be a touch. Sometimes the contact of the pinstripe layer is lost while performing a gesture due to insufficient pressure or a undersized locating surface of the operating finger. Therefore we implemented a threshold in which we can read only \emph{0} without the touch phase to end. This threshold is reset anytime if a \emph{1} is read. The raw data is logged for potential analyses as shown in figure \ref{fig:rawDataExample}.
+\\ \\
+
+\begin{figure}
+\includegraphics[scale=0.7]{images/rawDataExample.jpg}
+\caption{Example of the raw data of one gesture. On the left-hand side the sensor input and on the right the time stamps in milliseconds.}
+\label{fig:rawDataExample}
+\end{figure}
+
+\mnote{Use a filter algorithm to reduce the data}
+Since more than one vertical and horizontal pinstripe can be connected at the same time we apply a filter algorithm. This filter algorithm takes all x-coordinates and calculates the average and the same for the y-coordinates. The resulting triple composed of the coordinate and the time stamp is added to an \emph{Arraylist}. This is done for all input sets except for all those, who only consists of \emph{0's}. There are two reasons for filtering the input data. The first is the resilience to noise caused by unintended connections or slow separation of the pinstripe layers. The second reason is fact that it is easier for implementing gesture recognition. Apart from this it is the user intends to press only one point at the sensor. 
+\\ \\
+
+\mnote{Implementing mark-based gesture recognition}
+The next step is to actual recognize easy strokes performed on the prototype. 
+ \todo{find reference for mark based gestures} 
+ \todo{pictures of all marked based gestures}
+ Since our prototypes have a rather low resolution compared to typical touch input devices we focus on rather simple unistroke gestures. These mark
 
 \chapter{Evaluation}
 \mnote{Testing the 14 by 14 prototype}
