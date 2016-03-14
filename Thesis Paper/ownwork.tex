@@ -33,8 +33,55 @@ All prototypes presented here are using pinstripe, a fabric with separated condu
 We are using the TI EK-TM4C1294XL for the advanced prototypes. This board has the ability to connect more than 40 pins for \emph{digitalRead} to operate a 20 by 20 pinstripe matrix. The board is connected to a Computer via USB for serial communication.\\
 
 \mnote{Programming Environment: Energia IDE and Processing to gather, send and process input data}
-For programming the micro-controller we are using the \href{http://energia.nu}{Energia IDE}\footnote{http://energia.nu}. It is an easy to use IDE to upload programs to the TI micro-controller. The micro-controller itself is solely responsible for sending the data of the sensor to the computer via serial communication. Meaning that it tests a pin against ground for each other line and column. A \emph{1} is written to the serial-port when it is connected to another line or column and \emph{0} otherwise. This is done for each pin where \emph{numberOfPintripes} is the number of all lines and columns. For each prototype an integer array is declared and can easily be commented and uncommented depending on the prototype. The where the pin numbers are sorted such that the first pins correspond to the x-axis and the last pins to the negative y-axis. After all pins were tested we send a line-break to determine the end of the current input.\\  
-\newline
+For programming the micro-controller we are using the \href{http://energia.nu}{Energia IDE}\footnote{http://energia.nu}. It is an easy to use IDE to upload programs to the TI micro-controller. The micro-controller itself is solely responsible for sending the data of the sensor to the computer via serial communication. Meaning that it tests a pin against ground for each other line and column. A \emph{1} is written to the serial-port when it is connected to another line or column and \emph{0} otherwise. This is done for each pin where \emph{numberOfPintripes} is the number of all lines and columns. For each prototype an integer array is declared and can easily be commented and uncommented depending on the prototype. The where the pin numbers are sorted such that the first pins correspond to the x-axis and the last pins to the negative y-axis. After all pins were tested we send a line-break to determine the end of the current input.\\  \\
+
+We are using \href{http://processing.org}{Processing}\footnote{http://processing.org}, a Java based IDE, to structure the input stream from the micro-controller for further analyses. This includes several programs which either displays the raw touch points for debugging purpose or filters and interprets the sensor data. The changes of software are described along with each hardware iteration. 
+
+\section{Early Testing}
+\mnote{better note something here}
+After deciding to go for the resistive approach, the essential challenge is to find a spacing material with certain characteristics. The material should
+\begin{itemize}
+\item be flexible by means of being wearable.
+\item reliably separate the pinstripe fabric while no touch is intended.
+\item concede rather easily when intended force is applied.
+\end{itemize}
+We start by trying some leftovers from recent research projects. 
+\todo{Find names of the fabrics and materials} 
+Then we place the materials between the pinstripe fabric to examine different behaviors. We glued both layers of the pinstripe fabric to sheets of paper to eliminate stretching and curling of the fabric. Some of the the materials are cut with a laser cutter. We cut equidistant circular holes to provide space for the pinstripe layers to connect. We attached 4 by 4 pinstripes to the MSP430 micro-controller. For displaying where a touch is present, we created a simple program with Processing.
+\todo{insert picture here}
+\mnote{Combine materials to improve results}Almost all available materials are not well suited for our purpose, since they are either too thick, thin or stiff. When combining up to two materials, which are leading to permanent contacts on their own, the results are improving. Nonetheless it is still susceptible to the slightest bend and therefore not well suited. Therefore we are using foam for the latest prototype. 
+
+\section{The Prototype}
+In this section we will first talk about the materials and fabrics we use for our prototype and describe how it is built.
+
+\subsection{Material}
+\mnote{3 mm foam as spacing material}
+After numerous trials we gathered some knowledge about the key elements needed for this technique to work properly. The first and crucial aspect is the spacing material. The prototype uses a 3 mm thick layer of foam which is coated with thin layer of cotton. Foam has the properties we need to separate the pinstripe layer while no force is applied and yield rather easily when the user presses on it. Another positive feature is the increased resistance to unintended pressure caused by bending or accidental contact with the sensor. When evaluating the prototype we will take a closer look to which extend we can bend the prototype and how it performs in marginal conditions.
+\\
+We use a \todo{model of lasercutter?} laser cutter to cut equidistant holes out of the foam to allow the pinstripe layers to connect. This procedure leaves enough foam between the holes to retain the properties we need. 
+\\ \\
+
+\mnote{Issues with flexibility and translatory movement}
+ Another problem we have to address is the stretchability and the translatory movement of the fabrics. Each time the user performs a gesture the upper layer moves in the respective direction due to the friction between the operating finger and the surface. This causes the the pinstripe fabric to shift such that the conductive stripes are not aligned to the holes properly, resulting in the prototype to stop working.  When we started testing we used needles, clips, and nails to fix the materials to each other. Not only that these methods are not well suited for wearablity, also fixing the materials exclusively at the edges is not sufficient. Nonetheless the flexibility of the pinstripe fabric can cause the shift we want to eliminate. 
+\\ \\
+ \mnote{Vliesofix for fixating the components of the prototype}
+ To deal with the issues described above we use Vliesofix. \todo{find exact product description} Vliesofix is an adhesive on paper which can be ironed on textile. The paper can be removed afterwards and another fabric can be ironed to the corresponding textile. This results in an extensive adhesive area between two fabrics. The application of Vliesofix not only resolves the translatory movement but also the curling of the pinstripe fabric.
+
+\subsection{Construction}
+We decide two to prototypes with different dimensions. The first prototype has a resolution of 14 by 14 pinstripes and the second prototype has a resolution of 20 by 20. Since the procedure of making the prototypes is similar we only describe its building procedure for the smaller one. 
+\\
+We start by cutting out a \todo{determine exact size of all used materials} x by x cm piece of the 3 mm foam using the laser cutter. Then we cut out two sheet of Vliesofix with the corresponding dimensions and proceed by ironing them on both sides of the foam. This has to be done carefully since the applying heat for two long can cause the foam to melt. After cooling down the foam looses the desired properties to a certain degree. When removing the iron too soon the Vliesofix might not be adhesive enough. 
+\\ \\
+Once the material is cooled off we can remove the paper of the Vliesofix. We proceed with cutting the holes in the foam with the Vliesofix. Making the laser cutter cut more \todo{check if its true and change it} rows and columns of holes ensures that the resistance of the foam is the same throughout the touch sensitive area. Otherwise more force is needed at the edges than around the center. 
+\\
+To prepare the two pinstripe layer to adhere it to the foam we again use Vliesofix first for preventing the fabric from curling and easy stretching. We do so before cutting out the pinstripe to make handling the fabric easier.\todo{maybe think about a detailed description of the fabric we have at the fab lab} Note that, while using Vliesofix with the pinstripe fabric, it is even more important to apply heat for too long. When the Vliesofix becomes liquid it gets soaked into the fabric. In some cases we ascertained that for this reason the conductivity of the pinstripes gets lost in some places. This immediately renders the sensor useless. Apart from that we do not remove the paper of the Vliesofix at this point.
+\\ \\
+We proceed with attaching the pinstripe layers to the foam. The stripes of each layer must be perpendicular to one another. Then we iron the untreated side of the  one pinstripe fabric to the foam and after cooling off the other pinstripe to the other side.  We have to make sure that the conductive stripes and the holes in the foam are aligned properly. Now we can remove the paper from the pinstripe fabric.
+\\
+After that we iron a corresponding piece of polyester on the upper side of the sensor to reduce the friction between the finger and treated pinstripe layer. The last step is to connect the sensor to the micro controller. Furthermore we connect a \todo{bluetooth module?}  Bluetooth module for wireless data stream. The power source can either be a computer or an battery pack which are connected by a micro USB cable.
+ 
+\section{The Software}
+The software is divided into two parts, the code running on the micro controller and the application running on the computer. The code for the micro controller is straight forward. We define an one dimensional array for each prototype in which the pin numbers are stored such that the first half of the array denote the horizontal x-axis starting from left to right and the second half the vertical y-axis starting from top to bottom. 
 \lstset{frame=tb,
   language=Java,
   aboveskip=3mm,
@@ -53,7 +100,7 @@ For programming the micro-controller we are using the \href{http://energia.nu}{E
 }
 \begin{lstlisting}
 void loop() {
-  for (int i = 0; i < numberOfPinstripes; i++) {
+  for (int i = 0; i < numberOfPinstripe; i++) {
     pinMode(array[i], INPUT_PULLUP);
     delay(2);
     state = digitalRead(array[i]) ? '0' : '1';
@@ -65,42 +112,6 @@ void loop() {
   delay(3);
 }
 \end{lstlisting}
-We are using \href{http://processing.org}{Processing}\footnote{http://processing.org}, a Java based IDE, to structure the input stream from the micro-controller for further analyses. This includes several programs which either displays the raw touch points for debugging purpose or filters and interprets the sensor data. The changes of software are described along with each hardware iteration. 
-
-\section{Early Testing}
-\mnote{better note something here}
-After deciding to go for the resistive approach, the essential challenge is to find a spacing material with certain characteristics. The material should
-\begin{itemize}
-\item be flexible by means of being wearable.
-\item reliably separate the pinstripe fabric while no touch is intended.
-\item concede rather easily when intended force is applied.
-\end{itemize}
-We start by trying some leftovers from recent research projects. 
-\todo{Find names of the fabrics and materials} 
-Then we place the materials between the pinstripe fabric to examine different behaviors. We glued both layers of the pinstripe fabric to sheets of paper to eliminate stretching and curling of the fabric. Some of the the materials are cut with a laser cutter. We cut equidistant circular holes to provide space for the pinstripe layers to connect. We attached 4 by 4 pinstripes to the MSP430 micro-controller. For displaying where a touch is present, we created a simple program with Processing.
-\todo{insert picture here}
-\mnote{Combine materials to improve results}Almost all available materials are not well suited for our purpose, since they are either too thick, thin or stiff. When combining up to two materials, which are leading to permanent contacts on their own, the results are improving. Nonetheless it is still susceptible to the slightest bend and therefore not well suited. Therefore we are using foam for the latest prototype. 
-
-\section{The Prototype}
-In this section we will first talk about the materials and fabrics we use for our prototype and then describe how it is built.
-
-\subsection{Material}
-\mnote{3 mm foam as spacing material}
-After numerous trials we gathered some knowledge about the key elements needed for this technique to work properly. The first and crucial aspect is the spacing material. The prototype uses a 3 mm thick layer of foam which is coated with thin layer of cotton. Foam has the properties we need to separate the pinstripe layer while no force is applied and yield rather easily when the user presses on it. Another positive feature is the increased resistance to unintended pressure caused by bending or accidental contact with the sensor. When evaluating the prototype we will take a closer look to which extend we can bend the prototype and how it performs in marginal conditions.
-\\
-We use a \todo{model of lasercutter?} laser cutter to cut equidistant holes out of the foam to allow the pinstripe layers to connect. This procedure leaves enough foam between the holes to retain the properties we need. 
-\\ \\
-
-\mnote{Issues with flexibility and translatory movement}
- Another problem we have to address is the stretchability and the translatory movement of the fabrics. Each time the user performs a gesture the upper layer moves in the respective direction due to the friction between the operating finger and the surface. This causes the the pinstripe fabric to shift such that the conductive stripes are not aligned to the holes properly, resulting in the prototype to stop working.  When we started testing we used needles, clips, and nails to fix the materials to each other. Not only that these methods are not well suited for wearablity, also fixing the materials exclusively at the edges is not sufficient. Nonetheless the flexibility of the pinstripe fabric can cause the shift we want to eliminate. 
-\\ \\
- \mnote{Vliesofix for fixating the components of the prototype}
- To deal with the issues described above we use Vliesofix. \todo{find exact product description} Vliesofix is an adhesive on paper which can be ironed on textile. The paper can be removed afterwards and another fabric can be ironed to the corresponding textile. This results in an extensive adhesive area between two fabrics. The application of Vliesofix not only resolves the translatory movement but also the curling of the pinstripe fabric.
-
-\subsection{Construction}
-
- 
-\section{The Software}
 
 \chapter{Evaluation}
 \mnote{Testing the 14 by 14 prototype}
