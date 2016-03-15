@@ -84,37 +84,6 @@ After that we iron a corresponding piece of polyester on the upper side of the s
 
 The software is divided into two parts, the code running on the micro controller and the application running on the computer. The code for the micro controller is straight forward. We define an one dimensional array for each prototype in which the pin numbers are stored such that the first half of the array denote the horizontal x-axis starting from left to right and the second half the vertical y-axis starting from top to bottom. Now we can check each pin of the array respectively if it is connected to ground. This means that the conductive stripe connected to that pin has a connection to another stripe and a \emph{1} is sent via the serial communication and a \emph{0} otherwise. \mnote{Code for TI EK-TM4C1294XL}The line break after the \emph{for} loop lets us determine if a complete input set is received.
 
-
-\lstset{frame=tb,
-  language=Java,
-  aboveskip=3mm,
-  belowskip=3mm,
-  showstringspaces=false,
-  columns=flexible,
-  basicstyle={\small\ttfamily},
-  numbers=none,
-  numberstyle=\tiny\color{gray},
-  keywordstyle=\color{blue},
-  commentstyle=\color{dkgreen},
-  stringstyle=\color{magenta},
-  breaklines=true,
-  breakatwhitespace=true,
-  tabsize=3
-}
-\begin{lstlisting}
-void loop() {
-  for (int i = 0; i < numberOfPinstripe; i++) {
-    pinMode(array[i], INPUT_PULLUP);
-    delay(2);
-    state = digitalRead(array[i]) ? '0' : '1';
-    pinMode(array[i], OUTPUT);
-    digitalWrite(array[i], LOW);
-    Serial.print(state);
-  }
-  Serial.println();
-  delay(3);
-}
-\end{lstlisting}
 \mnote{Receiving the data via serial communication in Processing}
 In Processing we read the data from the serial communication and store it in a buffer including the time stamp.  If at least one \emph{1} per data set is read, we consider it to be a touch. Sometimes the contact of the pinstripe layer is lost while performing a gesture due to insufficient pressure or a undersized locating surface of the operating finger. Therefore we implemented a threshold in which we can read only \emph{0} without the touch phase to end. This threshold is reset anytime if a \emph{1} is read. The raw data is logged for potential analyses as shown in figure \ref{fig:rawDataExample}.
 \\ \\
@@ -126,18 +95,52 @@ In Processing we read the data from the serial communication and store it in a b
 \end{figure}
 
 \mnote{Use a filter algorithm to reduce the data}
-Since more than one vertical and horizontal pinstripe can be connected at the same time we apply a filter algorithm. This filter algorithm takes all x-coordinates and calculates the average and the same for the y-coordinates. The resulting triple composed of the coordinate and the time stamp is added to an \emph{Arraylist}. This is done for all input sets except for all those, who only consists of \emph{0's}. There are two reasons for filtering the input data. The first is the resilience to noise caused by unintended connections or slow separation of the pinstripe layers. The second reason is fact that it is easier for implementing gesture recognition. Apart from this it is the user intends to press only one point at the sensor. 
+Since more than one vertical and horizontal pinstripe can be connected at the same time we apply a filter algorithm. This filter algorithm takes all x-coordinates and calculates the average and the same for the y-coordinates. The resulting triple composed of the coordinate and the time stamp is added to an \emph{Arraylist} buffer. This is done for all input sets except for all those, who only consists of \emph{0's}. There are two reasons for filtering the input data. The first is the resilience to noise caused by unintended connections or slow separation of the pinstripe layers. The second reason is fact that it is easier for implementing gesture recognition. Apart from this it is the user intends to press only one point at the sensor. 
 \\ \\
 
 \mnote{Implementing mark-based gesture recognition}
-The next step is to actual recognize easy strokes performed on the prototype. 
- \todo{find reference for mark based gestures} 
- \todo{pictures of all marked based gestures}
- Since our prototypes have a rather low resolution compared to typical touch input devices we focus on rather simple unistroke gestures. These mark
+The next step is to actual recognize easy strokes performed on the prototype.  Since our prototypes have a rather low resolution compared to typical touch input devices we focus on rather simple unistroke gestures. These mark-based gestures are shown in figure \ref{fig:markBasedGestures}. We extend this gestures set by adding 5 gestures. These gestures are a tab and for each swipe gesture we expand it with a swipe in the opposite direction. This leads to a gesture set with 17 simple gestures. \\
+ \begin{figure}
+ \includegraphics[scale=0.25]{images/markBasedGestures.jpg}
+ \caption{Mark-based gestures. Gestures start at the dots. \cite{Bragdon}}
+ \label{fig:markBasedGestures}
+ \end{figure}
+Our gesture recognition works as follows. First of all we do not recognize in real-time. We analyze all filtered points, stored in the buffer, after a gesture is considered finished.  Then the algorithm works as follows.
+\begin{itemize}
+\item check for tab
+	\begin{itemize}
+		\item return $true$ if the size of the buffer is $1$ 
+		\item return $true$ if the all coordinates have a $distance$ smaller or equal to $1$ respectively and the time elapsed is smaller than 200 milliseconds
+		\item else check for other gestures
+	\end{itemize}
+\item check for swipe
+	\begin{itemize}
+	\item assume there is a swipe with the first and the last item of the buffer as terminal points
+	\item calculate the $distance$ of the line
+	\item return $false$ if the $distance$ is smaller than $3$
+	\item for all other points calculate the $distanceToLine$ 
+	\item return $false$ if at some index the $distanceToLine$ is greater than $1$
+	\item else determine the direction of the swipe and return $true$
+	\end{itemize}
+\item check for angle
+	\begin{itemize}
+	\item check if there is a line between the point at $ index - 1$ and last point in the buffer under the exact same conditions applied for swipe
+	\item return $false$ if at some index the $distanceToLine$ is greater than $1$
+	\item calculate the directions of both lines and return $true$
+	\end{itemize}
+\item end of checking 
+\end{itemize}
+This algorithm classifies each gesture as a tab, swipe, angle, or no gesture. In combination with the directions we calculate for each swipe we can distinguish between all 16 mark-based gestures. The orientation of a line is mapped to one of the four directions up, left, right, or down. Therefore our prototype is resilient to a certain degree of input error. With less effort we can further extend the gesture set by distinguish more directions. 
+\\ \\
+\mnote{Recognizing more complex gestures by making use of the 1\$ recognizer} 
+After some testing we noticed that we we can recognize mark-based gestures to almost 100\% correctly using our recognition algorithm. 
 
-\chapter{Evaluation}
+
+
+\chapter{System Evaluation}
 \mnote{Testing the 14 by 14 prototype}
-In this chapter we will take a closer look at the performance of the 14 by 14 prototype. Since the prototype is designed as a wearable, we are interested in its behavior under certain changing conditions. We conducted a user study to test the physical limitations of our prototype. 
+
+In this chapter we will evaluate the robustness and amount of noise the system generates in different extreme conditions. We will take a closer look at the performance of the 14 by 14 prototype. Since the prototype is designed as a wearable, we are interested in its behavior under certain changing conditions. We conducted an informal user study to test the physical limitations of our prototype. 
 
 \section{Physical Limitation Study}
 \mnote{Independent variables: friction, softness, looseness, and curvature}
@@ -148,7 +151,7 @@ The participants had to perform 8 different gestures in different conditions. To
 
 The conditions, at least curvature and softness, were chosen at random. In order to shorten the time of the study, we tested all fabrics consecutively changing the order. Some prior testing has shown that the foam with a density of \\todo{find that paper with the numbers} xxxxxx and xxxxxxx perform alike. Thus we dropped the  foam with higher density after the first participant tested both foams in one condition without significant differences in terms of input error. \\
 
-The participants were filmed while interacting with the prototype. Furthermore the screen with our program was captured to determine the by eye, whether the gesture was recognized correctly or, if not, should have been recognized correctly. Additionally, our program created two log-files for every condition. One logged the filtered data and one the raw sensor data. Both files logged the time it took to perform each gesture.
+\todo{mention participants}The participants were filmed while interacting with the prototype. Furthermore the screen with our program was captured to determine the by eye, whether the gesture was recognized correctly or, if not, should have been recognized correctly. Additionally, our program created two log-files for every condition. One logged the filtered data and one the raw sensor data. Both files logged the time it took to perform each gesture.
 
 \section{Study Procedure}
 After the user arrived we introduced her to our prototype. We explained the basic functionality and demonstrated how the output looks like. Then we let the user test the eight gestures and some freestyle strokes. This was done without foam or any additional fabric. We pointed out that a certain amount of pressure is essential for our prototype to recognize the touch. When they felt familiar enough, about 2 minutes of testing, we prepared the first condition. 
@@ -156,7 +159,6 @@ After the user arrived we introduced her to our prototype. We explained the basi
 For each condition we setup a GoPro Hero 3 to capture the prototype and the acting hand of the user. When we were ready to start recording the screen and setup, we told the user to continue. Since the user cannot see the output during the study, we told the user when insufficient  pressure was applied or when the touch-sensing area was left. In both cases we most likely recognized one or two wrong gestures. We represent the number of wrong gestures with an \emph{x} in the respective chart. 
 \\ \\
 When one condition is completed we asked the user about their impressions of the fabric, softness, and curvature. 
-\section{Participants}
 
-\section{Results and Analysis}
+\section{Observation}
 
