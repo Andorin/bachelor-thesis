@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.31)  15 MAR 2016 19:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  16 MAR 2016 23:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1053,6 +1053,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--137
 
  []
 
+
+Underfull \hbox (badness 1297) in paragraph at lines 133--137
+[] \OT1/ppl/m/n/10.95 When test-ing our ges-ture rec-og-nizer with our cur-
+ []
+
 [16]
 Chapter 4.
 [17
@@ -1154,10 +1159,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
  ) 
 Here is how much of TeX's memory you used:
- 10382 strings out of 493089
- 150858 string characters out of 6134842
- 261737 words of memory out of 5000000
- 13490 multiletter control sequences out of 15000+600000
+ 10386 strings out of 493089
+ 150919 string characters out of 6134841
+ 261795 words of memory out of 5000000
+ 13493 multiletter control sequences out of 15000+600000
  34390 words of font info for 89 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  40i,12n,51p,1826b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1172,10 +1177,10 @@ nts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
 palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatin
 o/uplri8a.pfb>
-Output written on main.pdf (50 pages, 637706 bytes).
+Output written on main.pdf (50 pages, 639814 bytes).
 PDF statistics:
- 498 PDF objects out of 1000 (max. 8388607)
- 405 compressed objects within 5 object streams
- 87 named destinations out of 1000 (max. 500000)
+ 501 PDF objects out of 1000 (max. 8388607)
+ 408 compressed objects within 5 object streams
+ 88 named destinations out of 1000 (max. 500000)
  245 words of extra memory for PDF output out of 10000 (max. 10000000)
 

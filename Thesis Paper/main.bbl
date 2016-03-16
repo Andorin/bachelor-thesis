@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{2}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,5 +14,12 @@ Andrew Bragdon, Eugene Nelson, Yang Li, and Ken Hinckley.
 \newblock ISBN 978-1-4503-0228-9.
 \newblock \doi{10.1145/1978942.1979000}.
 \newblock URL \url{http://doi.acm.org/10.1145/1978942.1979000}.
+
+\bibitem[Wobbrock et~al.(2007)Wobbrock, Wilson, and Li]{Wobbrock}
+Jacob~O Wobbrock, Andrew~D Wilson, and Yang Li.
+\newblock Gestures without libraries, toolkits or training: a \$1 recognizer
+  for user interface prototypes.
+\newblock In \emph{Proceedings of the 20th annual ACM symposium on User
+  interface software and technology}, pages 159--168. ACM, 2007.
 
 \end{thebibliography}

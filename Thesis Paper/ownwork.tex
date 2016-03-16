@@ -132,8 +132,8 @@ Our gesture recognition works as follows. First of all we do not recognize in re
 \end{itemize}
 This algorithm classifies each gesture as a tab, swipe, angle, or no gesture. In combination with the directions we calculate for each swipe we can distinguish between all 16 mark-based gestures. The orientation of a line is mapped to one of the four directions up, left, right, or down. Therefore our prototype is resilient to a certain degree of input error. With less effort we can further extend the gesture set by distinguish more directions. 
 \\ \\
-\mnote{Recognizing more complex gestures by making use of the 1\$ recognizer} 
-After some testing we noticed that we we can recognize mark-based gestures to almost 100\% correctly using our recognition algorithm. 
+\mnote{Using 1\$ Unistroke Recognizer for complex gestures} 
+When testing our gesture recognizer with our current prototypes we observe an almost 100\% recognition rate. Based on this finding we decide to go beyond simple mark-based gestures and continue with recognizing  more complex gestures. Therefore we make use of the 1\$ Unistroke Recognizer by \cite{Wobbrock}. This is an easy to implement recognizer which does not require any training data. Providing a template for each gesture is sufficient. 
 
 
 
