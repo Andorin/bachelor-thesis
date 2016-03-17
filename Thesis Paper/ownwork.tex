@@ -1,4 +1,4 @@
-,%!TEX root = ./main.tex
+%!TEX root = ./main.tex
 %
 % This file is part of the i10 thesis template developed and used by the
 % Media Computing Group at RWTH Aachen University.
@@ -72,9 +72,9 @@ We decide two to prototypes with different dimensions. The first prototype has a
 \\
 We start by cutting out a \todo{determine exact size of all used materials} x by x cm piece of the 3 mm foam using the laser cutter. Then we cut out two sheet of Vliesofix with the corresponding dimensions and proceed by ironing them on both sides of the foam. This has to be done carefully since the applying heat for two long can cause the foam to melt. After cooling down the foam looses the desired properties to a certain degree. When removing the iron too soon the Vliesofix might not be adhesive enough. 
 \\ \\
-Once the material is cooled off we can remove the paper of the Vliesofix. We proceed with cutting the holes in the foam with the Vliesofix. Making the laser cutter cut more \todo{check if its true and change it} rows and columns of holes ensures that the resistance of the foam is the same throughout the touch sensitive area. Otherwise more force is needed at the edges than around the center. 
+Once the material is cooled off we can remove the paper of the Vliesofix. We proceed with cutting the holes in the foam with the Vliesofix. Making the laser cutter cut more rows and columns of holes ensures that the resistance of the foam is the same throughout the touch sensitive area. Otherwise more force is needed at the edges than the center. 
 \\
-To prepare the two pinstripe layer to adhere it to the foam we again use Vliesofix first for preventing the fabric from curling and easy stretching. We do so before cutting out the pinstripe to make handling the fabric easier.\todo{maybe think about a detailed description of the fabric we have at the fab lab} Note that, while using Vliesofix with the pinstripe fabric, it is even more important to apply heat for too long. When the Vliesofix becomes liquid it gets soaked into the fabric. In some cases we ascertained that for this reason the conductivity of the pinstripes gets lost in some places. This immediately renders the sensor useless. Apart from that we do not remove the paper of the Vliesofix at this point.
+To prepare the two pinstripe layer to adhere it to the foam we again use Vliesofix first for preventing the fabric from curling and easy stretching. We do so before cutting out the pinstripe to make handling the fabric easier. Note that, while using Vliesofix with the pinstripe fabric, it is even more important to apply heat for too long. When the Vliesofix becomes liquid it gets soaked into the fabric. In some cases we ascertained that for this reason the conductivity of the pinstripes gets lost in some places. This immediately renders the sensor useless. Apart from that we do not remove the paper of the Vliesofix at this point.
 \\ \\
 We proceed with attaching the pinstripe layers to the foam. The stripes of each layer must be perpendicular to one another. Then we iron the untreated side of the  one pinstripe fabric to the foam and after cooling off the other pinstripe to the other side.  We have to make sure that the conductive stripes and the holes in the foam are aligned properly. Now we can remove the paper from the pinstripe fabric.
 \\
@@ -95,7 +95,9 @@ In Processing we read the data from the serial communication and store it in a b
 \end{figure}
 
 \mnote{Use a filter algorithm to reduce the data}
-Since more than one vertical and horizontal pinstripe can be connected at the same time we apply a filter algorithm. This filter algorithm takes all x-coordinates and calculates the average and the same for the y-coordinates. The resulting triple composed of the coordinate and the time stamp is added to an \emph{Arraylist} buffer. This is done for all input sets except for all those, who only consists of \emph{0's}. There are two reasons for filtering the input data. The first is the resilience to noise caused by unintended connections or slow separation of the pinstripe layers. The second reason is fact that it is easier for implementing gesture recognition. Apart from this it is the user intends to press only one point at the sensor. 
+Since more than one vertical and horizontal pinstripe can be connected at the same time we apply a filter algorithm. This filter algorithm takes all x-coordinates and calculates the average and the same for the y-coordinates. The resulting triple composed of the coordinate and the time stamp is added to an \emph{Arraylist} buffer. This is done for all input sets except for all those, who only consists of \emph{0's}. There are two reasons for filtering the input data. The first is the resilience to noise caused by unintended connections or slow separation of the pinstripe layers. The second reason is fact that it is easier for implementing gesture recognition. Apart from this the user intends to press only one point at the sensor.
+\\
+When a gesture starts we take the coordinates and subtract them from all filtered coordinates of this gesture. Therefore every gesture starts at $(0,0)$ regardless where it is performed on the sensor. This is done for the graphical representation of the strokes and will be useful later on.
 \\ \\
 
 \mnote{Implementing mark-based gesture recognition}
@@ -133,8 +135,14 @@ Our gesture recognition works as follows. First of all we do not recognize in re
 This algorithm classifies each gesture as a tab, swipe, angle, or no gesture. In combination with the directions we calculate for each swipe we can distinguish between all 16 mark-based gestures. The orientation of a line is mapped to one of the four directions up, left, right, or down. Therefore our prototype is resilient to a certain degree of input error. With less effort we can further extend the gesture set by distinguish more directions. 
 \\ \\
 \mnote{Using 1\$ Unistroke Recognizer for complex gestures} 
-When testing our gesture recognizer with our current prototypes we observe an almost 100\% recognition rate. Based on this finding we decide to go beyond simple mark-based gestures and continue with recognizing  more complex gestures. Therefore we make use of the 1\$ Unistroke Recognizer by \cite{Wobbrock}. This is an easy to implement recognizer which does not require any training data. Providing a template for each gesture is sufficient. 
-
+When testing our gesture recognizer with our current prototypes we observe an almost 100\% recognition rate. Based on this finding we decide to go beyond simple mark-based gestures and continue with recognizing  more complex gestures. Therefore we make use of the 1\$ Unistroke Recognizer by \cite{Wobbrock}. This is an easy to implement recognizer which does not require any training data. Providing a template for each gesture is sufficient. A template is an array of consecutive pairs of coordinates. We can pass the coordinates in the filtered buffer straight to the 1\$ recognizer.
+\\
+This recognizer is orientation independent. Meaning for the marked-based gestures that, without further analysis of orientation, we can only distinguish between a swipe, an angle to the right, and an angle  to the left. However, we can recognize a set of free-form gestures shown in figure \ref{fig:freeFormGestures}.
+\begin{figure}
+\includegraphics[scale=0.4]{images/freeFormGestures.jpg}
+\caption{Free-form gestures \cite{Bragdon}}
+\label{fig:freeFormGestures}
+\end{figure}
 
 
 \chapter{System Evaluation}
