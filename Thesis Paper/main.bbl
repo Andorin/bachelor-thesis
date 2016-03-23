@@ -1,4 +1,4 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,6 +14,92 @@ Andrew Bragdon, Eugene Nelson, Yang Li, and Ken Hinckley.
 \newblock ISBN 978-1-4503-0228-9.
 \newblock \doi{10.1145/1978942.1979000}.
 \newblock URL \url{http://doi.acm.org/10.1145/1978942.1979000}.
+
+\bibitem[Heller et~al.(2014)Heller, Ivanov, Wacharamanotham, and
+  Borchers]{Heller:2014:FEF:2634317.2634345}
+Florian Heller, Stefan Ivanov, Chat Wacharamanotham, and Jan Borchers.
+\newblock Fabritouch: Exploring flexible touch input on textiles.
+\newblock In \emph{Proceedings of the 2014 ACM International Symposium on
+  Wearable Computers}, ISWC '14, pages 59--62, New York, NY, USA, 2014. ACM.
+\newblock ISBN 978-1-4503-2969-9.
+\newblock \doi{10.1145/2634317.2634345}.
+\newblock URL \url{http://doi.acm.org/10.1145/2634317.2634345}.
+
+\bibitem[Holleis et~al.(2008)Holleis, Schmidt, Paasovaara, Puikkonen, and
+  H\"{a}kkil\"{a}]{Holleis:2008:ECT:1409240.1409250}
+Paul Holleis, Albrecht Schmidt, Susanna Paasovaara, Arto Puikkonen, and Jonna
+  H\"{a}kkil\"{a}.
+\newblock Evaluating capacitive touch input on clothes.
+\newblock In \emph{Proceedings of the 10th International Conference on Human
+  Computer Interaction with Mobile Devices and Services}, MobileHCI '08, pages
+  81--90, New York, NY, USA, 2008. ACM.
+\newblock ISBN 978-1-59593-952-4.
+\newblock \doi{10.1145/1409240.1409250}.
+\newblock URL \url{http://doi.acm.org/10.1145/1409240.1409250}.
+
+\bibitem[Karrer et~al.(2010)Karrer, Wittenhagen, Heller, and
+  Borchers]{Karrer:2010:PEC:1866218.1866255}
+Thorsten Karrer, Moritz Wittenhagen, Florian Heller, and Jan Borchers.
+\newblock Pinstripe: Eyes-free continuous input anywhere on interactive
+  clothing.
+\newblock In \emph{Adjunct Proceedings of the 23Nd Annual ACM Symposium on User
+  Interface Software and Technology}, UIST '10, pages 429--430, New York, NY,
+  USA, 2010. ACM.
+\newblock ISBN 978-1-4503-0462-7.
+\newblock \doi{10.1145/1866218.1866255}.
+\newblock URL \url{http://doi.acm.org/10.1145/1866218.1866255}.
+
+\bibitem[Rekimoto(2001)]{Rekimoto:2001:962092}
+J.~Rekimoto.
+\newblock Gesturewrist and gesturepad: unobtrusive wearable interaction
+  devices.
+\newblock In \emph{Wearable Computers, 2001. Proceedings. Fifth International
+  Symposium on}, pages 21--27, 2001.
+\newblock \doi{10.1109/ISWC.2001.962092}.
+
+\bibitem[Saponas et~al.(2011)Saponas, Harrison, and
+  Benko]{Saponas:2011:PTC:2047196.2047235}
+T.~Scott Saponas, Chris Harrison, and Hrvoje Benko.
+\newblock Pockettouch: Through-fabric capacitive touch input.
+\newblock In \emph{Proceedings of the 24th Annual ACM Symposium on User
+  Interface Software and Technology}, UIST '11, pages 303--308, New York, NY,
+  USA, 2011. ACM.
+\newblock ISBN 978-1-4503-0716-1.
+\newblock \doi{10.1145/2047196.2047235}.
+\newblock URL \url{http://doi.acm.org/10.1145/2047196.2047235}.
+
+\bibitem[Smus and Gross(2010)]{Smus:2010:UDT:1753846.1754094}
+Boris Smus and Mark~D. Gross.
+\newblock Ubiquitous drums: A tangible, wearable musical interface.
+\newblock In \emph{CHI '10 Extended Abstracts on Human Factors in Computing
+  Systems}, CHI EA '10, pages 4009--4014, New York, NY, USA, 2010. ACM.
+\newblock ISBN 978-1-60558-930-5.
+\newblock \doi{10.1145/1753846.1754094}.
+\newblock URL \url{http://doi.acm.org/10.1145/1753846.1754094}.
+
+\bibitem[Speir et~al.(2014)Speir, Ansara, Killby, Walpole, and
+  Girouard]{Speir:2014:WRC:2628363.2634221}
+Jessica Speir, Rufino~R. Ansara, Colin Killby, Emily Walpole, and Audrey
+  Girouard.
+\newblock Wearable remote control of a mobile device: Comparing one- and
+  two-handed interaction.
+\newblock In \emph{Proceedings of the 16th International Conference on
+  Human-computer Interaction with Mobile Devices \&\#38; Services}, MobileHCI
+  '14, pages 489--494, New York, NY, USA, 2014. ACM.
+\newblock ISBN 978-1-4503-3004-6.
+\newblock \doi{10.1145/2628363.2634221}.
+\newblock URL \url{http://doi.acm.org/10.1145/2628363.2634221}.
+
+\bibitem[Wimmer and Baudisch(2011)]{Wimmer:2011:MDT:2047196.2047264}
+Raphael Wimmer and Patrick Baudisch.
+\newblock Modular and deformable touch-sensitive surfaces based on time domain
+  reflectometry.
+\newblock In \emph{Proceedings of the 24th Annual ACM Symposium on User
+  Interface Software and Technology}, UIST '11, pages 517--526, New York, NY,
+  USA, 2011. ACM.
+\newblock ISBN 978-1-4503-0716-1.
+\newblock \doi{10.1145/2047196.2047264}.
+\newblock URL \url{http://doi.acm.org/10.1145/2047196.2047264}.
 
 \bibitem[Wobbrock et~al.(2007)Wobbrock, Wilson, and Li]{Wobbrock}
 Jacob~O Wobbrock, Andrew~D Wilson, and Yang Li.

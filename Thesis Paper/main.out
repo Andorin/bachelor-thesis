@@ -4,25 +4,27 @@
 \BOOKMARK [0][-]{chapter*.7}{Conventions}{}% 4
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 5
 \BOOKMARK [0][-]{chapter.2}{Related work}{}% 6
-\BOOKMARK [0][-]{chapter.3}{Hardware Prototype and Software Development}{}% 7
-\BOOKMARK [1][-]{section.3.1}{Resistive vs. Capacitive Touch}{chapter.3}% 8
-\BOOKMARK [2][-]{subsection.3.1.1}{Capacitive Touch}{section.3.1}% 9
-\BOOKMARK [2][-]{subsection.3.1.2}{Resistive Touch}{section.3.1}% 10
-\BOOKMARK [1][-]{section.3.2}{System Design}{chapter.3}% 11
-\BOOKMARK [1][-]{section.3.3}{Early Testing}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.4}{The Prototype}{chapter.3}% 13
-\BOOKMARK [2][-]{subsection.3.4.1}{Material}{section.3.4}% 14
-\BOOKMARK [2][-]{subsection.3.4.2}{Construction}{section.3.4}% 15
-\BOOKMARK [1][-]{section.3.5}{The Software}{chapter.3}% 16
-\BOOKMARK [0][-]{chapter.4}{System Evaluation}{}% 17
-\BOOKMARK [1][-]{section.4.1}{Physical Limitation Study}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.2}{Study Design}{chapter.4}% 19
-\BOOKMARK [1][-]{section.4.3}{Study Procedure}{chapter.4}% 20
-\BOOKMARK [1][-]{section.4.4}{Observation}{chapter.4}% 21
-\BOOKMARK [0][-]{chapter.5}{Summary and future work}{}% 22
-\BOOKMARK [1][-]{section.5.1}{Summary and contributions}{chapter.5}% 23
-\BOOKMARK [1][-]{section.5.2}{Future work}{chapter.5}% 24
-\BOOKMARK [0][-]{appendix.A}{TITLE OF THE FIRST APPENDIX}{}% 25
-\BOOKMARK [0][-]{appendix.B}{TITLE OF THE SECOND APPENDIX}{}% 26
-\BOOKMARK [0][-]{section*.11}{Bibliography}{}% 27
-\BOOKMARK [0][-]{section*.13}{Index}{}% 28
+\BOOKMARK [1][-]{section.2.1}{General Overview}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.2}{Textile Touch Pads}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.3}{Hardware Prototype and Software Development}{}% 9
+\BOOKMARK [1][-]{section.3.1}{Resistive vs. Capacitive Touch}{chapter.3}% 10
+\BOOKMARK [2][-]{subsection.3.1.1}{Capacitive Touch}{section.3.1}% 11
+\BOOKMARK [2][-]{subsection.3.1.2}{Resistive Touch}{section.3.1}% 12
+\BOOKMARK [1][-]{section.3.2}{System Design}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.3}{Early Testing}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.4}{The Prototype}{chapter.3}% 15
+\BOOKMARK [2][-]{subsection.3.4.1}{Material}{section.3.4}% 16
+\BOOKMARK [2][-]{subsection.3.4.2}{Construction}{section.3.4}% 17
+\BOOKMARK [1][-]{section.3.5}{The Software}{chapter.3}% 18
+\BOOKMARK [0][-]{chapter.4}{System Evaluation}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Physical Limitation Study}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.2}{Study Design}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.3}{Study Procedure}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.4}{Observation}{chapter.4}% 23
+\BOOKMARK [0][-]{chapter.5}{Summary and future work}{}% 24
+\BOOKMARK [1][-]{section.5.1}{Summary and contributions}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.2}{Future work}{chapter.5}% 26
+\BOOKMARK [0][-]{appendix.A}{TITLE OF THE FIRST APPENDIX}{}% 27
+\BOOKMARK [0][-]{appendix.B}{TITLE OF THE SECOND APPENDIX}{}% 28
+\BOOKMARK [0][-]{section*.11}{Bibliography}{}% 29
+\BOOKMARK [0][-]{section*.13}{Index}{}% 30

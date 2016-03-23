@@ -7,4 +7,27 @@
 
 \chapter{Related work}
 \label{relatedwork}
+In this chapter we give an overview of the latest related research in wearable touch input devices. We will  focus on hardware prototypes and their underlying techniques. Wearable computation is a current field of research over the past years. Hence a lot of different approaches were made to make textiles touch sensitive.
 
+\section{General Overview}
+\cite{Holleis:2008:ECT:1409240.1409250} presented several prototypes based on capacitive sensing. They embroidered conductive wires to  a phone case, a glove, and an apron resulting in small conductive buttons. Beside that they used conductive foil for buttons on an helmet as well. Their user study however only evaluated the apron with three different button layouts with different visibility. Based on the results they present guidelines for wearable controls. \\
+
+\cite{Speir:2014:WRC:2628363.2634221} built two prototypes, a wristband and a glove. The wristband prototype uses a circular conductive fabric surrounded by resistive linqstat. A conductive finger cap connects both of them an generates a value which is used to determine the location and the movement of the touch. The glove works on the same principle. They evaluated their prototypes as remote controls using one- and two-handed interaction and have found that the users have no clear preference. 
+
+\mnote{Ubiquitous drums} A different application is presented by \cite{Smus:2010:UDT:1753846.1754094}. They used force-sensitive resistors and pull-down resistor circuits to sense percussive touch. They taped the sensor into the inside of a pair of jeans and to the sole of a shoe. They created a program that translates the sensor values to different parts of a drum. 
+
+\mnote{Time Domain Reflectometry}
+\citep{Wimmer:2011:MDT:2047196.2047264} created 13 prototypes based on time domain reflectometry (TDR). For this approach only one pair of wires is needed. The change in capacitance caused by conductive objects close to the pair of wire is measured and the location determined. Distance between the wires and their shape have significant influence on reliability. Their prototypes include stretchable, curved, and arbitrary shaped surfaces. They can sense touch at a distance up to 20m but TDR is prone to radio interference of mobile phones. 
+
+\section{Textile Touch Pads}
+\mnote{Pinstripe}
+Pinstripe is continous textile user interface prototype created by \cite{Karrer:2010:PEC:1866218.1866255}. It detects pinching and rolling of clothing by connecting conductive thread sewn on it. However, it is an unidimensional input device and not a touch pad. Nevertheless, when they introduced the users to the sensor they intuitively expected a touch pad. 
+
+\mnote{GesturePad}
+\cite{Rekimoto:2001:962092} presented GesturePad which is a capacitive touch pad integrated in clothing. They propose slightly different architectures consisting of the upper fabric, receiver, transmitter, and a shield layer to reduce the influence of the human body. However, their work was not further evaluated. 
+
+\mnote{PocketTouch}
+Another capacitive approach was developed by \cite{Saponas:2011:PTC:2047196.2047235}. PocketTouch is an eyes-free, calibrateable capacitive touch pad which can sense the proximity of a finger through a wide range of fabrics. They used a touch sensor of a touch screen and attached it to a base which makes it not bendable. The reliability of PocketTouch was not further evaluated. 
+
+\mnote{FabriTouch}
+FabriTouch is a flexible, capacitive textile touch pad presented by \cite{Heller:2014:FEF:2634317.2634345}. It consists of lining, piezoresistive foil, spacing mesh, conductive fabric, and outer garment together integrated into a pair of trousers. FabriTouch is able to reliably detect simple swipe gestures on rigid surfaces rather than on the human thigh. Also movement has a negative impact on the performance of the sensor.
