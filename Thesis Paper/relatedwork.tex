@@ -7,7 +7,15 @@
 
 \chapter{Related work}
 \label{relatedwork}
-In this chapter we give an overview of the latest related research in wearable touch input devices. We will  focus on hardware prototypes and their underlying techniques. Wearable computation is a current field of research over the past years. Hence a lot of different approaches were made to make textiles touch sensitive.
+In this chapter we first describe the basic differences between the two most popular touch input technologies and which is best suited for wearable scenarios. Then we give an overview of the latest related research in wearable touch input devices. We will  focus on hardware prototypes and their underlying techniques. Wearable computation is a current field of research over the past years. Therefore a lot of different approaches were made to make textiles touch sensitive hence we only present some of them. An overview of the presented touch pad prototypes is shown in table\ref{table:overview}.
+
+\section{Resistive vs. Capacitive Touch}
+The two most popular touch input technologies are resistive and capacitive. Both serve the same purpose but the underlying principle differs making them more or less suited for wearable computing. 
+
+\mnote{Characteristics of Capacitive Touch}Capacitve touch uses a non-conducting material with conductive material underneath. The capacitance of the human body changes the electrical field of the sensor which is measurable. The advantages of capacitive touch is the easy support for multi-touch input and today's touch screens only need a slight touch without force. The main disadvantage is the human body itself, since  it generates its own capacitive field which makes it hard to detect the intentional touch. This flaw is intensified by the body movement continuously changing the proximity between the sensor and the human body. Therefore complex isolation technique is required to isolate the sensor and the human body which is unfeasible for fast prototyping.
+
+\mnote{Characteristics of Resistive Touch}
+Resistive touch technology uses two separated layers of striped electrodes such that it is arranged to a matrix. The spacing material in ordinary resistive touch screens is either an air filled chamber or a non-conductive material which separates both layers while no external force is applied. Therefore one can operate it with a stylus or with gloves since no conductivity is required. On the one hand this solves the main disadvantage of the capacitive method regarding wearable computing, on the other hand it is still prone to deformation and thus to unintentional contacts.
 
 \section{General Overview}
 \cite{Holleis:2008:ECT:1409240.1409250} presented several prototypes based on capacitive sensing. They embroidered conductive wires to  a phone case, a glove, and an apron resulting in small conductive buttons. Beside that they used conductive foil for buttons on an helmet as well. Their user study however only evaluated the apron with three different button layouts with different visibility. Based on the results they present guidelines for wearable controls. \\
@@ -20,6 +28,29 @@ In this chapter we give an overview of the latest related research in wearable t
 \citep{Wimmer:2011:MDT:2047196.2047264} created 13 prototypes based on time domain reflectometry (TDR). For this approach only one pair of wires is needed. The change in capacitance caused by conductive objects close to the pair of wire is measured and the location determined. Distance between the wires and their shape have significant influence on reliability. Their prototypes include stretchable, curved, and arbitrary shaped surfaces. They can sense touch at a distance up to 20m but TDR is prone to radio interference of mobile phones. 
 
 \section{Textile Touch Pads}
+
+\begin{table}
+\begin{tabular}{ | c | c | p{3.8cm}|}
+\hline
+  Prototype & Touch technology & Gesture detection \\
+  \hline
+   Pinstripe & capacitive  & detects size of pinch and movement of pinch in 1D \\
+   \hline
+  GesturePad & capacitive &  not tested (theoretically able to detect 2D gestures) \\
+  \hline
+  Pocket touch & capacitive & multistroke gestures using N\$ by \cite{anthony2012n} \\
+  FabriTouch & capacitive & swipes in 2D \\
+  \hline
+  Grabrics & resistive & detects axis of fold and movement of pinch in 2D \\ 
+  \hline
+  TextiPad ? & resistive  & \\
+  \hline
+\end{tabular}
+\caption{Current textile touch pad technologies.}
+ \label{table:overview}
+\end{table}
+
+\todo{source for grabrics and textiPad}
 \mnote{Pinstripe}
 Pinstripe is continous textile user interface prototype created by \cite{Karrer:2010:PEC:1866218.1866255}. It detects pinching and rolling of clothing by connecting conductive thread sewn on it. However, it is an unidimensional input device and not a touch pad. Nevertheless, when they introduced the users to the sensor they intuitively expected a touch pad. 
 
@@ -31,3 +62,6 @@ Another capacitive approach was developed by \cite{Saponas:2011:PTC:2047196.2047
 
 \mnote{FabriTouch}
 FabriTouch is a flexible, capacitive textile touch pad presented by \cite{Heller:2014:FEF:2634317.2634345}. It consists of lining, piezoresistive foil, spacing mesh, conductive fabric, and outer garment together integrated into a pair of trousers. FabriTouch is able to reliably detect simple swipe gestures on rigid surfaces rather than on the human thigh. Also movement has a negative impact on the performance of the sensor.
+
+\mnote{Going for Resistive Touch}
+After taking all characteristics into account we decided to go for the resistive touch technology, because we can drop all considerations of capacitive noise caused by the human body. 

@@ -1,9 +1,15 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{11}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Anthony and Wobbrock(2012)]{anthony2012n}
+Lisa Anthony and Jacob~O Wobbrock.
+\newblock \$n-protractor: a fast and accurate multistroke recognizer.
+\newblock In \emph{Proceedings of Graphics Interface 2012}, pages 117--120.
+  Canadian Information Processing Society, 2012.
 
 \bibitem[Bragdon et~al.(2011)Bragdon, Nelson, Li, and Hinckley]{Bragdon}
 Andrew Bragdon, Eugene Nelson, Yang Li, and Ken Hinckley.
