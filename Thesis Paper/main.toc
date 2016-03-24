@@ -9,20 +9,18 @@
 \contentsline {section}{\numberline {2.3}Textile Touch Pads}{5}{section.2.3}
 \contentsline {chapter}{\numberline {3}Hardware Prototype and Software Development}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}System Design}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Early Testing}{8}{section.3.2}
+\contentsline {section}{\numberline {3.2}Early Testing}{9}{section.3.2}
 \contentsline {section}{\numberline {3.3}The Prototype}{9}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Material}{9}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Construction}{10}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}The Software}{12}{section.3.4}
+\contentsline {section}{\numberline {3.4}The Software}{11}{section.3.4}
 \contentsline {chapter}{\numberline {4}System Evaluation}{17}{chapter.4}
 \contentsline {section}{\numberline {4.1}Physical Limitation Study}{17}{section.4.1}
 \contentsline {section}{\numberline {4.2}Study Design}{18}{section.4.2}
 \contentsline {section}{\numberline {4.3}Study Procedure}{19}{section.4.3}
-\contentsline {section}{\numberline {4.4}Observation}{19}{section.4.4}
+\contentsline {section}{\numberline {4.4}Observation}{20}{section.4.4}
 \contentsline {chapter}{\numberline {5}Summary and future work}{21}{chapter.5}
 \contentsline {section}{\numberline {5.1}Summary and contributions}{21}{section.5.1}
 \contentsline {section}{\numberline {5.2}Future work}{22}{section.5.2}
 \contentsline {chapter}{\numberline {A}TITLE OF THE FIRST APPENDIX}{25}{appendix.A}
 \contentsline {chapter}{\numberline {B}TITLE OF THE SECOND APPENDIX}{27}{appendix.B}
-\contentsline {chapter}{\numberline {}Bibliography}{29}{section*.12}
-\contentsline {chapter}{\numberline {}Index}{33}{section*.14}
+\contentsline {chapter}{\numberline {}Bibliography}{29}{section*.13}
+\contentsline {chapter}{\numberline {}Index}{33}{section*.15}
