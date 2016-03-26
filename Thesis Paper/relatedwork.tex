@@ -43,16 +43,13 @@ Resistive touch technology uses two separated layers of striped electrodes such 
   \hline
   Grabrics & resistive & detects axis of fold and movement of pinch in 2D \\ 
   \hline
-  TextiPad ? & resistive  & \\
-  \hline
 \end{tabular}
 \caption{Current textile touch pad technologies.}
  \label{table:overview}
 \end{table}
 
-\todo{source for grabrics and textiPad}
 \mnote{Pinstripe}
-Pinstripe is continous textile user interface prototype created by \cite{Karrer:2010:PEC:1866218.1866255}. It detects pinching and rolling of clothing by connecting conductive thread sewn on it. However, it is an unidimensional input device and not a touch pad. Nevertheless, when they introduced the users to the sensor they intuitively expected a touch pad. 
+Pinstripe is a continous textile input prototype created by \cite{Karrer:2010:PEC:1866218.1866255}. It detects pinching and rolling of clothing by connecting conductive thread sewn on it. However, it is an unidimensional input device and not a touch pad. Nevertheless, when they introduced the users to the sensor they intuitively expected a touch pad. 
 
 \mnote{GesturePad}
 \cite{Rekimoto:2001:962092} presented GesturePad which is a capacitive touch pad integrated in clothing. They propose slightly different architectures consisting of the upper fabric, receiver, transmitter, and a shield layer to reduce the influence of the human body. However, their work was not further evaluated. 
@@ -62,6 +59,9 @@ Another capacitive approach was developed by \cite{Saponas:2011:PTC:2047196.2047
 
 \mnote{FabriTouch}
 FabriTouch is a flexible, capacitive textile touch pad presented by \cite{Heller:2014:FEF:2634317.2634345}. It consists of lining, piezoresistive foil, spacing mesh, conductive fabric, and outer garment together integrated into a pair of trousers. FabriTouch is able to reliably detect simple swipe gestures on rigid surfaces rather than on the human thigh. Also movement has a negative impact on the performance of the sensor.
+
+\mnote{Grabrics}
+Grabrics by \cite{hamdan} is a resistive textile sensor based on similar interaction principles as Pinstripe. However, Grabrics is able to detect 2D strokes and is made by separated conductive circular pads. Therefore scaling is the major problem when it comes to production-scale manufacturing since the embroidered conductive threats,  for each pad one, need appropriate distance.  
 
 \mnote{Going for Resistive Touch}
 After taking all characteristics into account we decided to go for the resistive touch technology, because we can drop all considerations of capacitive noise caused by the human body. 

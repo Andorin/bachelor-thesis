@@ -1,4 +1,4 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -54,6 +54,12 @@ Thorsten Karrer, Moritz Wittenhagen, Florian Heller, and Jan Borchers.
 \newblock ISBN 978-1-4503-0462-7.
 \newblock \doi{10.1145/1866218.1866255}.
 \newblock URL \url{http://doi.acm.org/10.1145/1866218.1866255}.
+
+\bibitem[Nur Al~huda Hamdan(2016)]{hamdan}
+Chat Wacharamanotham Jan~Thar Nur Al~huda Hamdan, Florian~Heller.
+\newblock Grabrics: A foldable two-dimensional textile input controller.
+\newblock In \emph{Extended Abstracts of 2016 ACM SIGCHI Conference on Human
+  Factors in Computing}, To appear CHI '16 EA, 2016.
 
 \bibitem[Rekimoto(2001)]{Rekimoto:2001:962092}
 J.~Rekimoto.
