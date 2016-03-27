@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -20,6 +20,12 @@ Andrew Bragdon, Eugene Nelson, Yang Li, and Ken Hinckley.
 \newblock ISBN 978-1-4503-0228-9.
 \newblock \doi{10.1145/1978942.1979000}.
 \newblock URL \url{http://doi.acm.org/10.1145/1978942.1979000}.
+
+\bibitem[Hamdan~et al.(2016)]{hamdan}
+Chat Wacharamanotham Jan Thar Jan~Borchers Hamdan~et al., Florian~Heller.
+\newblock Grabrics: A foldable two-dimensional textile input controller.
+\newblock In \emph{Extended Abstracts of 2016 ACM SIGCHI Conference on Human
+  Factors in Computing}, To appear CHI '16 EA, 2016.
 
 \bibitem[Heller et~al.(2014)Heller, Ivanov, Wacharamanotham, and
   Borchers]{Heller:2014:FEF:2634317.2634345}
@@ -55,11 +61,15 @@ Thorsten Karrer, Moritz Wittenhagen, Florian Heller, and Jan Borchers.
 \newblock \doi{10.1145/1866218.1866255}.
 \newblock URL \url{http://doi.acm.org/10.1145/1866218.1866255}.
 
-\bibitem[Nur Al~huda Hamdan(2016)]{hamdan}
-Chat Wacharamanotham Jan~Thar Nur Al~huda Hamdan, Florian~Heller.
-\newblock Grabrics: A foldable two-dimensional textile input controller.
-\newblock In \emph{Extended Abstracts of 2016 ACM SIGCHI Conference on Human
-  Factors in Computing}, To appear CHI '16 EA, 2016.
+\bibitem[Prattichizzo et~al.(2013)Prattichizzo, Chinello, Pacchierotti, and
+  Malvezzi]{6636291}
+D.~Prattichizzo, F.~Chinello, C.~Pacchierotti, and M.~Malvezzi.
+\newblock Towards wearability in fingertip haptics: A 3-dof wearable device for
+  cutaneous force feedback.
+\newblock \emph{IEEE Transactions on Haptics}, 6\penalty0 (4):\penalty0
+  506--516, Oct 2013.
+\newblock ISSN 1939-1412.
+\newblock \doi{10.1109/TOH.2013.53}.
 
 \bibitem[Rekimoto(2001)]{Rekimoto:2001:962092}
 J.~Rekimoto.

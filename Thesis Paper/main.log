@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.31)  26 MAR 2016 23:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.31)  27 MAR 2016 21:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -748,7 +748,7 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count139
 \openout2 = `indexAddOn.aux'.
 
-(./indexAddOn.tex) <images/titlepage.pdf, id=108, 597.50731pt x 845.0471pt>
+(./indexAddOn.tex) <images/titlepage.pdf, id=116, 597.50731pt x 845.0471pt>
 File: images/titlepage.pdf Graphic file (type pdf)
 
 <use images/titlepage.pdf>
@@ -776,7 +776,7 @@ entifier (name{page.i}) has been already used, duplicate ignored
                    \relax 
 l.13 \end{titlepage}
                     
-<images/oathstatement.pdf, id=150, 597.23125pt x 845.1575pt>
+<images/oathstatement.pdf, id=158, 597.23125pt x 845.1575pt>
 File: images/oathstatement.pdf Graphic file (type pdf)
 
 <use images/oathstatement.pdf>
@@ -924,76 +924,77 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
  (./relatedwork.tex
 Chapter 2.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 12.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 13.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 14.
+
+Underfull \hbox (badness 1924) in paragraph at lines 17--19
+[][]\OT1/ppl/m/n/10.95 Capacitve touch uses a non-conducting ma-te-rial with
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 17--19
+\OT1/ppl/m/n/10.95 the sen-sor and the hu-man body. There-fore com-plex
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 17--19
+[]\OT1/ppl/m/n/10.95 Resistive touch tech-nol-ogy uses two sep-a-rated lay-ers
+ []
+
 [3
 
 
 
 
 
-]
-Underfull \hbox (badness 1715) in paragraph at lines 21--22
-\OT1/ppl/m/n/10.95 on ca-pac-i-tive sens-ing. They em-broi-dered con-duc-tive
- []
-
-
-Underfull \hbox (badness 1019) in paragraph at lines 21--22
-\OT1/ppl/m/n/10.95 wires to a phone case, a glove, and an apron re-sult-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 \OT1/ppl/m/n/10.95 and move-ment of
  []
 
 
-Underfull \hbox (badness 6445) in paragraph at lines 39--40
+Underfull \hbox (badness 6445) in paragraph at lines 43--44
 []|\OT1/ppl/m/n/10.95 not tested (the-o-ret-i-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 []|\OT1/ppl/m/n/10.95 multistroke ges-tures
  []
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 44--45
+Underfull \hbox (badness 4872) in paragraph at lines 49--50
 []|\OT1/ppl/m/n/10.95 detects axis of fold
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 \OT1/ppl/m/n/10.95 and move-ment of
  []
 
 
-Overfull \hbox (9.67271pt too wide) in paragraph at lines 33--47
+Overfull \hbox (9.67271pt too wide) in paragraph at lines 37--52
 [][] 
  []
 
-[5]
-Underfull \hbox (badness 1412) in paragraph at lines 63--65
-\OT1/ppl/m/n/10.95 scale man-u-fac-tur-ing since the em-broi-dered con-duc-tive
-
- []
-
-) [6]
+[5]) [6]
 \openout2 = `ownwork.aux'.
 
  (./ownwork.tex
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--17
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--17
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
  []
 
@@ -1010,17 +1011,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
@@ -1028,61 +1029,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--22
 Underfull \vbox (badness 1400) has occurred while \output is active []
 
  [8]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 29.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 25.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--42
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 43--60
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
+
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 39--54
 \OT1/ppl/m/n/10.95 for wear-ablity, also fix-ing the ma-te-ri-als ex-clu-sively
  at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--60
+Underfull \hbox (badness 10000) in paragraph at lines 39--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--60
+Underfull \hbox (badness 10000) in paragraph at lines 39--54
 
  []
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 43--60
+Underfull \hbox (badness 3919) in paragraph at lines 39--54
 \OT1/ppl/m/n/10.95 We de-cide two to pro-to-types with dif-fer-ent di-men-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--60
+Underfull \hbox (badness 10000) in paragraph at lines 39--54
 
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 43--60
+Underfull \hbox (badness 1033) in paragraph at lines 39--54
 \OT1/ppl/m/n/10.95 In some cases we as-cer-tained that for this rea-son the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--60
+Underfull \hbox (badness 10000) in paragraph at lines 39--54
 
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 43--60
+Underfull \hbox (badness 1062) in paragraph at lines 39--54
 \OT1/ppl/m/n/10.95 We pro-ceed with at-tach-ing the pin-stripe lay-ers to the
  []
 
@@ -1094,279 +1095,286 @@ LaTeX Warning: Marginpar on page 10 moved.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 65--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--68
-
- []
-
-<images/rawDataExample.jpg, id=383, 256.96pt x 470.75874pt>
+[11] <images/rawDataExample.jpg, id=392, 256.96pt x 470.75874pt>
 File: images/rawDataExample.jpg Graphic file (type jpg)
 
 <use images/rawDataExample.jpg>
-Package pdftex.def Info: images/rawDataExample.jpg used on input line 70.
+Package pdftex.def Info: images/rawDataExample.jpg used on input line 61.
 (pdftex.def)             Requested size: 179.87076pt x 329.52887pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--80
-
- []
-
-<images/markBasedGestures.jpg, id=385, 945.5325pt x 609.27625pt>
+<images/markBasedGestures.jpg, id=394, 945.5325pt x 609.27625pt>
 File: images/markBasedGestures.jpg Graphic file (type jpg)
 
 <use images/markBasedGestures.jpg>
-Package pdftex.def Info: images/markBasedGestures.jpg used on input line 84.
+Package pdftex.def Info: images/markBasedGestures.jpg used on input line 70.
 (pdftex.def)             Requested size: 236.38254pt x 152.31868pt.
 
-Underfull \vbox (badness 1264) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 59--75
+
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 59--75
+[]\OT1/ppl/m/n/10.95 Since more than one ver-ti-cal and hor-i-zon-tal pin-strip
+e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--75
+
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 59--75
+[]\OT1/ppl/m/n/10.95 The next step is to ac-tual rec-og-nize easy strokes per-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 91.
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 76.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omspcr.fd
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 []\OT1/pcr/m/n/10.95 return $\OML/cmm/m/it/10.95 true$ \OT1/pcr/m/n/10.95 if th
 e size of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 []\OT1/pcr/m/n/10.95 return $\OML/cmm/m/it/10.95 true$ \OT1/pcr/m/n/10.95 if th
 e all coordinates
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 \OT1/pcr/m/n/10.95 have a $\OML/cmm/m/it/10.95 distance$ \OT1/pcr/m/n/10.95 sma
 ller or equal to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 \OT1/cmr/m/n/10.95 1$ \OT1/pcr/m/n/10.95 respectively and the time elapsed
  []
 
 [13 <./images/rawDataExample.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 []\OT1/pcr/m/n/10.95 assume there is a swipe with the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 \OT1/pcr/m/n/10.95 first and the last item of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 []\OT1/pcr/m/n/10.95 return $\OML/cmm/m/it/10.95 false$ \OT1/pcr/m/n/10.95 if t
 he $\OML/cmm/m/it/10.95 distance$ \OT1/pcr/m/n/10.95 is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 []\OT1/pcr/m/n/10.95 for all other points calculate the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 []\OT1/pcr/m/n/10.95 return $\OML/cmm/m/it/10.95 false$ \OT1/pcr/m/n/10.95 if a
 t some index the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 []\OT1/pcr/m/n/10.95 else determine the direction of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 []\OT1/pcr/m/n/10.95 check if there is a line between
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 \OT1/pcr/m/n/10.95 in the buffer under the exact same
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 []\OT1/pcr/m/n/10.95 return $\OML/cmm/m/it/10.95 false$ \OT1/pcr/m/n/10.95 if a
 t some index the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 []\OT1/pcr/m/n/10.95 calculate the directions of both
  []
 
-[14 <./images/markBasedGestures.jpg>]
-<images/freeFormGestures.jpg, id=408, 733.74126pt x 499.8675pt>
+<images/freeFormGestures.jpg, id=413, 733.74126pt x 499.8675pt>
 File: images/freeFormGestures.jpg Graphic file (type jpg)
 
 <use images/freeFormGestures.jpg>
-Package pdftex.def Info: images/freeFormGestures.jpg used on input line 122.
+Package pdftex.def Info: images/freeFormGestures.jpg used on input line 106.
 (pdftex.def)             Requested size: 220.12407pt x 149.9614pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--126
+Underfull \hbox (badness 10000) in paragraph at lines 100--110
 
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 115--126
-[] \OT1/ppl/m/n/10.95 When test-ing our ges-ture rec-og-nizer with our cur-
+Underfull \hbox (badness 1173) in paragraph at lines 100--110
+[]\OT1/ppl/m/n/10.95 When test-ing our ges-ture rec-og-nizer with our cur-rent
  []
 
-[15] [16 <./images/freeFormGestures.jpg>]
-Chapter 4.
-[17
+
+Underfull \hbox (badness 1242) in paragraph at lines 100--110
+\OT1/ppl/m/n/10.95 com-plex ges-tures. There-fore we make use of the 1$
+ []
+
+[14 <./images/markBasedGestures.jpg>] [15 <./images/freeFormGestures.jpg>]
+[16
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Chapter 4.
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 120--124
 
  []
 
-<images/gestureTemplate.jpg, id=427, 3131.7pt x 4175.6pt>
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+<images/gestureTemplate.jpg, id=436, 3131.7pt x 4175.6pt>
 File: images/gestureTemplate.jpg Graphic file (type jpg)
 
 <use images/gestureTemplate.jpg>
-Package pdftex.def Info: images/gestureTemplate.jpg used on input line 140.
+Package pdftex.def Info: images/gestureTemplate.jpg used on input line 126.
 (pdftex.def)             Requested size: 219.2414pt x 292.32187pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 150--155
+ [18]
+Underfull \hbox (badness 10000) in paragraph at lines 135--140
 
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 150--155
+Underfull \hbox (badness 1354) in paragraph at lines 135--140
 \OT1/ppl/m/n/10.95 pres-sure was ap-plied or when the touch-sensing area
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--155
+Underfull \hbox (badness 10000) in paragraph at lines 135--140
 
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 150--155
+Underfull \hbox (badness 1509) in paragraph at lines 135--140
 \OT1/ppl/m/n/10.95 When one con-di-tion is com-pleted we asked the user
  []
 
 [19 <./images/gestureTemplate.jpg>]
 
-LaTeX Warning: Reference `falsenegative' on page 20 undefined on input line 157
+LaTeX Warning: Reference `falsenegative' on page 20 undefined on input line 142
 .
 
-<images/falsenegative.jpg, id=438, 764.8575pt x 643.40375pt>
+<images/falsenegative.jpg, id=449, 764.8575pt x 643.40375pt>
 File: images/falsenegative.jpg Graphic file (type jpg)
 
 <use images/falsenegative.jpg>
-Package pdftex.def Info: images/falsenegative.jpg used on input line 159.
+Package pdftex.def Info: images/falsenegative.jpg used on input line 144.
 (pdftex.def)             Requested size: 267.70413pt x 225.19469pt.
 
-<images/overallRecognition.jpg, id=439, 785.93625pt x 575.14874pt>
+<images/overallRecognition.jpg, id=450, 785.93625pt x 575.14874pt>
 File: images/overallRecognition.jpg Graphic file (type jpg)
 
 <use images/overallRecognition.jpg>
-Package pdftex.def Info: images/overallRecognition.jpg used on input line 164.
+Package pdftex.def Info: images/overallRecognition.jpg used on input line 149.
 (pdftex.def)             Requested size: 275.0818pt x 201.30507pt.
 
-<images/surface.jpg, id=441, 724.7075pt x 532.99126pt>
+<images/surface.jpg, id=452, 724.7075pt x 532.99126pt>
 File: images/surface.jpg Graphic file (type jpg)
 
 <use images/surface.jpg>
-Package pdftex.def Info: images/surface.jpg used on input line 176.
+Package pdftex.def Info: images/surface.jpg used on input line 161.
 (pdftex.def)             Requested size: 253.65143pt x 186.54973pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--183
+Underfull \hbox (badness 10000) in paragraph at lines 142--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--183
+Underfull \hbox (badness 10000) in paragraph at lines 142--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--183
+Underfull \hbox (badness 10000) in paragraph at lines 142--168
 
  []
 
 [20] [21 <./images/falsenegative.jpg> <./images/overallRecognition.jpg>]
-Underfull \vbox (badness 6510) has occurred while \output is active []
-
- [22 <./images/surface.jpg>] <images/foam.jpg, id=456, 559.08875pt x 584.1825pt
->
+<images/foam.jpg, id=462, 559.08875pt x 584.1825pt>
 File: images/foam.jpg Graphic file (type jpg)
-
-<use images/foam.jpg>
-Package pdftex.def Info: images/foam.jpg used on input line 185.
+ <use images/foam.jpg>
+Package pdftex.def Info: images/foam.jpg used on input line 170.
 (pdftex.def)             Requested size: 279.54369pt x 292.09053pt.
 
-Underfull \hbox (badness 1325) in paragraph at lines 190--192
+Underfull \hbox (badness 1325) in paragraph at lines 175--177
 \OT1/ppl/m/n/10.95 The dif-fer-ent ma-te-ri-als seem to have no in-flu-ence on
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 190--192
+Underfull \hbox (badness 1259) in paragraph at lines 175--177
 \OT1/ppl/m/n/10.95 the per-for-mance of our pro-to-type as shown in fig-ure
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--192
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--192
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
 
  []
 
-[23 <./images/foam.jpg>] <images/materials.jpg, id=462, 690.58pt x 546.04pt>
+[22 <./images/surface.jpg>]
+<images/materials.jpg, id=468, 690.58pt x 546.04pt>
 File: images/materials.jpg Graphic file (type jpg)
-
-<use images/materials.jpg>
-Package pdftex.def Info: images/materials.jpg used on input line 194.
+ <use images/materials.jpg>
+Package pdftex.def Info: images/materials.jpg used on input line 179.
 (pdftex.def)             Requested size: 276.2271pt x 218.41212pt.
 
-<images/gestures.jpg, id=463, 712.6625pt x 691.58376pt>
+<images/gestures.jpg, id=469, 712.6625pt x 691.58376pt>
 File: images/gestures.jpg Graphic file (type jpg)
 
 <use images/gestures.jpg>
-Package pdftex.def Info: images/gestures.jpg used on input line 199.
+Package pdftex.def Info: images/gestures.jpg used on input line 184.
 (pdftex.def)             Requested size: 285.05995pt x 276.6286pt.
 
-Overfull \hbox (0.53235pt too wide) in paragraph at lines 199--200
+Overfull \hbox (0.53235pt too wide) in paragraph at lines 184--185
 [][] 
  []
 
-) [24 <./images/materials.jpg>] [25 <./images/gestures.jpg>] [26
+[23 <./images/foam.jpg>] [24 <./images/materials.jpg> <./images/gestures.jpg>])
+[25] [26
 
 
 
 ]
 \openout2 = `summaryandfuturework.aux'.
 
-
-(./summaryandfuturework.tex
+ (./summaryandfuturework.tex
 Chapter 5.
 
 Underfull \hbox (badness 1231) in paragraph at lines 15--23
@@ -1394,6 +1402,16 @@ Underfull \hbox (badness 1112) in paragraph at lines 15--23
 ])
 Underfull \hbox (badness 10000) in paragraph at lines 27--113
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--113
+
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 27--113
+\OT1/ppl/m/n/10.95 ing our own ad-vanced rec-og-nizer could be an op-tion
  []
 
 [28] [29] [30
@@ -1432,22 +1450,32 @@ Underfull \hbox (badness 1655) in paragraph at lines 15--23
 
 
 ]
-Underfull \hbox (badness 1194) in paragraph at lines 84--91
+Underfull \hbox (badness 10000) in paragraph at lines 66--73
+[]\OT1/ppl/m/n/10.95 D. Prat-tichizzo, F. Chinello, C. Pac-chierotti, and
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 66--73
+\OT1/ppl/m/n/10.95 tics: A 3-dof wear-able de-vice for cu-ta-neous force
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 94--101
 \OT1/ppl/m/it/10.95 tended Ab-stracts on Hu-man Fac-tors in Com-put-ing Sys-
  []
 
 
-Underfull \hbox (badness 3019) in paragraph at lines 94--104
+Underfull \hbox (badness 3019) in paragraph at lines 104--114
 []\OT1/ppl/m/n/10.95 Jessica Speir, Rufino R. Ansara, Colin Killby, Emily
  []
 
-
-Underfull \hbox (badness 1688) in paragraph at lines 106--115
+[36]
+Underfull \hbox (badness 1688) in paragraph at lines 116--125
 \OT1/ppl/m/n/10.95 2047196 . 2047264$.  URL []$\OT1/pcr/m/n/10.95 http : / / do
 i . acm . org / 10 .
  []
 
-[36]) [37] [38
+) [37] [38
 
 
 ] (./main.ind) [39] [40]
@@ -1460,7 +1488,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C69810C36F5A7F7BBA9CEBE74C33834F;1501.
+(rerunfilecheck)             Checksum: 3C8F1998AF8CB6169456A1209F852A89;1649.
 
 
 LaTeX Warning: There were undefined references.
@@ -1468,28 +1496,29 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 149.
  ) 
 Here is how much of TeX's memory you used:
- 10608 strings out of 493089
- 155257 string characters out of 6134842
- 270604 words of memory out of 5000000
- 13673 multiletter control sequences out of 15000+600000
- 32974 words of font info for 86 fonts, out of 8000000 for 9000
+ 10624 strings out of 493089
+ 155455 string characters out of 6134842
+ 270704 words of memory out of 5000000
+ 13685 multiletter control sequences out of 15000+600000
+ 34390 words of font info for 89 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 40i,12n,49p,1818b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,12n,51p,1818b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
-palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatin
-o/uplri8a.pfb>
-Output written on main.pdf (58 pages, 2329214 bytes).
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/pal
+atino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/u
+plri8a.pfb>
+Output written on main.pdf (58 pages, 2000845 bytes).
 PDF statistics:
- 625 PDF objects out of 1000 (max. 8388607)
- 513 compressed objects within 6 object streams
- 113 named destinations out of 1000 (max. 500000)
- 269 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 642 PDF objects out of 1000 (max. 8388607)
+ 529 compressed objects within 6 object streams
+ 116 named destinations out of 1000 (max. 500000)
+ 285 words of extra memory for PDF output out of 10000 (max. 10000000)
 
