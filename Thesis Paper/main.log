@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.31)  27 MAR 2016 21:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.31)  28 MAR 2016 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1377,41 +1377,55 @@ Overfull \hbox (0.53235pt too wide) in paragraph at lines 184--185
  (./summaryandfuturework.tex
 Chapter 5.
 
-Underfull \hbox (badness 1231) in paragraph at lines 15--23
-\OT1/ppl/m/n/10.95 We pre-sented sev-eral re-lated touch pad pro-to-types in
+Underfull \hbox (badness 1292) in paragraph at lines 13--20
+\OT1/ppl/m/n/10.95 tech-nol-ogy when it comes to wear-able touch sens-ing,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--23
+Underfull \hbox (badness 10000) in paragraph at lines 13--20
 
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 15--23
-\OT1/ppl/m/n/10.95 In chap-ter []3[] we de-scribed how we built our pro-to-
+Underfull \hbox (badness 2197) in paragraph at lines 13--20
+\OT1/ppl/m/n/10.95 We de-scribed how we built our pro-to-type with low
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 15--23
+Underfull \hbox (badness 2065) in paragraph at lines 13--20
+\OT1/ppl/m/n/10.95 con-di-tions to eval-u-ate the phys-i-cal lim-i-ta-tions of 
+the
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 13--20
 \OT1/ppl/m/n/10.95 for sen-sors with a rather low res-o-lu-tion of 14 by 14.
  []
 
-[27
+
+Underfull \vbox (badness 1881) has occurred while \output is active []
+
+ [27
 
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 27--113
+Underfull \hbox (badness 10000) in paragraph at lines 24--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--113
+Underfull \hbox (badness 10000) in paragraph at lines 24--113
 
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 27--113
-\OT1/ppl/m/n/10.95 ing our own ad-vanced rec-og-nizer could be an op-tion
+Underfull \hbox (badness 10000) in paragraph at lines 24--113
+
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 24--113
+\OT1/ppl/m/n/10.95 Finally a num-ber of em-bed-ded pro-to-types would be
  []
 
 [28] [29] [30
@@ -1488,7 +1502,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3C8F1998AF8CB6169456A1209F852A89;1649.
+(rerunfilecheck)             Checksum: 9C1A2D697FBCE6B9A59893EA4DE72E42;1649.
 
 
 LaTeX Warning: There were undefined references.
@@ -1496,10 +1510,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 149.
  ) 
 Here is how much of TeX's memory you used:
- 10624 strings out of 493089
- 155455 string characters out of 6134842
- 270704 words of memory out of 5000000
- 13685 multiletter control sequences out of 15000+600000
+ 10625 strings out of 493089
+ 155461 string characters out of 6134842
+ 270712 words of memory out of 5000000
+ 13686 multiletter control sequences out of 15000+600000
  34390 words of font info for 89 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  40i,12n,51p,1818b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1515,10 +1529,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist
 urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/pal
 atino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on main.pdf (58 pages, 2000845 bytes).
+Output written on main.pdf (58 pages, 2001720 bytes).
 PDF statistics:
- 642 PDF objects out of 1000 (max. 8388607)
- 529 compressed objects within 6 object streams
+ 639 PDF objects out of 1000 (max. 8388607)
+ 526 compressed objects within 6 object streams
  116 named destinations out of 1000 (max. 500000)
  285 words of extra memory for PDF output out of 10000 (max. 10000000)
 
