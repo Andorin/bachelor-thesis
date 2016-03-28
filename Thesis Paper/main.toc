@@ -15,14 +15,14 @@
 \contentsline {section}{\numberline {3.4}The Software}{11}{section.3.4}
 \contentsline {chapter}{\numberline {4}System Evaluation}{17}{chapter.4}
 \contentsline {section}{\numberline {4.1}Physical Limitation Study}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2}Study Design}{18}{section.4.2}
-\contentsline {section}{\numberline {4.3}Study Procedure}{19}{section.4.3}
-\contentsline {section}{\numberline {4.4}Observation}{20}{section.4.4}
-\contentsline {section}{\numberline {4.5}Conclusion}{25}{section.4.5}
+\contentsline {section}{\numberline {4.2}Experiment Setup}{18}{section.4.2}
+\contentsline {section}{\numberline {4.3}Study Procedure}{21}{section.4.3}
+\contentsline {section}{\numberline {4.4}Observation}{21}{section.4.4}
+\contentsline {section}{\numberline {4.5}Conclusion}{26}{section.4.5}
 \contentsline {chapter}{\numberline {5}Summary and Future Work}{27}{chapter.5}
 \contentsline {section}{\numberline {5.1}Summary and Contributions}{27}{section.5.1}
 \contentsline {section}{\numberline {5.2}Future work}{28}{section.5.2}
 \contentsline {chapter}{\numberline {A}APPENDIX}{31}{appendix.A}
 \contentsline {chapter}{\numberline {B}TITLE OF THE SECOND APPENDIX}{33}{appendix.B}
-\contentsline {chapter}{\numberline {}Bibliography}{35}{section*.19}
-\contentsline {chapter}{\numberline {}Index}{39}{section*.21}
+\contentsline {chapter}{\numberline {}Bibliography}{35}{section*.22}
+\contentsline {chapter}{\numberline {}Index}{39}{section*.24}

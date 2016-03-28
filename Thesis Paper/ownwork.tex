@@ -114,13 +114,33 @@ This recognizer is orientation independent. Meaning for the marked-based gesture
 In this chapter we will evaluate the robustness of our prototype in different extreme conditions.\mnote{Testing the 14 by 14 prototype} We will take a closer look at the performance of the 14 by 14 prototype. Since the prototype is designed as a wearable, we are interested in its behavior under changing conditions. These conditions are composed of softness, curvature, and friction.
 
 \section{Physical Limitation Study}
-\mnote{Independent variables: friction, softness, looseness, and curvature}The human body is in motion almost all the time and the clothes we are wearing are not fixed to the skin. This \emph{looseness} and the changing subsurface are variables that may influence the performance of our prototype. Another variable is the \emph{friction} of the overlaying material. Depending on the fabric and method of fashioning, it can, more or less likely, happen that the user slips of the touch-sensing area, or experiences an unpleasant feeling in the operating finger. Furthermore the \emph{softness} of the underlying surface may influence the performance of our prototype. The amount of muscles, adipose tissue, and so forth also differs from human to human. This, in the first place, affects the pressure needed by the user. Then there are the different levels of curvature. Our prototype has flexible spacing-material to separate the pinstripe layer. After a certain amount of bend the material starts creasing, causing some permanent contacts. In this study we will test our prototype in conditions which aim to simulate the in field scenarios. To test to which degree of bend the prototype breaks we used different foams with fixed thickness and different density.
+\mnote{Independent variables: friction, softness, looseness, and curvature}The human body is in motion almost all the time and the clothes we are wearing are not fixed to the skin. This \emph{looseness} and the changing subsurface are variables that influence the performance of our prototype. Another variable is the \emph{friction} of the overlaying common everyday fabrics. Depending on the fabric and method of fashioning, it can, more or less likely, happen that the user slips of the touch-sensing area, or experiences an unpleasant feeling in the operating finger. Furthermore the \emph{softness} of the underlying surface may influence the performance of our prototype. The amount of muscles, adipose tissue, and so forth also differs from human to human. This, in the first place, affects the pressure needed by the user. Then there are the different levels of \emph{curvature}. Our prototype has flexible spacing-material to separate the pinstripe layer. After a certain amount of bend the material starts creasing, causing some permanent contacts. In this study we will test our prototype in conditions which aim to simulate the in field scenarios. To test to which degree of bend the prototype breaks we used different foams with fixed thickness and different density.
 
-\section{Study Design}
-\mnote{conditions}
-\mnote{setup}
-\mnote{participants}
-\mnote{design}The participants had to perform 8 different gestures in different conditions. The set of gestures is shown in figure \ref{fig:gestureTemplate}. To control the curvature, we used aerosol cans with 53mm diameter and 66mm diameter. As a baseline we also used the table with a flat surface. When we tried to perform gestures on a curvature below 53 mm we got permanent contacts immediately. To fixate the aerosol cans we build stands using a laser cutter. The prototype was fixed with duct tape to the surface of the cans. To achieve the curvature with the foam, we used a book and wrapped the foam around the cover and clipped it in a vise. The fabrics (jeans, cotton, rib knit cotton\todo{insert pictures}) were pinned to the prototype with needles. Nevertheless, there is still a certain amount of movement due to the flexibility of the fabrics. The user cannot see the output on the screen. \\
+\section{Experiment Setup}
+\mnote{conditions}The conditions and there levels are shown in table \ref{table:conditions}. This leads to 18 combinations in total. For softness we have chosen the solid surface as a baseline. The soft foam with a density of 1000m$^3$ was considered similar enough to the soft spots on the human body. Curvature has a flat surface as baseline, 66mm diameter curvature, and 53mm diameter as fringe condition. Prior testing has proven that going below 53mm leads to permanent contact due to a kink in the spacing material. Friction is depending on the materials used for the outer layer of the sensor and the clothing, respectively. \todo{pictures}We have decided to test cotton, jeans and rib knit cotton. They have distinct surface characteristics and behavior when moving across with the finger. \\ \\
+\begin{table}
+\begin{tabular}{|c|c|}
+  \hline
+  \textbf{variable}& \textbf{levels} \\
+  \hline
+  curvature & 3 (flat, 66mm diameter, 53mm diameter) \\
+  \hline
+  softness &2 ( solid, foam 1000m$^3$ density) \\
+  \hline
+  friction & 3 (cotton, jeans, rib knit cotton) \\
+  \hline
+\end{tabular}
+\caption{Variables and their levels.}
+\label{table:conditions}
+\end{table}\mnote{System setup}\todo{pictures pictures pictures}The users sat in front of a desk on which the conditions were prepared consecutively. The sensor was fixed to the surface below and the overlying fabric was fixated in the corners with pins. Nontheless, there is still a certain amount of movement due to the flexibility of the overlying fabrics. For the curvature, we used aerosol cans with 53mm diameter and 66mm diameter. We fixated the aerosol cans with stands made with a laser cutter. To achieve the curvature with the foam, we used a book and wrapped the foam around the cover and hemmed it in a vise. A GoPro camera was placed such that each setup was captured obliquely from above as shown in figure \ref{fig:topview} and figure \ref{fig:53mmtopview}. The observer sat next to the participant ready to make notes and start or stop recording the setup. The user cannot see the output on the screen. Additionally, our program created two log-files for each condition. One logged the filtered data and one the raw sensor data. Both files logged the time stamps of each data point.\\ \\\begin{figure}
+\includegraphics[scale=0.15]{images/topview.jpg}
+\caption{Condition: flat, jeans, foam, on the table}
+\label{fig:topview}
+\end{figure}\begin{figure}
+\includegraphics[scale=0.15]{images/53mmtopview.jpg}
+\caption{Condition: 53mm, rib knit fabric, foam, hemmed in  a vise}
+\label{fig:53mmtopview}
+\end{figure}\mnote{participants}We asked two right-handed participants, one male (24) and one female (22) to test our prototype. One had no experience with wearables.\mnote{design}The participants had to perform 8 gestures in each condition with three repetitions. We selected a within-subject design for the evaluation since we only let two users with different experience participate. Thus, each participant had to perform 423 (18 conditions + 8  gestures * 3 repetitions) gestures not including potential repetitions. The set of gestures is shown in figure \ref{fig:gestureTemplate}. Curvature and softness were counterbalanced. Since each change of a condition takes several minutes we decided to shorten the time for the participant. To do so we tested the upper fabrics consecutively. \\
 \begin{center}
 \begin{figure}
 \includegraphics[scale=0.07]{images/gestureTemplate.jpg}
@@ -128,8 +148,6 @@ In this chapter we will evaluate the robustness of our prototype in different ex
 \label{fig:gestureTemplate}
 \end{figure}
 \end{center}
-The conditions, at least curvature and softness, were chosen at random. In order to shorten the time of the study, we tested all fabrics consecutively changing the order. Some prior testing has shown that the foam with a density of 1000m$^3$ and 1500m$^3$ perform alike. Thus we dropped the harder foam with 1500$^3$ after the first participant tested both foams in one condition without differences in terms of input error. \\
-We asked two right-handed participants, one male (24) and one female (22). One had no experience with wearable where the other was working with wearable computing. The participants were filmed while interacting with the prototype. Furthermore the screen with the application was captured to determine by eye, whether the gesture was recognized correctly or, if not, should have been recognized correctly. Additionally, our program created two log-files for each condition. One logged the filtered data and one the raw sensor data. Both files logged the time stamps of each data point.
 
 \section{Study Procedure}
 After the user arrived we introduced her to our prototype. We explained the basic functionality and demonstrated how the output looks like. Then we let the user test the eight gestures and some freestyle strokes. This was done without foam or any additional fabric. We pointed out that a certain amount of pressure is essential for our prototype to recognize the touch. When they felt familiar enough, about 2 minutes of testing, we prepared the first condition. 
@@ -151,10 +169,8 @@ The results proof the general applicability of our prototype. The overall succes
 \label{fig:overallRecognition}
 \end{figure}
 \\
-The difference of hardware success rate and recognizer success rate is almost the same for all conditions. Since we are interested in the performance of the hardware we only consider the success rate of the hardware from now on. 
-\\ \\
-\mnote{flat surface is best, 53mm worst}
-When it comes to surface curvature we got the results we expected shown in figure \ref{fig:surface}. The curvature with a 53mm diameter performs worst but still with a success rate of 75,5\%. The best curvature is no curvature at all. On the table both users achieved a success rate above 90\% with an average of 92\%. It is notable that the user with experience obtained a rate of 95\% with 66mm curvature where the other user got 79\%. Nevertheless, the inexperienced user outperformed the other user on the flat surface. 
+The difference of hardware success rate and recognizer success rate is almost the same for all conditions. Since we are interested in the performance of the hardware we only consider the success rate of the hardware from now on. \\ \\
+\mnote{flat surface is best, 53mm worst}When it comes to surface curvature we got the results we expected shown in figure \ref{fig:surface}. The curvature with a 53mm diameter performs worst but still with a success rate of 75,5\%. The best curvature is no curvature at all. On the table both users achieved a success rate above 90\% with an average of 92\%. It is notable that the user with experience obtained a rate of 95\% with 66mm curvature where the other user got 79\%. Nevertheless, the inexperienced user outperformed the other user on the flat surface. 
 \\
 When we asked the participants which curvature they prefer they agree that the flat surface it most pleasant for touch input and the more curvature, the more likely it happens that they slip off the surface. This leads to unintentional input and thus to more input error. 
 \begin{figure}
@@ -191,4 +207,4 @@ The success rates of each gesture is shown in figure \ref{fig:gestures}. The mos
 There is notable difference between \emph{left angle} (89\%) and \emph{right angle}, which has the best  average success rate of 95,5\%. It remains to test if this is ascribed to the dominant hand. Except for the \emph{w} gesture (75\%), the rest of the gesture are within 85\% and 93,5\%. 
 
 \section{Conclusion}
-There is a consistent difference between the two participants due to the varying level of experience. This indicates a learning effect which also was the subjective impression of both participants. Primarily the required pressure to generate a contact is remembered over time. 
+The surface curvature has the most meaningful effect on the performance of the prototype next to the characteristics of a gesture. There is a consistent difference between the two participants due to the varying level of experience. This indicates a learning effect which also was the subjective estimation of both participants. Primarily the required pressure to generate a contact is remembered over time. 
