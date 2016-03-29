@@ -1,19 +1,22 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Example of the raw data of one gesture. On the left-hand side the sensor input and on the right the time stamps in milliseconds.\relax }}{13}{figure.caption.9}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Mark-based gestures. Gestures start at the dots. \cite {Bragdon}\relax }}{14}{figure.caption.10}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Free-form gestures \cite {Bragdon}\relax }}{15}{figure.caption.11}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Materials used for testing (polyester grid fabric, plastic latticework, jeans with fly screen, and microcellular rubber).\relax }}{9}{figure.caption.9}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The 14 by 14 pin prototype on the left and 20 by 20 pin prototype on the right\relax }}{11}{figure.caption.10}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The layer of the prototype in correct order with Vliesofix already applied to the lower pinstripe fabric and jeans as potential upper layer.\relax }}{12}{figure.caption.11}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Mark-based gestures. Gestures start at the dots. \cite {Bragdon}\relax }}{14}{figure.caption.12}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Free-form gestures \cite {Bragdon}\relax }}{16}{figure.caption.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Condition: flat, jeans, foam, on the table\relax }}{19}{figure.caption.13}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Condition: 53mm, rib knit fabric, foam, hemmed in a vise\relax }}{19}{figure.caption.14}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Gesture set: right angle, left angle, slope, spiral, z, pigtail, w, doubleslope\relax }}{20}{figure.caption.15}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces The characteristics of \emph {w} are there, but nonetheless \emph {leftAngle} was detected.\relax }}{22}{figure.caption.16}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Success rate of all performed gestures with different criteria.\relax }}{23}{figure.caption.17}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Success rates on surface curvatures\relax }}{24}{figure.caption.18}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Success rates with and without foam\relax }}{24}{figure.caption.19}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Success rates with different materials\relax }}{25}{figure.caption.20}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Success rates for each gesture\relax }}{26}{figure.caption.21}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The materials used in the experiment (cotton, jeans, and rib knit cotton).\relax }}{19}{figure.caption.14}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Condition: flat, jeans, foam, on the table\relax }}{20}{figure.caption.16}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Condition: 53mm, rib knit fabric, foam, hemmed in a vise\relax }}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Gesture set: right angle, left angle, slope, spiral, z, pigtail, w, doubleslope\relax }}{21}{figure.caption.18}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The characteristics of \emph {w} are there, but nonetheless \emph {leftAngle} was detected.\relax }}{22}{figure.caption.19}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Success rate of all performed gestures with different criteria.\relax }}{23}{figure.caption.20}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Success rates on surface curvatures\relax }}{24}{figure.caption.21}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Success rates with and without foam\relax }}{24}{figure.caption.22}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Success rates with different materials\relax }}{25}{figure.caption.23}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Success rates for each gesture\relax }}{26}{figure.caption.24}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

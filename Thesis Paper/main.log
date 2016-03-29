@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  28 MAR 2016 23:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.31)  29 MAR 2016 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -748,11 +748,12 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count139
 \openout2 = `indexAddOn.aux'.
 
-(./indexAddOn.tex) <images/titlepage.pdf, id=116, 597.50731pt x 845.0471pt>
-File: images/titlepage.pdf Graphic file (type pdf)
+(./indexAddOn.tex)
+<images/titlepage_bachelor.pdf, id=116, 597.50627pt x 845.0471pt>
+File: images/titlepage_bachelor.pdf Graphic file (type pdf)
 
-<use images/titlepage.pdf>
-Package pdftex.def Info: images/titlepage.pdf used on input line 70.
+<use images/titlepage_bachelor.pdf>
+Package pdftex.def Info: images/titlepage_bachelor.pdf used on input line 70.
 (pdftex.def)             Requested size: 597.50787pt x 845.04504pt.
  [1
 
@@ -763,20 +764,21 @@ Package pdftex.def Info: images/titlepage.pdf used on input line 70.
 
 
 
- <./images/titlepage.pdf{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/upd
-map/pdftex.map}>] [2
+ <./images/titlepage_bachelor.pdf{/usr/local/texlive/2015/texmf-var/fonts/map/p
+dftex/updmap/pdftex.map}>] [2
 
 
 ]
 \openout2 = `declarationofownwork.aux'.
 
- (./declarationofownwork.texpdfTeX warning (ext4): destination with the same id
-entifier (name{page.i}) has been already used, duplicate ignored
+
+(./declarationofownwork.texpdfTeX warning (ext4): destination with the same ide
+ntifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.13 \end{titlepage}
                     
-<images/oathstatement.pdf, id=158, 597.23125pt x 845.1575pt>
+<images/oathstatement.pdf, id=146, 597.23125pt x 845.1575pt>
 File: images/oathstatement.pdf Graphic file (type pdf)
 
 <use images/oathstatement.pdf>
@@ -822,32 +824,36 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [6]
 (./main.lof
-Underfull \hbox (badness 1314) in paragraph at lines 9--9
+Underfull \hbox (badness 1616) in paragraph at lines 4--4
+ \OT1/ppl/m/n/10.95 fab-ric, plas-tic lat-tice-work, jeans with fly 
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 12--12
  [][] [][]\OT1/ppl/m/n/10.95 Condition: 53mm, rib knit fab-ric, foam, 
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 11--11
+Underfull \hbox (badness 4205) in paragraph at lines 14--14
  [][] [][]\OT1/ppl/m/n/10.95 The char-ac-ter-is-tics of \OT1/ppl/m/it/10.95 w \
 OT1/ppl/m/n/10.95 are there, but 
  []
 
-)
+[7
+
+
+
+])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [7
-
-
-
-] [8
-
-
-] (./main.lot)
+ [8] (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
  [9
+
+
 
 ] [10
 
@@ -952,13 +958,8 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 14.
 
-Underfull \hbox (badness 1924) in paragraph at lines 17--19
-[][]\OT1/ppl/m/n/10.95 Capacitve touch uses a non-conducting ma-te-rial with
- []
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 17--19
-\OT1/ppl/m/n/10.95 the sen-sor and the hu-man body. There-fore com-plex
+Underfull \hbox (badness 1308) in paragraph at lines 17--19
+[][]\OT1/ppl/m/n/10.95 Capacitive touch uses a non-conducting ma-te-rial with
  []
 
 
@@ -1061,172 +1062,155 @@ File: omsppl.fd
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--38
+<images/earlytesting.jpg, id=387, 5492.52pt x 3661.68pt>
+File: images/earlytesting.jpg Graphic file (type jpg)
+
+<use images/earlytesting.jpg>
+Package pdftex.def Info: images/earlytesting.jpg used on input line 31.
+(pdftex.def)             Requested size: 274.64209pt x 183.09473pt.
+
+<images/bothprototypes.jpg, id=389, 4700.56125pt x 2637.855pt>
+File: images/bothprototypes.jpg Graphic file (type jpg)
+
+<use images/bothprototypes.jpg>
+Package pdftex.def Info: images/bothprototypes.jpg used on input line 46.
+(pdftex.def)             Requested size: 282.02151pt x 158.26447pt.
+
+<images/matorder.jpg, id=391, 5492.52pt x 3661.68pt>
+File: images/matorder.jpg Graphic file (type jpg)
+ <use images/matorder.jpg>
+Package pdftex.def Info: images/matorder.jpg used on input line 59.
+(pdftex.def)             Requested size: 274.64209pt x 183.09473pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--38
+Underfull \hbox (badness 1460) in paragraph at lines 37--64
+[]\OT1/ppl/m/n/10.95 Another prob-lem we have to ad-dress is the stretch-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--64
 
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 39--54
-\OT1/ppl/m/n/10.95 for wear-ablity, also fix-ing the ma-te-ri-als ex-clu-sively
- at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--54
+Underfull \hbox (badness 10000) in paragraph at lines 37--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--54
+Underfull \hbox (badness 10000) in paragraph at lines 37--64
 
  []
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 39--54
-\OT1/ppl/m/n/10.95 We de-cide two to pro-to-types with dif-fer-ent di-men-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--54
+Underfull \hbox (badness 10000) in paragraph at lines 37--64
 
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 39--54
-\OT1/ppl/m/n/10.95 In some cases we as-cer-tained that for this rea-son the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--54
-
- []
-
-
-Underfull \hbox (badness 1062) in paragraph at lines 39--54
+Underfull \hbox (badness 1062) in paragraph at lines 37--64
 \OT1/ppl/m/n/10.95 We pro-ceed with at-tach-ing the pin-stripe lay-ers to the
  []
 
-[9]
 
-LaTeX Warning: Marginpar on page 10 moved.
+Underfull \vbox (badness 1152) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [9 <./images/earlytesting.jpg>]
+Underfull \vbox (badness 8132) has occurred while \output is active []
 
  [10]
-[11] <images/rawDataExample.jpg, id=401, 256.96pt x 470.75874pt>
-File: images/rawDataExample.jpg Graphic file (type jpg)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use images/rawDataExample.jpg>
-Package pdftex.def Info: images/rawDataExample.jpg used on input line 61.
-(pdftex.def)             Requested size: 179.87076pt x 329.52887pt.
-
-<images/markBasedGestures.jpg, id=403, 945.5325pt x 609.27625pt>
+ [11 <./images/bothprototypes.jpg>] [12 <./images/matorder.jpg>]
+<images/markBasedGestures.jpg, id=410, 945.5325pt x 609.27625pt>
 File: images/markBasedGestures.jpg Graphic file (type jpg)
 
 <use images/markBasedGestures.jpg>
-Package pdftex.def Info: images/markBasedGestures.jpg used on input line 70.
+Package pdftex.def Info: images/markBasedGestures.jpg used on input line 76.
 (pdftex.def)             Requested size: 236.38254pt x 152.31868pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--75
+Underfull \hbox (badness 10000) in paragraph at lines 69--81
 
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 59--75
+Underfull \hbox (badness 1342) in paragraph at lines 69--81
 []\OT1/ppl/m/n/10.95 Since more than one ver-ti-cal and hor-i-zon-tal pin-strip
 e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--75
+Underfull \hbox (badness 1264) in paragraph at lines 69--81
+\OT1/ppl/m/n/10.95 can be con-nected at the same time we ap-ply a fil-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--81
 
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 59--75
-[]\OT1/ppl/m/n/10.95 The next step is to ac-tual rec-og-nize easy strokes per-
+Underfull \hbox (badness 4084) in paragraph at lines 69--81
+[]\OT1/ppl/m/n/10.95 The next step is to ac-tu-ally rec-og-nize easy strokes
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 76.
+ [13]
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 82.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omspcr.fd
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 []\OT1/pcr/m/n/10.95 return $\OML/cmm/m/it/10.95 true$ \OT1/pcr/m/n/10.95 if th
 e size of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-[]\OT1/pcr/m/n/10.95 return $\OML/cmm/m/it/10.95 true$ \OT1/pcr/m/n/10.95 if th
-e all coordinates
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+[]\OT1/pcr/m/n/10.95 return $\OML/cmm/m/it/10.95 true$ \OT1/pcr/m/n/10.95 if al
+l coordinates have
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-\OT1/pcr/m/n/10.95 have a $\OML/cmm/m/it/10.95 distance$ \OT1/pcr/m/n/10.95 sma
-ller or equal to
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+\OT1/pcr/m/n/10.95 a $\OML/cmm/m/it/10.95 distance$ \OT1/pcr/m/n/10.95 smaller 
+or equal to $\OT1/cmr/m/n/10.95 1$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-\OT1/cmr/m/n/10.95 1$ \OT1/pcr/m/n/10.95 respectively and the time elapsed
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+\OT1/pcr/m/n/10.95 respectively and the time elapsed
  []
 
-[13 <./images/rawDataExample.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 []\OT1/pcr/m/n/10.95 assume there is a swipe with the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 \OT1/pcr/m/n/10.95 first and the last item of the
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+[14 <./images/markBasedGestures.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 []\OT1/pcr/m/n/10.95 return $\OML/cmm/m/it/10.95 false$ \OT1/pcr/m/n/10.95 if t
-he $\OML/cmm/m/it/10.95 distance$ \OT1/pcr/m/n/10.95 is
+he $\OML/cmm/m/it/10.95 length$ \OT1/pcr/m/n/10.95 is smaller
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 []\OT1/pcr/m/n/10.95 for all other points calculate the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
-[]\OT1/pcr/m/n/10.95 return $\OML/cmm/m/it/10.95 false$ \OT1/pcr/m/n/10.95 if a
-t some index the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
-[]\OT1/pcr/m/n/10.95 else determine the direction of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
-[]\OT1/pcr/m/n/10.95 check if there is a line between
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
-\OT1/pcr/m/n/10.95 in the buffer under the exact same
  []
 
 
@@ -1237,219 +1221,240 @@ t some index the
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 95--96
+[]\OT1/pcr/m/n/10.95 else determine the direction of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+[]\OT1/pcr/m/n/10.95 check if there is a line between
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+\OT1/pcr/m/n/10.95 in the buffer under the exact same
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+[]\OT1/pcr/m/n/10.95 return $\OML/cmm/m/it/10.95 false$ \OT1/pcr/m/n/10.95 if a
+t some index the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 []\OT1/pcr/m/n/10.95 calculate the directions of both
  []
 
-<images/freeFormGestures.jpg, id=422, 733.74126pt x 499.8675pt>
+<images/freeFormGestures.jpg, id=429, 733.74126pt x 499.8675pt>
 File: images/freeFormGestures.jpg Graphic file (type jpg)
 
 <use images/freeFormGestures.jpg>
-Package pdftex.def Info: images/freeFormGestures.jpg used on input line 106.
+Package pdftex.def Info: images/freeFormGestures.jpg used on input line 112.
 (pdftex.def)             Requested size: 220.12407pt x 149.9614pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--110
+Underfull \hbox (badness 10000) in paragraph at lines 106--116
 
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 100--110
+Underfull \hbox (badness 1173) in paragraph at lines 106--116
 []\OT1/ppl/m/n/10.95 When test-ing our ges-ture rec-og-nizer with our cur-rent
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 100--110
+Underfull \hbox (badness 1242) in paragraph at lines 106--116
 \OT1/ppl/m/n/10.95 com-plex ges-tures. There-fore we make use of the 1$
  []
 
-[14 <./images/markBasedGestures.jpg>] [15 <./images/freeFormGestures.jpg>]
-[16
-
-]
+[15] [16 <./images/freeFormGestures.jpg>]
 Chapter 4.
-[17] <images/topview.jpg, id=447, 1927.2pt x 1084.05pt>
-File: images/topview.jpg Graphic file (type jpg)
+[17
 
-<use images/topview.jpg>
-Package pdftex.def Info: images/topview.jpg used on input line 136.
+] <images/mats.jpg, id=450, 5492.52pt x 3661.68pt>
+File: images/mats.jpg Graphic file (type jpg)
+ <use images/mats.jpg>
+Package pdftex.def Info: images/mats.jpg used on input line 127.
+(pdftex.def)             Requested size: 274.64209pt x 183.09473pt.
+
+<images/topview.jpg, id=453, 1927.2pt x 1084.05pt>
+File: images/topview.jpg Graphic file (type jpg)
+ <use images/topview.jpg>
+Package pdftex.def Info: images/topview.jpg used on input line 145.
 (pdftex.def)             Requested size: 289.06754pt x 162.60048pt.
 
-Overfull \hbox (4.53993pt too wide) in paragraph at lines 136--137
+Overfull \hbox (4.53993pt too wide) in paragraph at lines 145--146
 [][] 
  []
 
-<images/53mmtopview.jpg, id=448, 1927.2pt x 1084.05pt>
+<images/53mmtopview.jpg, id=454, 1927.2pt x 1084.05pt>
 File: images/53mmtopview.jpg Graphic file (type jpg)
 
 <use images/53mmtopview.jpg>
-Package pdftex.def Info: images/53mmtopview.jpg used on input line 140.
+Package pdftex.def Info: images/53mmtopview.jpg used on input line 149.
 (pdftex.def)             Requested size: 289.06754pt x 162.60048pt.
 
-Overfull \hbox (4.53993pt too wide) in paragraph at lines 140--141
+Overfull \hbox (4.53993pt too wide) in paragraph at lines 149--150
 [][] 
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 141--141
-[]\OT1/ppl/b/n/10.95 Figure 4.2: |\OT1/ppl/m/n/10.95 Con-di-tion: 53mm, rib kni
+Underfull \hbox (badness 1675) in paragraph at lines 150--150
+[]\OT1/ppl/b/n/10.95 Figure 4.3: |\OT1/ppl/m/n/10.95 Con-di-tion: 53mm, rib kni
 t fab-ric, foam,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--144
+Underfull \hbox (badness 10000) in paragraph at lines 126--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--144
+Underfull \hbox (badness 10000) in paragraph at lines 126--153
 
  []
 
 
-Underfull \hbox (badness 6047) in paragraph at lines 120--144
+Underfull \hbox (badness 6047) in paragraph at lines 126--153
 []\OT1/ppl/m/n/10.95 We asked two right-handed par-tic-i-pants, one male
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--144
+Underfull \hbox (badness 10000) in paragraph at lines 126--153
 
  []
 
-
-LaTeX Warning: Marginpar on page 18 moved.
-
-[18]
-Underfull \vbox (badness 1852) has occurred while \output is active []
-
- [19 <./images/topview.jpg> <./images/53mmtopview.jpg>]
-<images/gestureTemplate.jpg, id=461, 3131.7pt x 4175.6pt>
+[18] <images/gestureTemplate.jpg, id=461, 3131.7pt x 4175.6pt>
 File: images/gestureTemplate.jpg Graphic file (type jpg)
 
 <use images/gestureTemplate.jpg>
-Package pdftex.def Info: images/gestureTemplate.jpg used on input line 146.
+Package pdftex.def Info: images/gestureTemplate.jpg used on input line 155.
 (pdftex.def)             Requested size: 219.2414pt x 292.32187pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--158
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19 <./images/mats.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 162--167
 
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 153--158
+Underfull \hbox (badness 1354) in paragraph at lines 162--167
 \OT1/ppl/m/n/10.95 pres-sure was ap-plied or when the touch-sensing area
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--167
 
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 153--158
+Underfull \hbox (badness 1509) in paragraph at lines 162--167
 \OT1/ppl/m/n/10.95 When one con-di-tion is com-pleted we asked the user
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20 <./images/gestureTemplate.jpg>]
-
-LaTeX Warning: Reference `falsenegative' on page 21 undefined on input line 160
-.
-
-<images/falsenegative.jpg, id=467, 764.8575pt x 643.40375pt>
+[20 <./images/topview.jpg> <./images/53mmtopview.jpg>]
+<images/falsenegative.jpg, id=473, 764.8575pt x 643.40375pt>
 File: images/falsenegative.jpg Graphic file (type jpg)
 
 <use images/falsenegative.jpg>
-Package pdftex.def Info: images/falsenegative.jpg used on input line 162.
+Package pdftex.def Info: images/falsenegative.jpg used on input line 172.
 (pdftex.def)             Requested size: 267.70413pt x 225.19469pt.
 
-<images/overallRecognition.jpg, id=468, 785.93625pt x 575.14874pt>
+<images/overallRecognition.jpg, id=474, 785.93625pt x 575.14874pt>
 File: images/overallRecognition.jpg Graphic file (type jpg)
 
 <use images/overallRecognition.jpg>
-Package pdftex.def Info: images/overallRecognition.jpg used on input line 167.
+Package pdftex.def Info: images/overallRecognition.jpg used on input line 177.
 (pdftex.def)             Requested size: 275.0818pt x 201.30507pt.
 
-<images/surface.jpg, id=470, 724.7075pt x 532.99126pt>
+<images/surface.jpg, id=476, 724.7075pt x 532.99126pt>
 File: images/surface.jpg Graphic file (type jpg)
 
 <use images/surface.jpg>
-Package pdftex.def Info: images/surface.jpg used on input line 177.
+Package pdftex.def Info: images/surface.jpg used on input line 187.
 (pdftex.def)             Requested size: 253.65143pt x 186.54973pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--184
+Underfull \hbox (badness 10000) in paragraph at lines 169--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--184
+Underfull \hbox (badness 10000) in paragraph at lines 169--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--184
+Underfull \hbox (badness 10000) in paragraph at lines 169--193
 
  []
 
-[21]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22 <./images/falsenegative.jpg>] <images/foam.jpg, id=480, 559.08875pt x 584.
+ [21 <./images/gestureTemplate.jpg>]
+Underfull \vbox (badness 2635) has occurred while \output is active []
+
+ [22 <./images/falsenegative.jpg>] <images/foam.jpg, id=486, 559.08875pt x 584.
 1825pt>
 File: images/foam.jpg Graphic file (type jpg)
 
 <use images/foam.jpg>
-Package pdftex.def Info: images/foam.jpg used on input line 186.
+Package pdftex.def Info: images/foam.jpg used on input line 195.
 (pdftex.def)             Requested size: 279.54369pt x 292.09053pt.
 
-Underfull \hbox (badness 1325) in paragraph at lines 191--193
+Underfull \vbox (badness 4084) has occurred while \output is active []
+
+ [23 <./images/overallRecognition.jpg>] [24 <./images/surface.jpg> <./images/fo
+am.jpg>]
+Underfull \hbox (badness 1325) in paragraph at lines 200--202
 \OT1/ppl/m/n/10.95 The dif-fer-ent ma-te-ri-als seem to have no in-flu-ence on
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 191--193
+Underfull \hbox (badness 1259) in paragraph at lines 200--202
 \OT1/ppl/m/n/10.95 the per-for-mance of our pro-to-type as shown in fig-ure
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--193
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--193
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
 
  []
 
-[23 <./images/overallRecognition.jpg>] [24 <./images/surface.jpg> <./images/foa
-m.jpg>] <images/materials.jpg, id=490, 690.58pt x 546.04pt>
+<images/materials.jpg, id=496, 690.58pt x 546.04pt>
 File: images/materials.jpg Graphic file (type jpg)
-
-<use images/materials.jpg>
-Package pdftex.def Info: images/materials.jpg used on input line 195.
+ <use images/materials.jpg>
+Package pdftex.def Info: images/materials.jpg used on input line 204.
 (pdftex.def)             Requested size: 276.2271pt x 218.41212pt.
 
-<images/gestures.jpg, id=491, 712.6625pt x 691.58376pt>
+<images/gestures.jpg, id=497, 712.6625pt x 691.58376pt>
 File: images/gestures.jpg Graphic file (type jpg)
 
 <use images/gestures.jpg>
-Package pdftex.def Info: images/gestures.jpg used on input line 200.
+Package pdftex.def Info: images/gestures.jpg used on input line 209.
 (pdftex.def)             Requested size: 285.05995pt x 276.6286pt.
 
-Overfull \hbox (0.53235pt too wide) in paragraph at lines 200--201
+Overfull \hbox (0.53235pt too wide) in paragraph at lines 209--210
 [][] 
  []
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[25 <./images/materials.jpg>]) [26 <./images/gestures.jpg>] [27] [28
 
- [25 <./images/materials.jpg>] [26 <./images/gestures.jpg>]
+
+
+]
 \openout2 = `summaryandfuturework.aux'.
 
- (./summaryandfuturework.tex
+
+(./summaryandfuturework.tex
 Chapter 5.
 
-Underfull \hbox (badness 1292) in paragraph at lines 13--20
-\OT1/ppl/m/n/10.95 tech-nol-ogy when it comes to wear-able touch sens-ing,
+Underfull \hbox (badness 2443) in paragraph at lines 13--20
+\OT1/ppl/m/n/10.95 con-duc-tive yarn sand-wich-ing a space made of 3mm
  []
 
 
@@ -1476,10 +1481,7 @@ Underfull \hbox (badness 1112) in paragraph at lines 13--20
 
 Underfull \vbox (badness 1881) has occurred while \output is active []
 
- [27
-
-
-
+ [29
 
 
 ])
@@ -1502,7 +1504,7 @@ Underfull \hbox (badness 2080) in paragraph at lines 24--113
 \OT1/ppl/m/n/10.95 Finally a num-ber of em-bed-ded pro-to-types would be
  []
 
-[28] [29] [30
+[30] [31] [32
 
 
 
@@ -1511,26 +1513,26 @@ Underfull \hbox (badness 2080) in paragraph at lines 24--113
 
  (./appendix_01.tex
 Appendix A.
-) [31
+) [33
 
 
-] [32]
+] [34]
 \openout2 = `appendix_02.aux'.
 
  (./appendix_02.tex
 Appendix B.
-) [33
+) [35
 
 
 
 
 
-] [34] (./main.bbl
+] [36] (./main.bbl
 Underfull \hbox (badness 1655) in paragraph at lines 15--23
 []\OT1/ppl/m/n/10.95 Andrew Brag-don, Eu-gene Nel-son, Yang Li, and Ken
  []
 
-[35
+[37
 
 
 
@@ -1557,16 +1559,16 @@ Underfull \hbox (badness 3019) in paragraph at lines 104--114
 []\OT1/ppl/m/n/10.95 Jessica Speir, Rufino R. Ansara, Colin Killby, Emily
  []
 
-[36]
+[38]
 Underfull \hbox (badness 1688) in paragraph at lines 116--125
 \OT1/ppl/m/n/10.95 2047196 . 2047264$.  URL []$\OT1/pcr/m/n/10.95 http : / / do
 i . acm . org / 10 .
  []
 
-) [37] [38
+) [39] [40
 
 
-] (./main.ind) [39] [40]
+] (./main.ind) [41] [42]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
  (./main.aux (./indexAddOn.aux)
@@ -1576,21 +1578,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 818CF2868EDB130520D23EA0656B59F4;1653.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: AE97A357A50A1012BF52899CD16B7FBB;1653.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 149.
  ) 
 Here is how much of TeX's memory you used:
- 10646 strings out of 493089
- 155813 string characters out of 6134841
- 270957 words of memory out of 5000000
- 13702 multiletter control sequences out of 15000+600000
+ 10663 strings out of 493089
+ 156257 string characters out of 6134842
+ 271328 words of memory out of 5000000
+ 13710 multiletter control sequences out of 15000+600000
  34390 words of font info for 89 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 40i,12n,51p,1817b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,12n,51p,1817b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -1603,10 +1601,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist
 urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/pal
 atino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on main.pdf (58 pages, 5906925 bytes).
+Output written on main.pdf (60 pages, 66167723 bytes).
 PDF statistics:
- 653 PDF objects out of 1000 (max. 8388607)
- 538 compressed objects within 6 object streams
- 119 named destinations out of 1000 (max. 500000)
- 295 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 668 PDF objects out of 1000 (max. 8388607)
+ 560 compressed objects within 6 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 310 words of extra memory for PDF output out of 10000 (max. 10000000)
 

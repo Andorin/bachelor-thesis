@@ -11,18 +11,18 @@
 \contentsline {chapter}{\numberline {3}Hardware Prototype and Software Development}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}System Design}{7}{section.3.1}
 \contentsline {section}{\numberline {3.2}Early Testing}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}The Prototype}{9}{section.3.3}
-\contentsline {section}{\numberline {3.4}The Software}{11}{section.3.4}
+\contentsline {section}{\numberline {3.3}The Prototype}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}The Software}{12}{section.3.4}
 \contentsline {chapter}{\numberline {4}System Evaluation}{17}{chapter.4}
 \contentsline {section}{\numberline {4.1}Physical Limitation Study}{17}{section.4.1}
 \contentsline {section}{\numberline {4.2}Experiment Setup}{18}{section.4.2}
-\contentsline {section}{\numberline {4.3}Study Procedure}{21}{section.4.3}
-\contentsline {section}{\numberline {4.4}Observation}{21}{section.4.4}
+\contentsline {section}{\numberline {4.3}Study Procedure}{20}{section.4.3}
+\contentsline {section}{\numberline {4.4}Observation}{22}{section.4.4}
 \contentsline {section}{\numberline {4.5}Conclusion}{26}{section.4.5}
-\contentsline {chapter}{\numberline {5}Summary and Future Work}{27}{chapter.5}
-\contentsline {section}{\numberline {5.1}Summary and Contributions}{27}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future work}{28}{section.5.2}
-\contentsline {chapter}{\numberline {A}APPENDIX}{31}{appendix.A}
-\contentsline {chapter}{\numberline {B}TITLE OF THE SECOND APPENDIX}{33}{appendix.B}
-\contentsline {chapter}{\numberline {}Bibliography}{35}{section*.22}
-\contentsline {chapter}{\numberline {}Index}{39}{section*.24}
+\contentsline {chapter}{\numberline {5}Summary and Future Work}{29}{chapter.5}
+\contentsline {section}{\numberline {5.1}Summary and Contributions}{29}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future work}{30}{section.5.2}
+\contentsline {chapter}{\numberline {A}APPENDIX}{33}{appendix.A}
+\contentsline {chapter}{\numberline {B}TITLE OF THE SECOND APPENDIX}{35}{appendix.B}
+\contentsline {chapter}{\numberline {}Bibliography}{37}{section*.25}
+\contentsline {chapter}{\numberline {}Index}{41}{section*.27}
