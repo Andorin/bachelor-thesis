@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -20,6 +20,16 @@ Andrew Bragdon, Eugene Nelson, Yang Li, and Ken Hinckley.
 \newblock ISBN 978-1-4503-0228-9.
 \newblock \doi{10.1145/1978942.1979000}.
 \newblock URL \url{http://doi.acm.org/10.1145/1978942.1979000}.
+
+\bibitem[Brewster et~al.(2003)Brewster, Lumsden, Bell, Hall, and
+  Tasker]{Brewster:2003:MEI:642611.642694}
+Stephen Brewster, Joanna Lumsden, Marek Bell, Malcolm Hall, and Stuart Tasker.
+\newblock Multimodal 'eyes-free' interaction techniques for wearable devices.
+\newblock In \emph{Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, CHI '03, pages 473--480, New York, NY, USA, 2003. ACM.
+\newblock ISBN 1-58113-630-7.
+\newblock \doi{10.1145/642611.642694}.
+\newblock URL \url{http://doi.acm.org/10.1145/642611.642694}.
 
 \bibitem[Hamdan~et al.(2016)]{hamdan}
 Chat Wacharamanotham Jan Thar Jan~Borchers Hamdan~et al., Florian~Heller.
@@ -61,6 +71,11 @@ Thorsten Karrer, Moritz Wittenhagen, Florian Heller, and Jan Borchers.
 \newblock \doi{10.1145/1866218.1866255}.
 \newblock URL \url{http://doi.acm.org/10.1145/1866218.1866255}.
 
+\bibitem[Post and Orth(1997)]{post1997smart}
+E~Rehmi Post and Margaret Orth.
+\newblock Smart fabric, or.
+\newblock In \emph{iswc}, page 167. IEEE, 1997.
+
 \bibitem[Prattichizzo et~al.(2013)Prattichizzo, Chinello, Pacchierotti, and
   Malvezzi]{6636291}
 D.~Prattichizzo, F.~Chinello, C.~Pacchierotti, and M.~Malvezzi.
@@ -70,6 +85,17 @@ D.~Prattichizzo, F.~Chinello, C.~Pacchierotti, and M.~Malvezzi.
   506--516, Oct 2013.
 \newblock ISSN 1939-1412.
 \newblock \doi{10.1109/TOH.2013.53}.
+
+\bibitem[Rantanen et~al.(2002)Rantanen, Impi\"{o}, Karinsalo, Malmivaara, Reho,
+  Tasanen, and Vanhala]{Rantanen:2002:SCP:594096.594098}
+J.~Rantanen, J.~Impi\"{o}, T.~Karinsalo, M.~Malmivaara, A.~Reho, M.~Tasanen,
+  and J.~Vanhala.
+\newblock Smart clothing prototype for the arctic environment.
+\newblock \emph{Personal Ubiquitous Comput.}, 6\penalty0 (1):\penalty0 3--16,
+  January 2002.
+\newblock ISSN 1617-4909.
+\newblock \doi{10.1007/s007790200001}.
+\newblock URL \url{http://dx.doi.org/10.1007/s007790200001}.
 
 \bibitem[Rekimoto(2001)]{Rekimoto:2001:962092}
 J.~Rekimoto.
@@ -89,6 +115,11 @@ T.~Scott Saponas, Chris Harrison, and Hrvoje Benko.
 \newblock ISBN 978-1-4503-0716-1.
 \newblock \doi{10.1145/2047196.2047235}.
 \newblock URL \url{http://doi.acm.org/10.1145/2047196.2047235}.
+
+\bibitem[Schmidt(2016)]{software}
+Christian Schmidt.
+\newblock Texipad software, 2016.
+\newblock URL \url{http://hci.rwth-aachen.de/TexiTouch}.
 
 \bibitem[Smus and Gross(2010)]{Smus:2010:UDT:1753846.1754094}
 Boris Smus and Mark~D. Gross.

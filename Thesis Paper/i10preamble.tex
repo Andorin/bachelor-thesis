@@ -677,6 +677,14 @@
 	\footnote{http://hci.rwth-aachen.de/public/#3}%
 }
 
+\newcommand{\myOwnProjectURL}[1]%
+{%
+	\textcolor{blue}{%
+		\href{http://hci.rwth-aachen.de/texitouch}{#1}%
+	}%
+	\footnote{http://hci.rwth-aachen.de/texitouch}%
+}
+
 %----------------------------------------------------------------------------------
 % \mnote	{ MARGIN NOTE }
 %
@@ -777,6 +785,23 @@
 \begin{minipage}{\myBigDefBoxWidth}%
 \begin{center}%
 \myProjectURL{#1}{folder/#2}{folder/#3}%
+\end{center}%
+\end{minipage}%
+}%
+}
+
+\newcommand{\myOwnDownloadURL}[1]{%
+\checkoddpage%
+	\ifcpoddpage%
+		%nothing
+	\else%
+		\hspace{-\marginparsep}\hspace{-\marginparwidth}%
+	\fi%
+\setlength{\fboxrule}{1mm}%
+\fcolorbox{green_med}{green_light}{%
+\begin{minipage}{\myBigDefBoxWidth}%
+\begin{center}%
+\myOwnProjectURL{#1}%
 \end{center}%
 \end{minipage}%
 }%
