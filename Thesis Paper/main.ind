@@ -1,13 +1,53 @@
 \begin{theindex}
 
-  \item abbrv, \hyperindexformat{\see{abbreviation}}{i}
+  \item 1\$ recognizer, \hyperpage{15}
 
   \indexspace
 
-  \item evaluation, \hyperpage{9--10}
+  \item Enargia, \hyperpage{8}
 
   \indexspace
 
-  \item future work, \hyperpage{12--13}
+  \item filter algorithm, \hyperpage{13}
+  \item free-form gesture recognition, \hyperpage{15}
+  \item free-form gestures, \hyperpage{16}
+  \item future work, \hyperpage{30}, 31
+
+  \indexspace
+
+  \item hardware prototype, \hyperpage{7}
+
+  \indexspace
+
+  \item mark-based gesture recognition, \hyperpage{13}
+  \item mark-based gestures, \hyperpage{14}
+  \item material requirements, \hyperpage{9}
+  \item MSP430G2452, \hyperpage{7}
+
+  \indexspace
+
+  \item pinstripe fabric, \hyperpage{7}
+  \item Processing, \hyperpage{8}
+
+  \indexspace
+
+  \item resolution, \hyperpage{7}
+
+  \indexspace
+
+  \item serial communication, \hyperpage{8}
+  \item software, \hyperpage{12}
+  \item source code, \hyperpage{33}
+  \item spacing material, \hyperpage{10}
+  \item study condition, \hyperpage{17}
+  \item system evaluation, \hyperpage{17}
+
+  \indexspace
+
+  \item TI EK-TM4C1294XL, \hyperpage{8}
+
+  \indexspace
+
+  \item Vliesofix, \hyperpage{11}
 
 \end{theindex}

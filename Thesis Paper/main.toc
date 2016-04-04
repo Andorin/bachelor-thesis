@@ -22,7 +22,6 @@
 \contentsline {chapter}{\numberline {5}Summary and Future Work}{29}{chapter.5}
 \contentsline {section}{\numberline {5.1}Summary and Contributions}{29}{section.5.1}
 \contentsline {section}{\numberline {5.2}Future work}{30}{section.5.2}
-\contentsline {chapter}{\numberline {A}APPENDIX}{33}{appendix.A}
-\contentsline {chapter}{\numberline {B}TITLE OF THE SECOND APPENDIX}{35}{appendix.B}
-\contentsline {chapter}{\numberline {}Bibliography}{37}{section*.25}
-\contentsline {chapter}{\numberline {}Index}{41}{section*.27}
+\contentsline {chapter}{\numberline {6}APPENDIX}{33}{chapter.6}
+\contentsline {chapter}{\numberline {}Bibliography}{35}{section*.25}
+\contentsline {chapter}{\numberline {}Index}{39}{section*.27}

@@ -28,23 +28,23 @@ The two most popular touch input technologies are resistive and capacitive. Both
 \citep{Wimmer:2011:MDT:2047196.2047264} created 13 prototypes based on time domain reflectometry (TDR). For this approach only one pair of wires is needed. The change in capacitance caused by conductive objects close to the pair of wire is measured and the location determined. Distance between the wires and their shape have significant influence on reliability. Their prototypes include stretchable, curved, and arbitrary shaped surfaces. They can sense touch at a distance up to 20m but TDR is prone to radio interference of mobile phones. 
 
 \section{Textile touch pads}
-\mnote{Pinstripe}Pinstripe is a continous textile input prototype created by \cite{Karrer:2010:PEC:1866218.1866255}. It detects pinching and rolling of clothing by connecting conductive thread sewn on it. However, it is an unidimensional input device and not a touch pad. Nevertheless, when they introduced the participants to the sensor the users intuitively expected a touch pad. \\
-\mnote{Grabrics}Grabrics by \cite{hamdan} is a fold-based textile sensor that can detect the axis of a pinch and the displacement and direction of the user’s thumb over the fold. It, however, cannot detect complex gesture because of the limited resolution.\\
+\mnote{Pinstripe}Pinstripe is a continous textile input prototype created by \cite{Karrer:2010:PEC:1866218.1866255}. It detects pinching and rolling of clothing by connecting conductive thread sewn on it. However, it is an unidimensional input device and not a touch pad. Pinstripe is able to detect  Nevertheless, when they introduced the participants to the sensor the users intuitively expected a touch pad. This shows that  textile touchpads as an input device are not declined in general. \\
+\mnote{Grabrics}Grabrics by \cite{hamdan} is a fold-based textile sensor that can detect the axis of a pinch and the displacement and direction of the user's thumb over the fold. It, however, cannot detect complex gesture because of the limited resolution.\\
 \mnote{GesturePad}\cite{Rekimoto:2001:962092} presented GesturePad which is a capacitive touch pad integrated in clothing. They propose slightly different architectures consisting of the upper fabric, receiver, transmitter, and a shield layer to reduce the influence of the human body. However, their work was not further evaluated. \\
 \mnote{PocketTouch}Another capacitive approach was developed by \cite{Saponas:2011:PTC:2047196.2047235}. PocketTouch is an eyes-free, calibrateable capacitive touch pad which can sense the proximity of a finger through a wide range of fabrics. They used a touch sensor of a touch screen and attached it to a base which makes it not bendable. The reliability of PocketTouch was not further evaluated. \\
-\mnote{FabriTouch}FabriTouch is a flexible, capacitive textile touch pad presented by \cite{Heller:2014:FEF:2634317.2634345}. It consists of lining, piezoresistive foil, spacing mesh, conductive fabric, and outer garment together integrated into a pair of trousers. FabriTouch is able to reliably detect simple swipe gestures on rigid surfaces rather than on the human thigh. Also movement has a negative impact on the performance of the sensor.
+\mnote{FabriTouch}FabriTouch is a flexible, capacitive textile touch pad presented by \cite{Heller:2014:FEF:2634317.2634345}. It consists of lining, piezoresistive foil, spacing mesh, conductive fabric, and outer garment together integrated into a pair of trousers. FabriTouch is able to detect vertical swipe gestures on the human thigh. Movement has a negative impact on the performance of the sensor.
 \begin{table}
-\begin{tabular}{ | c | c | p{3.8cm}|}
-\hline
+\begin{tabular}{|c | c | p{3.8cm}|}
+  \hline
   Prototype & Touch technology & Gesture detection \\
   \hline
-   Pinstripe & capacitive  & detects size of pinch and movement of pinch in 1D \\
+   Pinstripe & capacitive  & detects size of pinch and roughly movement of pinch in 1D \\
    \hline
   GesturePad & capacitive &  not tested (theoretically able to detect 2D gestures) \\
   \hline
-  Pocket touch & capacitive & multistroke gestures using N\$ by \cite{anthony2012n} \\
+  Pocket touch & capacitive & not tested (multistroke recognizer N\$ by \cite{anthony2012n} implemented \\
   \hline
-  FabriTouch & capacitive & swipes in 2D \\
+  FabriTouch & capacitive & vertical swipes \\
   \hline
   Grabrics & resistive & detects axis of fold and movement of pinch in 2D \\ 
   \hline
