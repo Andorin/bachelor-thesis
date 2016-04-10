@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  30 MAR 2016 03:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  31 MAR 2016 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -634,9 +634,8 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@roff=\dimen153
 )
 (./main.aux (./indexAddOn.aux) (./declarationofownwork.aux) (./abstract.aux)
-(./acknowledgements.aux) (./conventions.aux) (./introduction.aux)
-(./relatedwork.aux) (./ownwork.aux) (./summaryandfuturework.aux)
-(./appendix_01.aux))
+(./acknowledgements.aux) (./introduction.aux) (./relatedwork.aux)
+(./ownwork.aux) (./summaryandfuturework.aux) (./appendix_01.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
@@ -749,7 +748,7 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `indexAddOn.aux'.
 
 (./indexAddOn.tex)
-<images/titlepage_bachelor.pdf, id=112, 597.50627pt x 845.0471pt>
+<images/titlepage_bachelor.pdf, id=104, 597.50627pt x 845.0471pt>
 File: images/titlepage_bachelor.pdf Graphic file (type pdf)
 
 <use images/titlepage_bachelor.pdf>
@@ -778,7 +777,7 @@ ntifier (name{page.i}) has been already used, duplicate ignored
                    \relax 
 l.13 \end{titlepage}
                     
-<images/oathstatement.pdf, id=142, 597.23125pt x 845.1575pt>
+<images/oathstatement.pdf, id=137, 597.23125pt x 845.1575pt>
 File: images/oathstatement.pdf Graphic file (type pdf)
 
 <use images/oathstatement.pdf>
@@ -802,17 +801,17 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
  (./main.toc
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 7.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 6.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -826,17 +825,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (./main.lof
 Underfull \hbox (badness 1616) in paragraph at lines 4--4
  \OT1/ppl/m/n/10.95 fab-ric, plas-tic lat-tice-work, jeans with fly 
- []
-
-
-Underfull \hbox (badness 1314) in paragraph at lines 12--12
- [][] [][]\OT1/ppl/m/n/10.95 Condition: 53mm, rib knit fab-ric, foam, 
- []
-
-
-Underfull \hbox (badness 4205) in paragraph at lines 14--14
- [][] [][]\OT1/ppl/m/n/10.95 The char-ac-ter-is-tics of \OT1/ppl/m/it/10.95 w \
-OT1/ppl/m/n/10.95 are there, but 
  []
 
 [7
@@ -891,46 +879,16 @@ ag-baren, biegsamen,
 
 
 ]
-\openout2 = `conventions.aux'.
-
- (./conventions.tex
-LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <10.95> not available
-(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 22.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 22.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
-)
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 22.
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 28.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Overfull \hbox (114.12044pt too wide) in paragraph at lines 38--39
-[][][][] 
- []
-
-) [17
-
-
-] [18
-
-
-
-]
 \openout2 = `introduction.aux'.
 
  (./introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 8.
-)
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 11.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+))
 Underfull \hbox (badness 10000) in paragraph at lines 11--107
 
  []
@@ -947,6 +905,23 @@ Underfull \hbox (badness 1019) in paragraph at lines 11--107
  []
 
 
+Underfull \hbox (badness 1117) in paragraph at lines 11--107
+\OT1/ppl/m/n/10.95 de-vices that can be in-te-grated into ev-ery-day cloth-ing.
+
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 11--107
+\OT1/ppl/m/n/10.95 Various ap-proaches were pre-sented aim-ing to cre-ate
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 11--107
+\OT1/ppl/m/n/10.95 sens-ing. [[]Holleis et al.[], []2008[]] built tex-tile pro-
+to-types
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 11--107
 
  []
@@ -957,18 +932,8 @@ Underfull \hbox (badness 1112) in paragraph at lines 11--107
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 11--107
-\OT1/ppl/m/n/10.95 lim-ited not to men-tion mul-ti-touch. To im-prove their
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 11--107
 
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 11--107
-[]\OT1/ppl/m/n/10.95 In this the-sis we present our novel wear-able, bend-
  []
 
 [1
@@ -982,21 +947,24 @@ Underfull \hbox (badness 2237) in paragraph at lines 11--107
 Chapter 2.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 13.
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 14.
 
-Underfull \hbox (badness 1308) in paragraph at lines 17--19
+Underfull \hbox (badness 1308) in paragraph at lines 16--18
 [][]\OT1/ppl/m/n/10.95 Capacitive touch uses a non-conducting ma-te-rial with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--19
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
 
-Underfull \hbox (badness 2221) in paragraph at lines 17--19
+Underfull \hbox (badness 2221) in paragraph at lines 16--18
 []\OT1/ppl/m/n/10.95 Resistive touch tech-nol-ogy uses two sep-a-rated lay-ers
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 16--18
+\OT1/ppl/m/n/10.95 The spac-ing ma-te-rial be-tween the lay-ers in or-di-nary
  []
 
 [3
@@ -1006,52 +974,52 @@ Underfull \hbox (badness 2221) in paragraph at lines 17--19
 
 
 ] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 \OT1/ppl/m/n/10.95 and roughly move-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 \OT1/ppl/m/n/10.95 ment of pinch in
  []
 
 
-Underfull \hbox (badness 6445) in paragraph at lines 43--44
+Underfull \hbox (badness 6445) in paragraph at lines 42--43
 []|\OT1/ppl/m/n/10.95 not tested (the-o-ret-i-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 []|\OT1/ppl/m/n/10.95 not tested (mul-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 \OT1/ppl/m/n/10.95 stroke rec-og-nizer
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 45--46
+Underfull \hbox (badness 1226) in paragraph at lines 44--45
 \OT1/ppl/m/n/10.95 N$ by []An-thony and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 \OT1/ppl/m/n/10.95 Wob-brock[] [[]2012[]]
  []
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 49--50
+Underfull \hbox (badness 4872) in paragraph at lines 48--49
 []|\OT1/ppl/m/n/10.95 detects axis of fold
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 \OT1/ppl/m/n/10.95 and move-ment of
  []
 
 
-Overfull \hbox (9.67271pt too wide) in paragraph at lines 37--52
+Overfull \hbox (9.67271pt too wide) in paragraph at lines 36--51
 [][] 
  []
 
@@ -1060,9 +1028,14 @@ Overfull \hbox (9.67271pt too wide) in paragraph at lines 37--52
 
  (./ownwork.tex
 Chapter 3.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <10.95> not available
+(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 15.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 15.
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--16
-
+Underfull \hbox (badness 1102) in paragraph at lines 13--16
+\OT1/ppl/m/n/10.95 fab-ric has to be con-nected to a \OT1/ppl/m/it/10.95 dig-i-
+tal-Read \OT1/ppl/m/n/10.95 pin of the
  []
 
 
@@ -1070,7 +1043,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--16
 
  []
 
-[7
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
 
 
 
@@ -1092,7 +1073,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1400) has occurred while \output is active []
 
  [8]
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 27.
@@ -1103,21 +1084,21 @@ File: omsppl.fd
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 
-<images/earlytesting.jpg, id=394, 5492.52pt x 3661.68pt>
+<images/earlytesting.jpg, id=375, 5492.52pt x 3661.68pt>
 File: images/earlytesting.jpg Graphic file (type jpg)
 
 <use images/earlytesting.jpg>
 Package pdftex.def Info: images/earlytesting.jpg used on input line 33.
 (pdftex.def)             Requested size: 274.64209pt x 183.09473pt.
 
-<images/bothprototypes.jpg, id=396, 4700.56125pt x 2637.855pt>
+<images/bothprototypes.jpg, id=377, 4700.56125pt x 2637.855pt>
 File: images/bothprototypes.jpg Graphic file (type jpg)
 
 <use images/bothprototypes.jpg>
 Package pdftex.def Info: images/bothprototypes.jpg used on input line 49.
 (pdftex.def)             Requested size: 282.02151pt x 158.26447pt.
 
-<images/matorder.jpg, id=398, 5492.52pt x 3661.68pt>
+<images/matorder.jpg, id=379, 5492.52pt x 3661.68pt>
 File: images/matorder.jpg Graphic file (type jpg)
  <use images/matorder.jpg>
 Package pdftex.def Info: images/matorder.jpg used on input line 62.
@@ -1143,8 +1124,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--67
  []
 
 
+Underfull \hbox (badness 1424) in paragraph at lines 40--67
+\OT1/ppl/m/n/10.95 We de-cide to build two pro-to-types with dif-fer-ent di-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 40--67
 
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 40--67
+\OT1/ppl/m/n/10.95 In some cases we as-cer-tained that for this rea-son the
  []
 
 
@@ -1157,23 +1148,24 @@ Underfull \hbox (badness 1062) in paragraph at lines 40--67
 \OT1/ppl/m/n/10.95 We pro-ceed with at-tach-ing the pin-stripe lay-ers to the
  []
 
-
-Underfull \vbox (badness 1152) has occurred while \output is active []
-
- [9 <./images/earlytesting.jpg>]
+[9 <./images/earlytesting.jpg>]
 Underfull \vbox (badness 8132) has occurred while \output is active []
 
  [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11 <./images/bothprototypes.jpg>] [12 <./images/matorder.jpg>]
-<images/markBasedGestures.jpg, id=417, 945.5325pt x 609.27625pt>
+<images/markBasedGestures.jpg, id=399, 945.5325pt x 609.27625pt>
 File: images/markBasedGestures.jpg Graphic file (type jpg)
 
 <use images/markBasedGestures.jpg>
 Package pdftex.def Info: images/markBasedGestures.jpg used on input line 79.
 (pdftex.def)             Requested size: 236.38254pt x 152.31868pt.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 84.
 
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
 Underfull \hbox (badness 10000) in paragraph at lines 72--85
 
  []
@@ -1257,7 +1249,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
 []\OT1/pcr/m/n/10.95 return $\OML/cmm/m/it/10.95 false$ \OT1/pcr/m/n/10.95 if a
-t some index the
+t some $\OML/cmm/m/it/10.95 index$ \OT1/pcr/m/n/10.95 of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+\OT1/pcr/m/n/10.95 buffer the $\OML/cmm/m/it/10.95 distanceToLine$ \OT1/pcr/m/n
+/10.95 is greater
  []
 
 
@@ -1278,7 +1276,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
 []\OT1/pcr/m/n/10.95 return $\OML/cmm/m/it/10.95 false$ \OT1/pcr/m/n/10.95 if a
-t some index the
+t some $\OML/cmm/m/it/10.95 index$ \OT1/pcr/m/n/10.95 the
  []
 
 
@@ -1286,7 +1284,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
 []\OT1/pcr/m/n/10.95 calculate the directions of both
  []
 
-<images/freeFormGestures.jpg, id=436, 733.74126pt x 499.8675pt>
+<images/freeFormGestures.jpg, id=418, 733.74126pt x 499.8675pt>
 File: images/freeFormGestures.jpg Graphic file (type jpg)
 
 <use images/freeFormGestures.jpg>
@@ -1298,27 +1296,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--121
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 110--121
-[][][]\OT1/ppl/m/n/10.95 When test-ing our ges-ture rec-og-nizer with our cur-r
-ent
+Underfull \hbox (badness 2376) in paragraph at lines 110--121
+[][][]\OT1/ppl/m/n/10.95 When test-ing our ges-ture rec-og-nizer with the pro-t
+o-
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 110--121
-\OT1/ppl/m/n/10.95 com-plex ges-tures. There-fore we make use of the 1$
+Underfull \hbox (badness 1077) in paragraph at lines 110--121
+\OT1/ppl/m/n/10.95 ges-tures and con-tinue with rec-og-niz-ing more com-plex
  []
 
 [15] [16 <./images/freeFormGestures.jpg>]
 Chapter 4.
 [17
 
-] <images/mats.jpg, id=457, 5492.52pt x 3661.68pt>
+] <images/mats.jpg, id=440, 5492.52pt x 3661.68pt>
 File: images/mats.jpg Graphic file (type jpg)
  <use images/mats.jpg>
 Package pdftex.def Info: images/mats.jpg used on input line 133.
 (pdftex.def)             Requested size: 274.64209pt x 183.09473pt.
 
-<images/topview.jpg, id=460, 1927.2pt x 1084.05pt>
+<images/topview.jpg, id=443, 1927.2pt x 1084.05pt>
 File: images/topview.jpg Graphic file (type jpg)
  <use images/topview.jpg>
 Package pdftex.def Info: images/topview.jpg used on input line 151.
@@ -1328,7 +1326,7 @@ Overfull \hbox (4.53993pt too wide) in paragraph at lines 151--152
 [][] 
  []
 
-<images/53mmtopview.jpg, id=461, 1927.2pt x 1084.05pt>
+<images/53mmtopview.jpg, id=444, 1927.2pt x 1084.05pt>
 File: images/53mmtopview.jpg Graphic file (type jpg)
 
 <use images/53mmtopview.jpg>
@@ -1337,12 +1335,6 @@ Package pdftex.def Info: images/53mmtopview.jpg used on input line 155.
 
 Overfull \hbox (4.53993pt too wide) in paragraph at lines 155--156
 [][] 
- []
-
-
-Underfull \hbox (badness 1675) in paragraph at lines 156--156
-[]\OT1/ppl/b/n/10.95 Figure 4.3: |\OT1/ppl/m/n/10.95 Con-di-tion: 53mm, rib kni
-t fab-ric, foam,
  []
 
 
@@ -1365,23 +1357,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--159
 
  []
 
-[18] <images/gestureTemplate.jpg, id=468, 3131.7pt x 4175.6pt>
+[18 <./images/mats.jpg>] [19 <./images/topview.jpg>]
+<images/gestureTemplate.jpg, id=455, 3131.7pt x 4175.6pt>
 File: images/gestureTemplate.jpg Graphic file (type jpg)
 
 <use images/gestureTemplate.jpg>
 Package pdftex.def Info: images/gestureTemplate.jpg used on input line 161.
 (pdftex.def)             Requested size: 219.2414pt x 292.32187pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19 <./images/mats.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 168--173
 
- []
-
-
-Underfull \hbox (badness 1354) in paragraph at lines 168--173
-\OT1/ppl/m/n/10.95 pres-sure was ap-plied or when the touch-sensing area
  []
 
 
@@ -1390,31 +1375,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--173
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 168--173
-\OT1/ppl/m/n/10.95 When one con-di-tion is com-pleted we asked the user
+Underfull \hbox (badness 4096) in paragraph at lines 168--173
+\OT1/ppl/m/n/10.95 When one con-di-tion has been com-pleted we asked
  []
 
-[20 <./images/topview.jpg> <./images/53mmtopview.jpg>]
-<images/falsenegative.jpg, id=480, 764.8575pt x 643.40375pt>
+[20 <./images/53mmtopview.jpg>]
+<images/falsenegative.jpg, id=463, 764.8575pt x 643.40375pt>
 File: images/falsenegative.jpg Graphic file (type jpg)
 
 <use images/falsenegative.jpg>
 Package pdftex.def Info: images/falsenegative.jpg used on input line 178.
 (pdftex.def)             Requested size: 267.70413pt x 225.19469pt.
 
-<images/overallRecognition.jpg, id=481, 785.93625pt x 575.14874pt>
+<images/overallRecognition.jpg, id=464, 1764.5925pt x 1290.8225pt>
 File: images/overallRecognition.jpg Graphic file (type jpg)
 
 <use images/overallRecognition.jpg>
 Package pdftex.def Info: images/overallRecognition.jpg used on input line 183.
-(pdftex.def)             Requested size: 275.0818pt x 201.30507pt.
+(pdftex.def)             Requested size: 282.34056pt x 206.53581pt.
 
-<images/surface.jpg, id=483, 724.7075pt x 532.99126pt>
+<images/surface.jpg, id=466, 1750.54pt x 1276.77pt>
 File: images/surface.jpg Graphic file (type jpg)
-
-<use images/surface.jpg>
+ <use images/surface.jpg>
 Package pdftex.def Info: images/surface.jpg used on input line 193.
-(pdftex.def)             Requested size: 253.65143pt x 186.54973pt.
+(pdftex.def)             Requested size: 262.56967pt x 191.50723pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 175--199
 
@@ -1436,20 +1420,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [21 <./images/gestureTemplate.jpg>]
 Underfull \vbox (badness 2635) has occurred while \output is active []
 
- [22 <./images/falsenegative.jpg>] <images/foam.jpg, id=493, 559.08875pt x 584.
-1825pt>
+ [22 <./images/falsenegative.jpg>] [23 <./images/overallRecognition.jpg>]
+<images/foam.jpg, id=481, 1276.77pt x 1264.725pt>
 File: images/foam.jpg Graphic file (type jpg)
-
-<use images/foam.jpg>
+ <use images/foam.jpg>
 Package pdftex.def Info: images/foam.jpg used on input line 201.
-(pdftex.def)             Requested size: 279.54369pt x 292.09053pt.
+(pdftex.def)             Requested size: 268.12961pt x 265.60008pt.
 
-Underfull \vbox (badness 4084) has occurred while \output is active []
-
- [23 <./images/overallRecognition.jpg>] [24 <./images/surface.jpg> <./images/fo
-am.jpg>]
 Underfull \hbox (badness 1325) in paragraph at lines 206--208
-\OT1/ppl/m/n/10.95 The dif-fer-ent ma-te-ri-als seem to have no in-flu-ence on
+[]\OT1/ppl/m/n/10.95 The dif-fer-ent ma-te-ri-als seem to have no in-flu-ence o
+n
  []
 
 
@@ -1467,57 +1447,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 206--208
 
  []
 
-<images/materials.jpg, id=503, 690.58pt x 546.04pt>
+<images/materials.jpg, id=483, 2732.2075pt x 2025.5675pt>
 File: images/materials.jpg Graphic file (type jpg)
- <use images/materials.jpg>
-Package pdftex.def Info: images/materials.jpg used on input line 210.
-(pdftex.def)             Requested size: 276.2271pt x 218.41212pt.
 
-<images/gestures.jpg, id=504, 712.6625pt x 691.58376pt>
+<use images/materials.jpg>
+Package pdftex.def Info: images/materials.jpg used on input line 210.
+(pdftex.def)             Requested size: 273.23676pt x 202.56862pt.
+
+<images/gestures.jpg, id=484, 2226.3175pt x 2001.4775pt>
 File: images/gestures.jpg Graphic file (type jpg)
 
 <use images/gestures.jpg>
 Package pdftex.def Info: images/gestures.jpg used on input line 215.
-(pdftex.def)             Requested size: 285.05995pt x 276.6286pt.
+(pdftex.def)             Requested size: 289.43144pt x 260.2012pt.
 
-Overfull \hbox (0.53235pt too wide) in paragraph at lines 215--216
+Overfull \hbox (4.90384pt too wide) in paragraph at lines 215--216
 [][] 
  []
 
-[25 <./images/materials.jpg>]) [26 <./images/gestures.jpg>] [27] [28
+[24 <./images/surface.jpg>] [25 <./images/foam.jpg> <./images/materials.jpg>])
+[26 <./images/gestures.jpg>] [27] [28
 
 
 
 ]
 \openout2 = `summaryandfuturework.aux'.
 
-
-(./summaryandfuturework.tex
+ (./summaryandfuturework.tex
 Chapter 5.
+<images/curvatureillustration.png, id=509, 173.64874pt x 135.50626pt>
+File: images/curvatureillustration.png Graphic file (type png)
 
-Underfull \hbox (badness 2443) in paragraph at lines 13--20
-\OT1/ppl/m/n/10.95 con-duc-tive yarn sand-wich-ing a space made of 3mm
+<use images/curvatureillustration.png>
+Package pdftex.def Info: images/curvatureillustration.png used on input line 18
+.
+(pdftex.def)             Requested size: 173.64832pt x 135.5059pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--23
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--20
-
- []
-
-
-Underfull \hbox (badness 2197) in paragraph at lines 13--20
+Underfull \hbox (badness 2197) in paragraph at lines 13--23
 \OT1/ppl/m/n/10.95 We de-scribed how we built our pro-to-type with low
- []
-
-
-Underfull \hbox (badness 2065) in paragraph at lines 13--20
-\OT1/ppl/m/n/10.95 con-di-tions to eval-u-ate the phys-i-cal lim-i-ta-tions of 
-the
- []
-
-
-Underfull \hbox (badness 1112) in paragraph at lines 13--20
-\OT1/ppl/m/n/10.95 for sen-sors with a rather low res-o-lu-tion of 14 by 14.
  []
 
 
@@ -1526,31 +1498,25 @@ Underfull \vbox (badness 1881) has occurred while \output is active []
  [29
 
 
-])
-Underfull \hbox (badness 10000) in paragraph at lines 24--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--113
-
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 24--113
-\OT1/ppl/m/n/10.95 Finally a num-ber of em-bed-ded pro-to-types would be
- []
-
-[30] [31] [32
-
-
-
 ]
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
+ [30 <./images/curvatureillustration.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 27--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--113
+
+ []
+
+[31] [32]
 \openout2 = `appendix_01.aux'.
 
  (./appendix_01.tex
@@ -1561,6 +1527,9 @@ Overfull \hbox (114.12044pt too wide) in paragraph at lines 11--115
  []
 
 [33
+
+
+
 
 
 ] [34
@@ -1615,22 +1584,22 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
  (./main.aux (./indexAddOn.aux)
 (./declarationofownwork.aux) (./abstract.aux) (./acknowledgements.aux)
-(./conventions.aux) (./introduction.aux) (./relatedwork.aux) (./ownwork.aux)
+(./introduction.aux) (./relatedwork.aux) (./ownwork.aux)
 (./summaryandfuturework.aux) (./appendix_01.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B2115D64A9F0CA5C2312C43883E4DDF3;1587.
+(rerunfilecheck)             Checksum: 5CA7F01BAC171B09BF7B9F2FA96E6E25;1448.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
- 10666 strings out of 493089
- 156534 string characters out of 6134841
- 272239 words of memory out of 5000000
- 13719 multiletter control sequences out of 15000+600000
- 33325 words of font info for 87 fonts, out of 8000000 for 9000
+ 10653 strings out of 493089
+ 156454 string characters out of 6134841
+ 271886 words of memory out of 5000000
+ 13717 multiletter control sequences out of 15000+600000
+ 31909 words of font info for 84 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 40i,12n,51p,1351b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,12n,51p,1255b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -1643,10 +1612,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist
 urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/pal
 atino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on main.pdf (58 pages, 66167355 bytes).
+Output written on main.pdf (56 pages, 67894220 bytes).
 PDF statistics:
- 694 PDF objects out of 1000 (max. 8388607)
- 588 compressed objects within 6 object streams
- 126 named destinations out of 1000 (max. 500000)
- 302 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 683 PDF objects out of 1000 (max. 8388607)
+ 575 compressed objects within 6 object streams
+ 122 named destinations out of 1000 (max. 500000)
+ 291 words of extra memory for PDF output out of 10000 (max. 10000000)
 

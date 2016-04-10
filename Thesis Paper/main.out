@@ -1,27 +1,25 @@
 \BOOKMARK [0][-]{chapter*.4}{Abstract}{}% 1
 \BOOKMARK [0][-]{chapter*.5}{\334berblick}{}% 2
 \BOOKMARK [0][-]{chapter*.6}{Acknowledgements}{}% 3
-\BOOKMARK [0][-]{chapter*.7}{Conventions}{}% 4
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 5
-\BOOKMARK [0][-]{chapter.2}{Related work}{}% 6
-\BOOKMARK [1][-]{section.2.1}{General overview}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.1.1}{Resistive vs. capacitive touch}{section.2.1}% 8
-\BOOKMARK [2][-]{subsection.2.1.2}{Textile interaction techniques}{section.2.1}% 9
-\BOOKMARK [1][-]{section.2.2}{Textile touch pads}{chapter.2}% 10
-\BOOKMARK [0][-]{chapter.3}{Hardware Prototype and Software Development}{}% 11
-\BOOKMARK [1][-]{section.3.1}{System Design}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.2}{Early Testing}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.3}{The Prototype}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.4}{The Software}{chapter.3}% 15
-\BOOKMARK [0][-]{chapter.4}{System Evaluation}{}% 16
-\BOOKMARK [1][-]{section.4.1}{Physical Limitation Study}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.2}{Experiment Setup}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.3}{Study Procedure}{chapter.4}% 19
-\BOOKMARK [1][-]{section.4.4}{Observation}{chapter.4}% 20
-\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 21
-\BOOKMARK [0][-]{chapter.5}{Summary and Future Work}{}% 22
-\BOOKMARK [1][-]{section.5.1}{Summary and Contributions}{chapter.5}% 23
-\BOOKMARK [1][-]{section.5.2}{Future work}{chapter.5}% 24
-\BOOKMARK [0][-]{chapter.6}{APPENDIX}{}% 25
-\BOOKMARK [0][-]{section*.25}{Bibliography}{}% 26
-\BOOKMARK [0][-]{section*.27}{Index}{}% 27
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
+\BOOKMARK [0][-]{chapter.2}{Related work}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Resistive vs. capacitive touch}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{General overview}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Textile touch pads}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.3}{Hardware Prototype and Software Development}{}% 9
+\BOOKMARK [1][-]{section.3.1}{System Design}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.2}{Early Testing}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.3}{The Prototype}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.4}{The Software}{chapter.3}% 13
+\BOOKMARK [0][-]{chapter.4}{System Evaluation}{}% 14
+\BOOKMARK [1][-]{section.4.1}{Physical Limitation Study}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.2}{Experiment Setup}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.3}{Study Procedure}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.4}{Observation}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 19
+\BOOKMARK [0][-]{chapter.5}{Summary and Future Work}{}% 20
+\BOOKMARK [1][-]{section.5.1}{Summary and Contributions}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.2}{Future work}{chapter.5}% 22
+\BOOKMARK [0][-]{chapter.6}{APPENDIX}{}% 23
+\BOOKMARK [0][-]{section*.25}{Bibliography}{}% 24
+\BOOKMARK [0][-]{section*.27}{Index}{}% 25

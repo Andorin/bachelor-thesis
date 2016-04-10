@@ -1,13 +1,11 @@
 \contentsline {chapter}{\numberline {}Abstract}{xi}{chapter*.4}
 \contentsline {chapter}{\numberline {}\"Uberblick}{xiii}{chapter*.5}
 \contentsline {chapter}{\numberline {}Acknowledgements}{xv}{chapter*.6}
-\contentsline {chapter}{\numberline {}Conventions}{xvii}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Related work}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}General overview}{3}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Resistive vs. capacitive touch}{3}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Textile interaction techniques}{4}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Textile touch pads}{5}{section.2.2}
+\contentsline {section}{\numberline {2.1}Resistive vs. capacitive touch}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}General overview}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Textile touch pads}{5}{section.2.3}
 \contentsline {chapter}{\numberline {3}Hardware Prototype and Software Development}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}System Design}{7}{section.3.1}
 \contentsline {section}{\numberline {3.2}Early Testing}{9}{section.3.2}
@@ -21,7 +19,7 @@
 \contentsline {section}{\numberline {4.5}Conclusion}{26}{section.4.5}
 \contentsline {chapter}{\numberline {5}Summary and Future Work}{29}{chapter.5}
 \contentsline {section}{\numberline {5.1}Summary and Contributions}{29}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future work}{30}{section.5.2}
+\contentsline {section}{\numberline {5.2}Future work}{31}{section.5.2}
 \contentsline {chapter}{\numberline {6}APPENDIX}{33}{chapter.6}
 \contentsline {chapter}{\numberline {}Bibliography}{35}{section*.25}
 \contentsline {chapter}{\numberline {}Index}{39}{section*.27}
