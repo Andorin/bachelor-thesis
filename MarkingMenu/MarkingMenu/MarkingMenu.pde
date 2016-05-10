@@ -10,7 +10,7 @@ String name;
 Serial myPort;
 final int sensorArraySize = 28;
 
-final boolean presentation = true;
+final boolean presentation = false;
 
 final int xCoord = 500;
 final int yCoord = 500;
@@ -52,12 +52,12 @@ Robot robot;
 void setup(){
 //iMAC
    //myPort = new Serial(this, "/dev/tty.usbmodem0F003961", 9600);
-   //myPort = new Serial(this, "/dev/tty.usbmodem0F0009F1", 9600);
+   myPort = new Serial(this, "/dev/tty.usbmodem0F0009F1", 9600);
    //BLUETOOTH
-   myPort = new Serial(this, "/dev/cu.HC-06-DevB", 9600);
+   //myPort = new Serial(this, "/dev/cu.HC-06-DevB", 9600);
 //Windows
   //myPort = new Serial(this, "COM3", 9600);
-  size(1000, 1000);
+  size(800, 800);
   logfile_filtered = createWriter("logfile_" + userID + studyCondition + "filtered.txt");
   logfile_filtered.println("UserID: " + userID);
   logfile_raw = createWriter("logfile_" + userID + studyCondition + "raw.txt");
@@ -86,20 +86,20 @@ void setup(){
   if(gestureType == "freeForm"){
     //add gesture templates for freeform gestures Bragdon et al.
     one.learn("swipe",       new int[] {0,0 , 1,0 , 2,0, 3,0 , 4,0 , 5,0, 6,0});
-    //one.learn("rightAngle",  new int[] {0,0 , 1,0 , 2,0, 3,0 , 3,0 , 4,0 , 5,0 , 5,1 , 5,2 , 5,3 , 5,4 , 5,5});
-    //one.learn("leftAngle",  new int[] {0,0 , 1,0 , 2,0, 3,0 , 3,0 , 4,0 , 5,0 , 5,-1 , 5,-2 , 5,-3 , 5,-4 , 5,-5});
-    //one.learn("x",           new int[] {0,0 , 1,1 , 2,2, 3,3 , 3,2 , 3,1 , 3,0, 2,1, 1,2, 0,3});
-    //one.learn("z",           new int[] {0,0 , 1,0, 2,0, 1,1 , 0,2 , 1,2 , 2,2});
-    //one.learn("w",           new int[] {0,0, 0,1, 1,2, 1,3, 2,3, 3,2 , 3,1 , 3,2 , 4,3 , 5,3 , 6,2 , 6,1, 7,0});
+    one.learn("rightAngle",  new int[] {0,0 , 1,0 , 2,0, 3,0 , 3,0 , 4,0 , 5,0 , 5,1 , 5,2 , 5,3 , 5,4 , 5,5});
+    one.learn("leftAngle",  new int[] {0,0 , 1,0 , 2,0, 3,0 , 3,0 , 4,0 , 5,0 , 5,-1 , 5,-2 , 5,-3 , 5,-4 , 5,-5});
+    one.learn("x",           new int[] {0,0 , 1,1 , 2,2, 3,3 , 3,2 , 3,1 , 3,0, 2,1, 1,2, 0,3});
+    one.learn("z",           new int[] {0,0 , 1,0, 2,0, 1,1 , 0,2 , 1,2 , 2,2});
+    one.learn("w",           new int[] {0,0, 0,1, 1,2, 1,3, 2,3, 3,2 , 3,1 , 3,2 , 4,3 , 5,3 , 6,2 , 6,1, 7,0});
     //one.learn("hat",         new int[] {0,0 , 1,-1 , 2,-2 , 3,-3 , 4,-4 , 5,-3 , 6,-2 , 7,-1 , 8,0});
     //one.learn("bowl",        new int[] {0,0 , 1,1 , 2,2 , 3,3 , 4,4 , 5,3 , 6,2 , 7,1 , 8,0});
-    //one.learn("pigtail",     new int[] {0,0 , 1,-1 , 2,-2 , 2,-3 , 1,-4 , 0,-3 , 0,-2 , 1,-1 , 2,-1 , 3,-2 , 4,-2});
+    one.learn("pigtail",     new int[] {0,0 , 1,-1 , 2,-2 , 2,-3 , 1,-4 , 0,-3 , 0,-2 , 1,-1 , 2,-1 , 3,-2 , 4,-2});
     //one.learn("zigzag",      new int[] {0,0 , 1,1 , 2,2 , 3,1 , 4,0 , 5,-1 , 6,-2 , 7,-1 , 8,0});
     one.learn("spiral",      new int[] {0,0 , 1,-1 , 2,-1, 3,0 , 4,1, 4,2, 4,3, 3,4, 2,4 , 1,3 , 1,2, 2,2});
     //one.learn("c",           new int[] {0,0 , 1,-1 , 2,-1, 3,0 , 4,1, 4,2, 4,3, 3,4, 2,4 , 1,3});
-    //one.learn("slope",       new int[] {0,0 , 1,1 , 2,2 , 3,3 , 3,4 , 2,5 , 1,5 , 0,4 , 1,3 , 2,2 , 3,1 , 4,0});
+    one.learn("slope",       new int[] {0,0 , 1,1 , 2,2 , 3,3 , 3,4 , 2,5 , 1,5 , 0,4 , 1,3 , 2,2 , 3,1 , 4,0});
     //one.learn("dart",        new int[] {0,0 , 1,0 , 2,0 , 3,1 , 4,1 , 5,1 , 4,1 , 3,1 , 2,2 , 1,2 , 0,2});
-    //one.learn("doubleSlope", new int[] {0,0 , 1,-1 , 2,-2 , 2,-3 , 1,-4 , 0,-3 , 0,-2 , 1,-1 , 1,0 , 2,1 , 2,2 , 2,3 , 1,4 , 0,3 , 1,2 , 2,1 , 3,0});
+    one.learn("doubleSlope", new int[] {0,0 , 1,-1 , 2,-2 , 2,-3 , 1,-4 , 0,-3 , 0,-2 , 1,-1 , 1,0 , 2,1 , 2,2 , 2,3 , 1,4 , 0,3 , 1,2 , 2,1 , 3,0});
     //one.learn("tab",         new int[] {0,0});
     
     //bind templates to methods
